@@ -1,6 +1,14 @@
 # Cheap Stay Finder
 
-Search any place and see the cheapest places to stay nearby (hostels, campgrounds, guest houses, motels, hotels and more) on a map, alongside the attractions around them.
+**Created by Zachary Shields**
+
+**Live site:** https://zjshields1-cpu.github.io/cheap-stay-finder/
+
+## About this website
+
+Cheap Stay Finder is an interactive travel map for budget travelers. Search any city, neighborhood or landmark and it lists the cheapest places to stay nearby (hostels, campgrounds, guest houses, motels, hotels and more), each with an estimated nightly price and a star rating where one is listed. Every stay is shown on a map next to the surrounding attractions. Click a stay to see walking distances to the sights closest to it, so you can find somewhere affordable that's also close to the things you want to see.
+
+## Features
 
 - Results are sorted cheapest first. You can also sort by attractions within ½ mile, by distance from the search point or by star rating.
 - The "Show" control limits results to the top 5 / 10 / 20 / 50, with a "Show more" button for the next batch.

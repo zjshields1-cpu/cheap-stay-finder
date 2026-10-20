@@ -4,6 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cheap Stay Finder</title>
+  <meta name="author" content="Zachary Shields">
+  <meta name="description" content="Cheap Stay Finder by Zachary Shields: search any place to find the cheapest nearby stays on a map and see how close they are to local attractions.">
+
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
@@ -11,7 +14,7 @@
 </head>
 <body>
   <header class="topbar">
-    <div class="brand">🧭 Cheap Stay Finder</div>
+    <div class="brand">🧭 Cheap Stay Finder <span class="byline">by Zachary Shields</span></div>
     <form id="search-form" autocomplete="off">
       <input id="q" type="search" placeholder="Search a city, neighborhood or landmark…" required>
       <select id="radius" title="Search radius">
@@ -27,6 +30,18 @@
 
   <main>
     <aside id="sidebar">
+      <section class="about" aria-labelledby="about-title">
+        <h2 id="about-title">About this website</h2>
+        <p>
+          Cheap Stay Finder is an interactive travel map for budget travelers. Search any city,
+          neighborhood or landmark and it lists the cheapest places to stay nearby (hostels,
+          campgrounds, guest houses, motels, hotels and more), each with an estimated nightly price
+          and a star rating where one is listed. Every stay is shown on a map next to the
+          surrounding attractions. Click a stay to see walking distances to the sights closest to it,
+          so you can find somewhere affordable that's also close to the things you want to see.
+        </p>
+        <p class="author">Created by <b>Zachary Shields</b></p>
+      </section>
       <div class="controls">
         <div id="type-filters" class="chips"></div>
         <div class="row">
@@ -56,6 +71,7 @@
         Places come from OpenStreetMap. Prices are <b>estimated</b> typical nightly ranges by
         accommodation type and star class; ratings are official star classes where listed.
         Use “Prices &amp; reviews” for live prices and guest reviews.
+        <br>© Zachary Shields · Cheap Stay Finder
       </p>
     </aside>
     <div id="map"></div>

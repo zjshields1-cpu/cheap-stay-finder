@@ -43,6 +43,20 @@ body {
   flex-wrap: wrap;
 }
 .brand { font-weight: 700; font-size: 18px; white-space: nowrap; }
+.byline { font-weight: 500; font-size: 14px; color: var(--muted); margin-left: 4px; }
+.about {
+  margin: 12px 12px 0;
+  padding: 12px 14px;
+  background: var(--accent-soft);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.about h2 { margin: 0 0 6px; font-size: 16px; }
+.about p { margin: 0 0 6px; }
+.about .author { margin: 0; }
 #search-form { display: flex; gap: 8px; flex: 1; min-width: 260px; max-width: 720px; }
 #search-form input, #search-form select, #search-form button, .controls select {
   font: inherit;
