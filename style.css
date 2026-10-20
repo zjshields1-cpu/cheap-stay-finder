@@ -1,0 +1,188 @@
+:root {
+  --bg: #f6f7f9;
+  --panel: #ffffff;
+  --text: #1d2330;
+  --muted: #667085;
+  --border: #e3e6eb;
+  --accent: #0b6bcb;
+  --accent-soft: #e6f0fb;
+  --good: #1f8a4c;
+  --shadow: 0 1px 3px rgba(16, 24, 40, .08);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #12151b;
+    --panel: #1a1f27;
+    --text: #e6e9ef;
+    --muted: #98a2b3;
+    --border: #2b323d;
+    --accent: #5aa6f0;
+    --accent-soft: #1d2b3c;
+    --good: #4cc27f;
+    --shadow: none;
+  }
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 16px;
+  background: var(--panel);
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+.brand { font-weight: 700; font-size: 18px; white-space: nowrap; }
+#search-form { display: flex; gap: 8px; flex: 1; min-width: 260px; max-width: 720px; }
+#search-form input, #search-form select, #search-form button, .controls select {
+  font: inherit;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--text);
+}
+#search-form input { flex: 1; min-width: 0; }
+#search-form button {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+  font-weight: 600;
+  cursor: pointer;
+}
+#search-form button:disabled { opacity: .6; cursor: wait; }
+
+main { flex: 1; display: flex; min-height: 0; }
+#sidebar {
+  width: 400px;
+  max-width: 100%;
+  overflow-y: auto;
+  border-right: 1px solid var(--border);
+  background: var(--bg);
+}
+#map { flex: 1; min-height: 300px; }
+
+.controls {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--bg);
+  padding: 12px 16px 8px;
+  border-bottom: 1px solid var(--border);
+}
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  font: inherit;
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--muted);
+  cursor: pointer;
+}
+.chip.on { border-color: var(--c); color: var(--text); box-shadow: inset 0 0 0 1px var(--c); }
+.chip .n { opacity: .7; margin-left: 2px; }
+.row { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 10px; font-size: 14px; flex-wrap: wrap; }
+.row label { display: flex; align-items: center; gap: 6px; color: var(--muted); }
+.controls select { padding: 5px 8px; font-size: 14px; }
+
+.status { padding: 12px 16px; color: var(--muted); font-size: 14px; }
+.status.error { color: #d23c3c; }
+
+#results { list-style: none; margin: 0; padding: 0 12px 12px; }
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: border-color .15s;
+}
+.card:hover { border-color: var(--accent); }
+.card.selected { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft); }
+.card-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 13px; }
+.badge { color: #fff; padding: 2px 8px; border-radius: 999px; font-weight: 600; white-space: nowrap; }
+.price { font-weight: 700; color: var(--good); text-align: right; }
+.price small { font-weight: 400; color: var(--muted); }
+.card h3 { margin: 8px 0 4px; font-size: 16px; }
+.rating { font-size: 13px; color: var(--muted); }
+.rating .stars { color: #f5a623; letter-spacing: 1px; }
+.meta { font-size: 13px; color: var(--muted); margin-top: 4px; }
+.near { font-size: 13px; margin-top: 6px; }
+.links { display: flex; gap: 12px; margin-top: 8px; font-size: 13px; }
+.links a { color: var(--accent); text-decoration: none; }
+.links a:hover { text-decoration: underline; }
+.more-btn {
+  width: 100%; font: inherit; font-weight: 600;
+  padding: 10px; border-radius: 10px; cursor: pointer;
+  border: 1px dashed var(--accent); background: var(--accent-soft); color: var(--accent);
+}
+.footnote { font-size: 12px; color: var(--muted); padding: 0 16px 16px; line-height: 1.5; }
+
+/* Map markers */
+.pin {
+  width: 30px; height: 30px;
+  border-radius: 50%;
+  background: var(--c);
+  border: 2px solid #fff;
+  display: grid; place-items: center;
+  font-size: 15px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.35);
+}
+.pin.selected { transform: scale(1.35); box-shadow: 0 0 0 4px rgba(11,107,203,.45); }
+.poi {
+  width: 24px; height: 24px;
+  border-radius: 6px;
+  background: #fff;
+  border: 1px solid #c9ced6;
+  display: grid; place-items: center;
+  font-size: 13px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.25);
+}
+.poi.near { border: 2px solid #0b6bcb; }
+.poi.cluster { width: 36px; font-size: 11px; font-weight: 700; color: #333; }
+.stay-cluster {
+  width: 46px; height: 46px; border-radius: 50%;
+  background: #1f8a4c; color: #fff; border: 3px solid #fff;
+  box-shadow: 0 1px 5px rgba(0,0,0,.35);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  line-height: 1.05; font-size: 14px;
+}
+.stay-cluster span { font-size: 9px; font-weight: 600; opacity: .9; }
+.center-pin { font-size: 30px; line-height: 1; filter: drop-shadow(0 1px 2px rgba(0,0,0,.4)); }
+.dist-label {
+  background: #0b6bcb; color: #fff; border: none;
+  font-weight: 600; font-size: 11px; padding: 1px 6px;
+}
+.dist-label::before { display: none; }
+.leaflet-popup-content { font-size: 13px; line-height: 1.45; }
+.leaflet-popup-content h4 { margin: 0 0 4px; font-size: 14px; }
+.leaflet-popup-content ol { padding-left: 18px; margin: 4px 0 0; }
+
+.spinner {
+  display: inline-block; width: 12px; height: 12px;
+  border: 2px solid var(--border); border-top-color: var(--accent);
+  border-radius: 50%; animation: spin .8s linear infinite;
+  vertical-align: -2px; margin-right: 6px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+@media (max-width: 800px) {
+  main { flex-direction: column-reverse; }
+  #sidebar { width: 100%; border-right: none; flex: 1; }
+  #map { flex: none; height: 45vh; }
+  .brand { width: 100%; }
+}

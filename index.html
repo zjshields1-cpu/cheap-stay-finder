@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cheap Stay Finder</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">🧭 Cheap Stay Finder</div>
+    <form id="search-form" autocomplete="off">
+      <input id="q" type="search" placeholder="Search a city, neighborhood or landmark…" required>
+      <select id="radius" title="Search radius">
+        <option value="805">½ mi</option>
+        <option value="1609">1 mi</option>
+        <option value="3219" selected>2 mi</option>
+        <option value="4828">3 mi</option>
+        <option value="8047">5 mi</option>
+      </select>
+      <button type="submit" id="go">Search</button>
+    </form>
+  </header>
+
+  <main>
+    <aside id="sidebar">
+      <div class="controls">
+        <div id="type-filters" class="chips"></div>
+        <div class="row">
+          <label>Sort
+            <select id="sort">
+              <option value="cheap">Cheapest first</option>
+              <option value="attractions">Most attractions within ½ mi</option>
+              <option value="center">Closest to search point</option>
+              <option value="rating">Highest star rating</option>
+            </select>
+          </label>
+          <label>Show
+            <select id="limit">
+              <option value="5">Top 5</option>
+              <option value="10" selected>Top 10</option>
+              <option value="20">Top 20</option>
+              <option value="50">Top 50</option>
+              <option value="100000">All</option>
+            </select>
+          </label>
+          <label class="toggle"><input type="checkbox" id="show-attr" checked> Show attractions</label>
+        </div>
+      </div>
+      <div id="status" class="status">Search for a place to find cheap stays nearby.</div>
+      <ul id="results"></ul>
+      <p class="footnote">
+        Places come from OpenStreetMap. Prices are <b>estimated</b> typical nightly ranges by
+        accommodation type and star class; ratings are official star classes where listed.
+        Use “Prices &amp; reviews” for live prices and guest reviews.
+      </p>
+    </aside>
+    <div id="map"></div>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
