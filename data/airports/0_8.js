@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['0_8']=[["BTC","Batticaloa International Airport",7.7051,81.6772,"LK",2],["JAF","Jaffna International Airport",9.7923,80.0701,"LK",3],["KCT","Koggala Airport",5.9937,80.3203,"LK",2],["TRR","China Bay Airport",8.5392,81.1813,"LK",2],["HRI","Mattala Rajapaksa International Airport",6.2839,81.1242,"LK",2]];

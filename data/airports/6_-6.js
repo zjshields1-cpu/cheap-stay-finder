@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['6_-6']=[["JEG","Aasiaat Airport",68.7218,-52.7847,"GL",2],["GOH","Nuuk International Airport",64.1911,-51.6791,"GL",3],["JAV","Ilulissat Airport",69.2456,-51.0522,"GL",3],["SFJ","Kangerlussuaq International Airport",67.0104,-50.7153,"GL",2],["JHS","Sisimiut Airport",66.9513,-53.7293,"GL",2]];

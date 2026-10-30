@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['-5_14']=[["DPO","Devonport Airport",-41.1697,146.43,"AU",2],["HBA","Hobart International Airport",-42.837,147.513,"AU",3],["LST","Launceston Airport",-41.5449,147.2108,"AU",2],["BWT","Wynyard Airport",-40.997,145.726,"AU",2]];

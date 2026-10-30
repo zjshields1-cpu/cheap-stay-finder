@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['-2_-18']=[["HPA","Lifuka Island Airport",-19.777,-174.341,"TO",2],["VAV","Vava'u International Airport",-18.5853,-173.962,"TO",3],["WLS","Hihifo Airport",-13.2394,-176.1986,"WF",3],["APW","Faleolo International Airport",-13.83,-172.008,"WS",3],["PPG","Pago Pago International Airport",-14.331,-170.71,"AS",3]];

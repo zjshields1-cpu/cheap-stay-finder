@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['-4_13']=[["CED","Ceduna Airport",-32.1306,133.71,"AU",2],["KGC","Kingscote Airport",-35.7139,137.521,"AU",2],["ADL","Adelaide International Airport",-34.9475,138.5334,"AU",3],["PUG","Port Augusta Airport",-32.5069,137.717,"AU",2],["PLO","Port Lincoln Airport",-34.6053,135.88,"AU",2],["WYA","Whyalla Airport",-33.0589,137.514,"AU",2]];

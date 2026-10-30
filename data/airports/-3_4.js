@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['-3_4']=[["MOQ","Morondava Airport",-20.2847,44.3176,"MG",2],["FTU","Tôlanaro Airport",-25.0381,46.9561,"MG",2],["MNJ","Mananjary Airport",-21.2018,48.3583,"MG",2],["TLE","Toliara Airport",-23.3834,43.7285,"MG",2]];

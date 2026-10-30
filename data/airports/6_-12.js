@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['6_-12']=[["YHY","Hay River / Merlyn Carter Airport",60.8397,-115.783,"CA",2],["YSM","Fort Smith Airport",60.0203,-111.962,"CA",2],["YZF","Yellowknife International Airport",62.4628,-114.44,"CA",2]];

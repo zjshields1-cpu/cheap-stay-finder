@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['0_-2']=[["FNA","Lungi International Airport",8.6164,-13.1955,"SL",3],["MLW","Spriggs Payne Airport",6.2891,-10.7587,"LR",2],["ROB","Roberts International Airport",6.2338,-10.3623,"LR",3],["CKY","Ahmed Sékou Touré International Airport",9.5769,-13.612,"GN",3]];

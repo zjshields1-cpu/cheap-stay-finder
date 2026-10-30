@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['-2_-6']=[["CMG","Corumbá International Airport",-19.0119,-57.6728,"BR",2],["CGB","Várzea Grande–Marechal Rondon International Airport",-15.6529,-56.1167,"BR",3],["ROO","Maestro Marinho Franco Airport",-16.5843,-54.7248,"BR",2],["PSZ","Capitán Av. Salvador Ogaya G. airport",-18.9753,-57.8206,"BO",2]];

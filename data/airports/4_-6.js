@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['4_-6']=[["YDF","Deer Lake Airport",49.2082,-57.3961,"CA",2],["YQX","Gander International Airport",48.9363,-54.5677,"CA",2],["YYT","St. John's International Airport",47.6186,-52.7519,"CA",3],["FSP","Saint-Pierre Pointe-Blanche Airport",46.7627,-56.175,"PM",2]];

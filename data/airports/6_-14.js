@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['6_-14']=[["YDA","Dawson City Airport",64.0431,-139.128,"CA",2],["YEV","Inuvik Mike Zubko Airport",68.3042,-133.483,"CA",2],["YXY","Whitehorse / Erik Nielsen International Airport",60.7085,-135.0657,"CA",2]];

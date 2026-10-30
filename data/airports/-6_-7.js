@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['-6_-7']=[["RGA","Gobernador Ramón Trejo Noel International Airport",-53.7777,-67.7494,"AR",2],["RGL","Piloto Civil Norberto Fernández International Airport",-51.6088,-69.3089,"AR",3],["USH","Ushuaia - Malvinas Argentinas International Airport",-54.8433,-68.2958,"AR",2]];

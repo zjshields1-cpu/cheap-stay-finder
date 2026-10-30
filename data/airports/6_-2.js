@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['6_-2']=[["AEY","Akureyri International Airport",65.6566,-18.072,"IS",3],["EGS","Egilsstaðir Airport",65.2833,-14.4014,"IS",2],["GRY","Grímsey Airport",66.5458,-18.0173,"IS",2],["HFN","Hornafjörður Airport",64.2956,-15.2272,"IS",2],["VPN","Vopnafjörður Airport",65.7206,-14.8506,"IS",2]];

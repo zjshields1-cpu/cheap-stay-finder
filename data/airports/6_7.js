@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['6_7']=[["NYM","Nadym Airport",65.4809,72.6989,"RU",2],["NUX","Novy Urengoy Airport",66.0694,76.5203,"RU",2],["NJC","Nizhnevartovsk Airport",60.9493,76.4836,"RU",3],["KGP","Kogalym International Airport",62.1904,74.5338,"RU",2],["NOJ","Noyabrsk Airport",63.1833,75.27,"RU",2],["SGC","Surgut International Airport",61.3405,73.4058,"RU",3]];

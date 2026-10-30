@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['-3_-8']=[["CPO","Desierto de Atacama Airport",-27.2612,-70.7792,"CL",2],["IQQ","Diego Aracena International Airport",-20.5363,-70.1814,"CL",3],["ANF","Andrés Sabella Gálvez International Airport",-23.4453,-70.4452,"CL",3],["LSC","La Florida Airport",-29.9162,-71.1995,"CL",2]];

@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['6_-3']=[["IFJ","Ísafjörður Airport",66.0581,-23.1353,"IS",2],["KEF","Keflavik International Airport",63.985,-22.6056,"IS",3],["RKV","Reykjavík Domestic Airport",64.1287,-21.9376,"IS",2]];

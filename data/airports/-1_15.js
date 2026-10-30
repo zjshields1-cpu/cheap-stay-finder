@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['-1_15']=[["MUA","Munda Airport",-8.328,157.263,"SB",2],["BUA","Buka Airport",-5.4223,154.6727,"PG",2],["HKN","Hoskins Airport",-5.4638,150.4073,"PG",2],["KVG","Kavieng Airport",-2.5794,150.808,"PG",2],["RAB","Tokua Airport",-4.3405,152.38,"PG",2]];

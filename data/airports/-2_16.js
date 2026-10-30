@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['-2_16']=[["SON","Santo Pekoa International Airport",-15.505,167.22,"VU",2],["VLI","Bauerfield International Airport",-17.6993,168.32,"VU",3],["TAH","Whitegrass Airport",-19.4551,169.224,"VU",2]];

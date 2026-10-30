@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['-2_17']=[["NAN","Nadi International Airport",-17.7618,177.4378,"FJ",3],["SUV","Nausori International Airport",-18.0442,178.5615,"FJ",3],["LBS","Labasa Airport",-16.4667,179.34,"FJ",2]];

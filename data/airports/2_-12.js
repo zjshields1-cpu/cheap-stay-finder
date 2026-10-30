@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['2_-12']=[["GYM","General José María Yáñez International Airport",27.969,-110.925,"MX",2],["HMO","General Ignacio L. Pesqueira International Airport",29.0928,-111.053,"MX",3],["LAP","Manuel Márquez de León International Airport",24.0723,-110.3627,"MX",2],["LTO","Loreto International Airport",25.9895,-111.3484,"MX",3]];

@@ -200,3 +200,87 @@ main { flex: 1; display: flex; min-height: 0; }
   #map { flex: none; height: 45vh; }
   .brand { width: 100%; }
 }
+
+/* ---------- Trip planner ---------- */
+.trip-setup {
+  margin: 12px 12px 0;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+.trip-setup summary { font-weight: 700; cursor: pointer; }
+.trip-setup form { margin-top: 10px; display: grid; gap: 10px; }
+.field { display: grid; gap: 4px; font-size: 13px; color: var(--muted); }
+.field input, .field select {
+  font: inherit; font-size: 14px; color: var(--text); background: var(--panel);
+  padding: 7px 9px; border: 1px solid var(--border); border-radius: 8px; min-width: 0;
+}
+.field-row { display: grid; grid-template-columns: 1fr 90px; gap: 8px; }
+.inline { display: flex; gap: 6px; }
+.inline input { flex: 1; }
+button.ghost { font: inherit; border: 1px solid var(--border); background: var(--panel); border-radius: 8px; padding: 0 10px; cursor: pointer; }
+.trip-actions { display: grid; gap: 6px; }
+button.primary, button.secondary {
+  font: inherit; font-weight: 600; padding: 9px 10px; border-radius: 8px; cursor: pointer;
+}
+button.primary { background: var(--accent); color: #fff; border: 1px solid var(--accent); }
+button.primary:disabled { opacity: .5; cursor: not-allowed; }
+button.secondary { background: var(--accent-soft); color: var(--accent); border: 1px solid var(--accent); }
+.setup-msg { margin: 0; font-size: 13px; color: var(--muted); }
+.setup-msg:empty { display: none; }
+.setup-msg.error { color: #d23c3c; }
+
+.tabs { display: flex; gap: 4px; margin: 12px 12px 0; border-bottom: 1px solid var(--border); }
+.tab {
+  font: inherit; font-weight: 600; font-size: 14px; padding: 8px 12px; cursor: pointer;
+  border: 1px solid transparent; border-bottom: none; border-radius: 8px 8px 0 0;
+  background: transparent; color: var(--muted);
+}
+.tab.active { background: var(--panel); color: var(--text); border-color: var(--border); margin-bottom: -1px; }
+
+.trip-panel { padding: 0 12px 12px; }
+.trip-head { padding: 12px 4px 8px; }
+.trip-head h3 { margin: 0 0 2px; font-size: 18px; }
+.trip-sec {
+  background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+  margin-bottom: 10px; box-shadow: var(--shadow);
+}
+.trip-sec > summary { padding: 10px 14px; font-weight: 700; cursor: pointer; }
+.sec-body { padding: 0 14px 12px; font-size: 14px; line-height: 1.45; }
+.sec-body h4 { margin: 10px 0 4px; font-size: 13px; text-transform: uppercase; letter-spacing: .03em; color: var(--muted); }
+.opt { border-top: 1px solid var(--border); padding: 10px 0; }
+.opt:first-child { border-top: none; padding-top: 2px; }
+.opt-head { font-weight: 700; margin-bottom: 2px; }
+.opt-head .muted { font-weight: 400; }
+.opt.tip { background: #fff7e0; color: #5c4400; border: 1px solid #f2d27a; border-radius: 8px; padding: 8px 10px; margin-top: 6px; }
+.muted { color: var(--muted); }
+.small { font-size: 12px; }
+.trip-list { list-style: none; margin: 0; padding: 0; }
+.trip-item { display: flex; gap: 8px; align-items: flex-start; padding: 6px 4px; border-radius: 6px; cursor: pointer; }
+.trip-item:hover { background: var(--accent-soft); }
+.ti-icon { width: 22px; text-align: center; flex: none; }
+.ti-main { flex: 1; min-width: 0; }
+.ti-sub { display: block; font-size: 12px; color: var(--muted); }
+.ti-sub a, .opt a, .sec-body a { color: var(--accent); text-decoration: none; }
+.button-row, .opt .links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 4px; }
+button.mini {
+  font: inherit; font-size: 12px; font-weight: 600; padding: 4px 8px; border-radius: 6px; cursor: pointer;
+  border: 1px solid var(--accent); background: var(--panel); color: var(--accent); flex: none;
+}
+details.more > summary { font-size: 12px; color: var(--accent); cursor: pointer; padding: 2px 4px; }
+.wx { list-style: none; padding: 0; margin: 4px 0; }
+.wx li { padding: 2px 0; }
+.days { margin: 0; padding-left: 18px; }
+.days li { margin-bottom: 6px; }
+.budget { width: 100%; border-collapse: collapse; }
+.budget td { padding: 4px 0; border-bottom: 1px solid var(--border); }
+.budget td:last-child { text-align: right; white-space: nowrap; padding-left: 8px; }
+.budget tr.total td { font-weight: 700; border-bottom: none; }
+.trip-pin {
+  width: 26px; height: 26px; border-radius: 50%; background: #fff; border: 2px solid #6b4fbb;
+  display: grid; place-items: center; font-size: 13px; box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+@media (prefers-color-scheme: dark) {
+  .opt.tip { background: #3a3218; color: #f2e2b0; border-color: #6b5a24; }
+}

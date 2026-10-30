@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['-3_1']=[["LUD","Luderitz Airport",-26.6874,15.2429,"NA",2],["OMD","Oranjemund Airport",-28.5853,16.4464,"NA",2],["WVB","Walvis Bay International Airport",-22.9793,14.6471,"NA",3],["ERS","Eros Airport",-22.6049,17.079,"NA",2],["WDH","Hosea Kutako International Airport",-22.4799,17.4709,"NA",3]];

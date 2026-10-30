@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['-4_2']=[["ELS","King Phalo Airport",-33.0356,27.8259,"ZA",3],["GRJ","George Airport",-34.0056,22.3789,"ZA",3],["PLZ","Chief Dawid Stuurman International Airport",-33.9897,25.6174,"ZA",3],["UTT","K. D. Matanzima Airport",-31.5464,28.6734,"ZA",2]];

@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['0_2']=[["BDT","Gbadolite Airport",4.2527,20.9753,"CD",2],["FKI","Bangoka International Airport",0.4816,25.338,"CD",3],["IRP","Matari Airport",2.8276,27.5883,"CD",2],["WUU","Wau Airport",7.7258,27.975,"SS",2]];

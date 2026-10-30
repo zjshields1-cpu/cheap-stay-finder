@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['-2_-4']=[["AJU","Aracaju - Santa Maria Airport",-10.9839,-37.0729,"BR",2],["IOS","Bahia - Jorge Amado Airport",-14.8159,-39.0335,"BR",2],["BPS","Porto Seguro International Airport",-16.4384,-39.0806,"BR",3],["SSA","Deputado Luiz Eduardo Magalhães International Airport",-12.9086,-38.3225,"BR",3]];

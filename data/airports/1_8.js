@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['1_8']=[["VGA","Vijayawada International Airport",16.53,80.8049,"IN",3],["MAA","Chennai International Airport",12.99,80.1693,"IN",3],["RJA","Rajahmundry Airport",17.1058,81.8132,"IN",2],["VTZ","Alluri Sitarama Raju International Airport (Vizag)",17.9715,83.5036,"IN",3]];

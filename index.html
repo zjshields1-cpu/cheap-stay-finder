@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=9">
 </head>
 <body>
   <header class="topbar">
@@ -40,8 +40,54 @@
           surrounding attractions. Click a stay to see walking distances to the sights closest to it,
           so you can find somewhere affordable that's also close to the things you want to see.
         </p>
+        <p>
+          New: tell it where you're leaving from and what you love doing outdoors, then press
+          <b>Plan a trip</b> for everything around your destination: how to get there cheaply,
+          trails, lifts, kayak launches, parks, groceries and cheap eats. Or let it suggest a
+          <b>weekend trip</b> near you.
+        </p>
         <p class="author">Created by <b>Zachary Shields</b></p>
       </section>
+
+      <details id="trip-setup" class="trip-setup" open>
+        <summary>🧳 Your trip</summary>
+        <form id="setup-form" autocomplete="off">
+          <label class="field">Where are you leaving from?
+            <span class="inline">
+              <input id="from" type="text" placeholder="e.g. Denver, CO">
+              <button type="button" id="locate" class="ghost" title="Use my current location">📍</button>
+            </span>
+          </label>
+          <div class="field-row">
+            <label class="field">Leaving on <input id="depart-date" type="date"></label>
+            <label class="field">Nights
+              <select id="nights">
+                <option>1</option><option selected>2</option><option>3</option><option>4</option>
+                <option>5</option><option>6</option><option>7</option><option>10</option><option>14</option>
+              </select>
+            </label>
+          </div>
+          <div class="field">What do you love doing?
+            <div id="interests" class="chips"></div>
+          </div>
+          <div class="trip-actions">
+            <button type="button" id="plan-trip" class="primary" disabled>🧭 Plan a trip</button>
+            <button type="button" id="weekend" class="secondary">🏕️ Plan me a weekend trip</button>
+          </div>
+          <p id="setup-msg" class="setup-msg"></p>
+        </form>
+      </details>
+
+      <div class="tabs" role="tablist">
+        <button type="button" role="tab" id="tab-stays" class="tab active" aria-selected="true">🛏️ Stays</button>
+        <button type="button" role="tab" id="tab-trip" class="tab" aria-selected="false">🗺️ Trip plan</button>
+      </div>
+
+      <div id="trip-panel" class="trip-panel" hidden>
+        <p class="status">Search a destination and press <b>Plan a trip</b>, or try <b>Plan me a weekend trip</b>.</p>
+      </div>
+
+      <div id="stays-panel">
       <div class="controls">
         <div id="type-filters" class="chips"></div>
         <div class="row">
@@ -67,10 +113,14 @@
       </div>
       <div id="status" class="status">Search for a place to find cheap stays nearby.</div>
       <ul id="results"></ul>
+      </div>
       <p class="footnote">
         Places come from OpenStreetMap. Prices are <b>estimated</b> typical nightly ranges by
         accommodation type and star class; ratings are official star classes where listed.
         Use “Prices &amp; reviews” for live prices and guest reviews.
+        Typical US airfares come from the US DOT Consumer Airfare Report (average one-way fares,
+        last four published quarters); always check the live price before booking. Driving times
+        from OSRM, weather from Open-Meteo, airports from OurAirports.
         <br>© Zachary Shields · Cheap Stay Finder
       </p>
     </aside>
@@ -79,6 +129,7 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-  <script src="app.js"></script>
+  <script src="app.js?v=9"></script>
+  <script src="trip.js?v=9"></script>
 </body>
 </html>

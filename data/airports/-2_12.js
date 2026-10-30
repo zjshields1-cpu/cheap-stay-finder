@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['-2_12']=[["KOE","El Tari Airport",-10.1716,123.671,"ID",2],["BME","Broome International Airport",-17.9492,122.2283,"AU",3],["FIZ","Fitzroy Crossing Airport",-18.1836,125.5598,"AU",2],["KNX","East Kimberley Regional (Kununurra) Airport",-15.7781,128.708,"AU",2]];

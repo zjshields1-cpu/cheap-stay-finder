@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['-3_5']=[["MRU","Sir Seewoosagur Ramgoolam International Airport",-20.4302,57.6836,"MU",3],["RUN","Roland Garros Airport",-20.8901,55.5189,"RE",3],["ZSE","Saint-Pierre Pierrefonds Airport",-21.3194,55.4225,"RE",3]];

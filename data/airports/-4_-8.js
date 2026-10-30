@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['-4_-8']=[["SCL","Comodoro Arturo Merino Benítez International Airport",-33.393,-70.7858,"CL",3],["CCP","Carriel Sur International Airport",-36.7724,-73.0628,"CL",3],["ZCO","La Araucanía International Airport",-38.9259,-72.6515,"CL",3],["ZAL","Pichoy Airport",-39.65,-73.0861,"CL",2]];

@@ -190,7 +190,7 @@ function reviewLinks(s) {
 
 // ---------- Data fetching ----------
 async function geocode(q) {
-  const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&q=${encodeURIComponent(q)}`;
+  const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=1&q=${encodeURIComponent(q)}`;
   const res = await fetch(url, { headers: { 'Accept-Language': 'en' } });
   if (!res.ok) throw new Error(`Geocoding failed (${res.status})`);
   const data = await res.json();
@@ -230,15 +230,30 @@ function cacheSet(key, data) {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// Overpass servers give each visitor two query slots; extra requests just wait and time out.
+// So every map-data request in the app goes through this queue, at most two at a time.
+const OVERPASS_SLOTS = 2;
+let overpassActive = 0;
+const overpassWaiting = [];
+async function overpassSlot() {
+  if (overpassActive >= OVERPASS_SLOTS) await new Promise((r) => overpassWaiting.push(r));
+  overpassActive++;
+}
+function overpassRelease() {
+  overpassActive--;
+  overpassWaiting.shift()?.();
+}
+
 // Public Overpass servers are often overloaded; rotate mirrors and retry with backoff.
-async function overpass(query, onRetry) {
+async function overpass(query, onRetry, timeoutMs = 35000, rounds = 3) {
   const cached = cacheGet(query);
   if (cached) return cached;
   let lastErr;
-  for (let round = 0; round < 3; round++) {
+  for (let round = 0; round < rounds; round++) {
     for (const ep of OVERPASS_ENDPOINTS) {
+      await overpassSlot();
       const ctrl = new AbortController();
-      const timer = setTimeout(() => ctrl.abort(), 35000);
+      const timer = setTimeout(() => ctrl.abort(), timeoutMs); // starts once we have a slot
       try {
         const res = await fetch(ep, {
           method: 'POST',
@@ -255,9 +270,10 @@ async function overpass(query, onRetry) {
         onRetry?.();
       } finally {
         clearTimeout(timer);
+        overpassRelease();
       }
     }
-    await sleep(2000 * (round + 1));
+    if (round < rounds - 1) await sleep(2000 * (round + 1));
   }
   throw new Error(`The free map-data servers are overloaded right now (${lastErr?.message}). Please try again in a minute.`);
 }
@@ -313,11 +329,11 @@ function enrich() {
 }
 
 // ---------- Search ----------
-async function search(q, radius) {
+async function search(q, radius, preset = null) {
   els.go.disabled = true;
   setStatus(`<span class="spinner"></span>Finding “${esc(q)}”…`);
   try {
-    const place = await geocode(q);
+    const place = preset || await geocode(q);
     state.place = place;
     state.selectedId = null;
     state.attractionError = null;
@@ -325,6 +341,7 @@ async function search(q, radius) {
     location.hash = 'q=' + encodeURIComponent(q) + '&r=' + radius;
     map.setView([place.lat, place.lon], radius <= 2000 ? 15 : radius <= 5000 ? 14 : 12);
     drawCenter(radius);
+    document.dispatchEvent(new CustomEvent('place-changed', { detail: place }));
 
     const bb = bbox(place.lat, place.lon, radius);
     const inRange = (x) => haversine(place, x) <= radius;
@@ -536,6 +553,7 @@ function select(id, { fromMap = false } = {}) {
   const s = state.stays.find((x) => x.id === id);
   if (!s) return;
   state.selectedId = id;
+  document.dispatchEvent(new CustomEvent('stay-selected', { detail: s }));
 
   // Re-style markers / cards
   for (const x of state.stays) {

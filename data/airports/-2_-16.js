@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['-2_-16']=[["BOB","Bora Bora Airport",-16.4444,-151.751,"PF",2],["HUH","Huahine-Fare Airport",-16.6871,-151.0216,"PF",2],["MAU","Maupiti Airport",-16.4265,-152.244,"PF",2],["RFP","Raiatea Airport",-16.7229,-151.466,"PF",2]];

@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['6_-13']=[["YFS","Fort Simpson Airport",61.7602,-121.237,"CA",2],["YQH","Watson Lake Airport",60.1168,-128.822,"CA",2],["YVQ","Norman Wells Airport",65.2816,-126.798,"CA",2]];

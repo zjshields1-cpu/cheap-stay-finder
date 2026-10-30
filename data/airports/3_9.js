@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['3_9']=[["HXD","Haixi Delingha Airport",37.1253,97.2687,"CN",2],["GOQ","Golmud Airport",36.4006,94.7861,"CN",2],["HTT","Huatugou Airport",38.2016,90.8378,"CN",2],["JGN","Jiayuguan International Airport",39.8591,98.3393,"CN",3],["YUS","Yushu Batang Airport",32.8364,97.0364,"CN",2],["BPX","Qamdo Bangda Airport",30.5536,97.1083,"CN",2]];

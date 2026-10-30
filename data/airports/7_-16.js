@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['7_-16']=[["BRW","Wiley Post Will Rogers Memorial Airport",71.2854,-156.766,"US",2],["NUI","Nuiqsut Airport",70.21,-151.006,"US",2],["ATK","Atqasuk Edward Burnell Sr Memorial Airport",70.467,-157.436,"US",2],["AIN","Wainwright Airport",70.638,-159.995,"US",2]];

@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['5_-6']=[["YAY","St. Anthony Airport",51.3919,-56.0832,"CA",2],["YBX","Lourdes-de-Blanc-Sablon Airport",51.4436,-57.1853,"CA",2],["YIF","St Augustin Airport",51.2117,-58.6583,"CA",2]];

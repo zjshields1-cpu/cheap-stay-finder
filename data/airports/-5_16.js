@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['-5_16']=[["IVC","Invercargill Airport",-46.4124,168.313,"NZ",2],["ZQN","Queenstown Airport",-45.0192,168.7464,"NZ",3],["WKA","Wanaka Airport",-44.7221,169.2463,"NZ",2]];

@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['1_14']=[["ROP","Rota International Airport",14.1733,145.2411,"MP",3],["SPN","Saipan International Airport",15.1194,145.7288,"MP",2],["GUM","Antonio B. Won Pat International Airport",13.485,144.7973,"GU",3],["TIQ","Francisco Manglona Borja / Tinian International Airport",14.9992,145.6194,"MP",2]];

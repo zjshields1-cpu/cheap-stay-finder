@@ -1,0 +1,1 @@
+(window.CSF_AP=window.CSF_AP||{})['-6_-8']=[["FTE","El Calafate - Commander Armando Tola International Airport",-50.2803,-72.0534,"AR",2],["PUQ","President Carlos Ibáñez International Airport",-53.0026,-70.8546,"CL",3],["PNT","Lieutenant Julio Gallardo Airport",-51.6707,-72.5291,"CL",2]];
