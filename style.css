@@ -284,3 +284,13 @@ details.more > summary { font-size: 12px; color: var(--accent); cursor: pointer;
 @media (prefers-color-scheme: dark) {
   .opt.tip { background: #3a3218; color: #f2e2b0; border-color: #6b5a24; }
 }
+
+/* ---------- Account area in the app's top bar ---------- */
+a.brand { color: var(--text); text-decoration: none; }
+.topbar .account { margin-left: auto; display: flex; align-items: center; gap: 10px; font-size: 14px; white-space: nowrap; }
+.topbar .account a { text-decoration: none; font-weight: 600; color: var(--accent); }
+.topbar .account .who { max-width: 160px; overflow: hidden; text-overflow: ellipsis; color: var(--muted); }
+.topbar .account .btn-small { background: var(--accent); color: #fff; padding: 6px 12px; border-radius: 8px; }
+.topbar .account .pro-badge { background: #1f8a4c; color: #fff; font-size: 11px; font-weight: 800; letter-spacing: .05em; padding: 2px 7px; border-radius: 999px; }
+.topbar .account .upgrade { color: #1f8a4c; }
+.topbar .link-btn { font: inherit; font-weight: 600; background: none; border: none; color: var(--accent); cursor: pointer; padding: 0; }

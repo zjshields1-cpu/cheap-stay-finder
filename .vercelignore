@@ -1,0 +1,5 @@
+*.xlsx
+dl/
+.claude/
+.env*
+tools/

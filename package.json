@@ -1,0 +1,16 @@
+{
+  "name": "cheap-stay-finder",
+  "private": true,
+  "description": "Cheap Stay Finder by Zachary Shields: cheap outdoor trips, planned for you.",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "db:setup": "node --env-file=.env.local scripts/setup-db.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.2.0"
+  }
+}

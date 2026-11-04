@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Log in · Cheap Stay Finder</title>
+  <meta name="author" content="Zachary Shields">
+  <link rel="stylesheet" href="home.css?v=2">
+</head>
+<body class="auth-page">
+  <header class="site-header">
+    <a class="logo" href="/">🧭 Cheap Stay Finder</a>
+  </header>
+  <main class="auth-wrap">
+    <form class="auth-card" data-auth="login" novalidate>
+      <h1>Welcome back</h1>
+      <p class="muted">Log in to plan your next cheap trip.</p>
+      <label>Email
+        <input name="email" type="email" autocomplete="email" required>
+      </label>
+      <label>Password
+        <input name="password" type="password" autocomplete="current-password" required>
+      </label>
+      <button type="submit" class="btn primary wide">Log in</button>
+      <p class="form-msg" role="status" aria-live="polite"></p>
+      <p class="muted small">New here? <a href="/signup" data-keep-next>Create a free account</a></p>
+    </form>
+  </main>
+  <script src="account.js?v=1"></script>
+</body>
+</html>

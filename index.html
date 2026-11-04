@@ -3,133 +3,147 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cheap Stay Finder</title>
+  <title>Cheap Stay Finder · Cheap outdoor trips, planned for you</title>
   <meta name="author" content="Zachary Shields">
-  <meta name="description" content="Cheap Stay Finder by Zachary Shields: search any place to find the cheapest nearby stays on a map and see how close they are to local attractions.">
-
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
-  <link rel="stylesheet" href="style.css?v=9">
+  <meta name="description" content="Cheap Stay Finder by Zachary Shields plans cheap outdoor trips: the cheapest places to stay, how to get there, trails, lifts and parks nearby, groceries and a day-by-day plan.">
+  <link rel="stylesheet" href="home.css?v=2">
 </head>
 <body>
-  <header class="topbar">
-    <div class="brand">🧭 Cheap Stay Finder <span class="byline">by Zachary Shields</span></div>
-    <form id="search-form" autocomplete="off">
-      <input id="q" type="search" placeholder="Search a city, neighborhood or landmark…" required>
-      <select id="radius" title="Search radius">
-        <option value="805">½ mi</option>
-        <option value="1609">1 mi</option>
-        <option value="3219" selected>2 mi</option>
-        <option value="4828">3 mi</option>
-        <option value="8047">5 mi</option>
-      </select>
-      <button type="submit" id="go">Search</button>
-    </form>
+  <header class="site-header">
+    <a class="logo" href="/">🧭 Cheap Stay Finder</a>
+    <nav class="site-nav">
+      <a href="#how">How it works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="/app">Open planner</a>
+    </nav>
+    <nav class="account" data-account aria-label="Account"></nav>
   </header>
 
   <main>
-    <aside id="sidebar">
-      <section class="about" aria-labelledby="about-title">
-        <h2 id="about-title">About this website</h2>
-        <p>
-          Cheap Stay Finder is an interactive travel map for budget travelers. Search any city,
-          neighborhood or landmark and it lists the cheapest places to stay nearby (hostels,
-          campgrounds, guest houses, motels, hotels and more), each with an estimated nightly price
-          and a star rating where one is listed. Every stay is shown on a map next to the
-          surrounding attractions. Click a stay to see walking distances to the sights closest to it,
-          so you can find somewhere affordable that's also close to the things you want to see.
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">For budget travelers who'd rather be outside</p>
+        <h1>Cheap outdoor trips, planned for you.</h1>
+        <p class="lead">
+          Pick a place, or let us pick one near you. Cheap Stay Finder finds the cheapest places to stay,
+          the cheapest way to get there, and the trails, lifts, launches and parks around them, then
+          builds the whole trip so you're never wondering what to do next.
         </p>
-        <p>
-          New: tell it where you're leaving from and what you love doing outdoors, then press
-          <b>Plan a trip</b> for everything around your destination: how to get there cheaply,
-          trails, lifts, kayak launches, parks, groceries and cheap eats. Or let it suggest a
-          <b>weekend trip</b> near you.
-        </p>
-        <p class="author">Created by <b>Zachary Shields</b></p>
-      </section>
-
-      <details id="trip-setup" class="trip-setup" open>
-        <summary>🧳 Your trip</summary>
-        <form id="setup-form" autocomplete="off">
-          <label class="field">Where are you leaving from?
-            <span class="inline">
-              <input id="from" type="text" placeholder="e.g. Denver, CO">
-              <button type="button" id="locate" class="ghost" title="Use my current location">📍</button>
-            </span>
-          </label>
-          <div class="field-row">
-            <label class="field">Leaving on <input id="depart-date" type="date"></label>
-            <label class="field">Nights
-              <select id="nights">
-                <option>1</option><option selected>2</option><option>3</option><option>4</option>
-                <option>5</option><option>6</option><option>7</option><option>10</option><option>14</option>
-              </select>
-            </label>
-          </div>
-          <div class="field">What do you love doing?
-            <div id="interests" class="chips"></div>
-          </div>
-          <div class="trip-actions">
-            <button type="button" id="plan-trip" class="primary" disabled>🧭 Plan a trip</button>
-            <button type="button" id="weekend" class="secondary">🏕️ Plan me a weekend trip</button>
-          </div>
-          <p id="setup-msg" class="setup-msg"></p>
-        </form>
-      </details>
-
-      <div class="tabs" role="tablist">
-        <button type="button" role="tab" id="tab-stays" class="tab active" aria-selected="true">🛏️ Stays</button>
-        <button type="button" role="tab" id="tab-trip" class="tab" aria-selected="false">🗺️ Trip plan</button>
+        <div class="cta-row">
+          <a class="btn primary" href="/signup">Create a free account</a>
+          <a class="btn ghost" href="/app">Try the planner</a>
+        </div>
+        <p class="muted small">No credit card needed. Pro is $7.99/month when you want AI-built trips.</p>
       </div>
 
-      <div id="trip-panel" class="trip-panel" hidden>
-        <p class="status">Search a destination and press <b>Plan a trip</b>, or try <b>Plan me a weekend trip</b>.</p>
-      </div>
+      <aside class="sample" aria-label="Example trip plan">
+        <div class="sample-head">
+          <span class="pill">Example plan</span>
+          <b>Zermatt, Switzerland · 2 nights</b>
+          <span class="muted small">from Denver, CO</span>
+        </div>
+        <ol class="sample-days">
+          <li><b>Fri</b> Fly DEN → Milan (MXP), then train to Täsch and the shuttle train into car-free Zermatt. Stock up at Migros, 340 ft from the center.</li>
+          <li><b>Sat</b> Ski Zermatt – Cervinia. Nearest lift: Zermatt–Furi cable car, 11-minute walk. Pack lunch to skip mountain prices.</li>
+          <li><b>Sun</b> Ride the Sunnegga Trail on a rented bike, then head home.</li>
+        </ol>
+        <div class="sample-foot">
+          <span>🛏️ Camping from <b>$10</b>/night</span>
+          <span>🚡 52 lifts mapped</span>
+          <span>🛒 Groceries 340 ft away</span>
+        </div>
+      </aside>
+    </section>
 
-      <div id="stays-panel">
-      <div class="controls">
-        <div id="type-filters" class="chips"></div>
-        <div class="row">
-          <label>Sort
-            <select id="sort">
-              <option value="cheap">Cheapest first</option>
-              <option value="attractions">Most attractions within ½ mi</option>
-              <option value="center">Closest to search point</option>
-              <option value="rating">Highest star rating</option>
-            </select>
-          </label>
-          <label>Show
-            <select id="limit">
-              <option value="5">Top 5</option>
-              <option value="10" selected>Top 10</option>
-              <option value="20">Top 20</option>
-              <option value="50">Top 50</option>
-              <option value="100000">All</option>
-            </select>
-          </label>
-          <label class="toggle"><input type="checkbox" id="show-attr" checked> Show attractions</label>
+    <!-- What it does -->
+    <section id="how" class="section">
+      <h2>What it does</h2>
+      <div class="grid three">
+        <div class="card">
+          <div class="icon">🛏️</div>
+          <h3>Finds the cheapest stays</h3>
+          <p>Hostels, campgrounds, huts, guest houses and hotels on one map, sorted cheapest first, each with its distance to what's nearby.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🧭</div>
+          <h3>Gets you there cheaply</h3>
+          <p>Drive time and gas cost, the nearest big airports with typical fares from US government data, and train options in Europe.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🥾</div>
+          <h3>Plans what you'll do</h3>
+          <p>Mountain-bike and gravel routes, hiking trails, ski lifts with walking distance, kayak launches, national parks, campgrounds and groceries.</p>
         </div>
       </div>
-      <div id="status" class="status">Search for a place to find cheap stays nearby.</div>
-      <ul id="results"></ul>
+      <ol class="steps">
+        <li><b>Tell us where you're leaving from</b> and what you love doing outside.</li>
+        <li><b>Search a destination</b>, or press <i>Plan me a weekend trip</i> for ideas within a drive or a cheap flight.</li>
+        <li><b>Get the plan:</b> travel, stays, activities, food and a budget, all in one place.</li>
+      </ol>
+    </section>
+
+    <!-- Who it's for -->
+    <section class="section alt">
+      <h2>Who it's for</h2>
+      <div class="grid three">
+        <div class="card plain"><h3>🎒 Students &amp; budget travelers</h3><p>You'd rather spend money on the trip than on the room.</p></div>
+        <div class="card plain"><h3>🚵 Weekend adventurers</h3><p>Bike, hike, paddle, ski or camp. You want the trailhead, not the tourist strip.</p></div>
+        <div class="card plain"><h3>🗺️ Planners who hate planning</h3><p>No more twelve tabs. One plan, with every distance, link and price estimate.</p></div>
       </div>
-      <p class="footnote">
-        Places come from OpenStreetMap. Prices are <b>estimated</b> typical nightly ranges by
-        accommodation type and star class; ratings are official star classes where listed.
-        Use “Prices &amp; reviews” for live prices and guest reviews.
-        Typical US airfares come from the US DOT Consumer Airfare Report (average one-way fares,
-        last four published quarters); always check the live price before booking. Driving times
-        from OSRM, weather from Open-Meteo, airports from OurAirports.
-        <br>© Zachary Shields · Cheap Stay Finder
-      </p>
-    </aside>
-    <div id="map"></div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section">
+      <h2>Pricing</h2>
+      <p class="muted center">One cheaper night pays for a whole month of Pro.</p>
+      <div class="grid two pricing">
+        <div class="price-card">
+          <h3>Free</h3>
+          <p class="price">$0</p>
+          <ul>
+            <li>Cheapest-stays map for any destination</li>
+            <li>Trip planner: travel, activities, lifts, food</li>
+            <li>Weekend ideas near you</li>
+            <li>Typical US airfares from government data</li>
+          </ul>
+          <a class="btn ghost wide" href="/signup">Start free</a>
+        </div>
+        <div class="price-card featured">
+          <span class="pill">Most popular</span>
+          <h3>Pro</h3>
+          <p class="price">$7.99<span>/month</span></p>
+          <ul>
+            <li><b>Everything in Free</b></li>
+            <li><b>AI-built trips:</b> a full day-by-day itinerary written for your dates, budget and interests</li>
+            <li>The cheapest way there, step by step: drive, flight, train and the last mile</li>
+            <li>Where to eat cheaply, where to buy groceries, and what each day costs</li>
+            <li>Cancel any time</li>
+          </ul>
+          <a class="btn primary wide" href="/signup?next=%2Fapp">Get Pro</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why pay -->
+    <section class="section alt">
+      <h2>Why it's worth it</h2>
+      <div class="grid three">
+        <div class="card plain"><h3>💵 It saves more than it costs</h3><p>Picking a $25 hostel over a $90 hotel for one night covers Pro for eight months.</p></div>
+        <div class="card plain"><h3>⏱️ Hours of research in a minute</h3><p>Stays, flights, trails, lifts and groceries pulled together for you, with the distances already worked out.</p></div>
+        <div class="card plain"><h3>🧠 A plan you can actually follow</h3><p>Pro turns all of it into a day-by-day itinerary, so there's no "so… what now?" when you arrive.</p></div>
+      </div>
+      <div class="cta-row center">
+        <a class="btn primary" href="/signup">Create a free account</a>
+        <a class="btn ghost" href="/app">Try the planner first</a>
+      </div>
+    </section>
   </main>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-  <script src="app.js?v=9"></script>
-  <script src="trip.js?v=9"></script>
+  <footer class="site-footer">
+    <p>© Zachary Shields · Cheap Stay Finder</p>
+    <p class="muted small">Places from OpenStreetMap. Prices are estimates; typical US airfares from the US DOT Consumer Airfare Report. Always check live prices before booking.</p>
+  </footer>
+  <script src="account.js?v=1"></script>
 </body>
 </html>

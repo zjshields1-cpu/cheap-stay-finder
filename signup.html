@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign up · Cheap Stay Finder</title>
+  <meta name="author" content="Zachary Shields">
+  <link rel="stylesheet" href="home.css?v=2">
+</head>
+<body class="auth-page">
+  <header class="site-header">
+    <a class="logo" href="/">🧭 Cheap Stay Finder</a>
+  </header>
+  <main class="auth-wrap">
+    <form class="auth-card" data-auth="signup" novalidate>
+      <h1>Create your free account</h1>
+      <p class="muted">Free forever for searching and planning. Upgrade to Pro any time for AI-built trips.</p>
+      <label>Name <span class="muted">(optional)</span>
+        <input name="name" type="text" autocomplete="name" maxlength="80">
+      </label>
+      <label>Email
+        <input name="email" type="email" autocomplete="email" required>
+      </label>
+      <label>Password <span class="muted">(at least 8 characters)</span>
+        <input name="password" type="password" autocomplete="new-password" minlength="8" required>
+      </label>
+      <label>Confirm password
+        <input name="confirm" type="password" autocomplete="new-password" minlength="8" required>
+      </label>
+      <button type="submit" class="btn primary wide">Create account</button>
+      <p class="form-msg" role="status" aria-live="polite"></p>
+      <p class="muted small">Already have an account? <a href="/login" data-keep-next>Log in</a></p>
+    </form>
+  </main>
+  <script src="account.js?v=1"></script>
+</body>
+</html>
