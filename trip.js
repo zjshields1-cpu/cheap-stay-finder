@@ -686,6 +686,10 @@ function budgetHtml(ctx) {
   const days = dates.nights + 1;
   rows.push([`Groceries, ${days} days (cooking your own)`, COSTS.groceriesPerDay[0] * days * people, COSTS.groceriesPerDay[1] * days * people]);
   for (const r of rows) { lo += r[1]; hi += r[2]; }
+  ctx.budget = { // the same estimate, for the AI trip plan
+    items: rows.map(([l, a, b]) => [l.replace(/&[a-z#0-9]+;/gi, ' '), Math.round(a), Math.round(b)]),
+    totalLow: Math.round(lo), totalHigh: Math.round(hi), people,
+  };
   const body = `<table class="budget">${rows.map(([l, a, b]) => `<tr><td>${l}</td><td>${a === b ? money(a) : `${money(a)}–${money(b)}`}</td></tr>`).join('')}
     <tr class="total"><td>Estimated total</td><td>${money(lo)}–${money(hi)}</td></tr></table>
     <p class="muted small">Estimates for one person. Lift tickets, rentals and park entry aren’t included; check those on the resort or park website.
@@ -757,7 +761,7 @@ async function planTrip() {
       weatherFor(place, dates.start, dates.nights).catch(() => null),
       from ? flightInfo(from, place, dates).catch((err) => { console.error(err); return null; }) : null,
     ]);
-    const ctx = { from, dest: place, dates, flight, drive, place, interests };
+    const ctx = { from, dest: place, dates, flight, drive, place, interests, weather: wx };
 
     // Render what we have, then fill in activities and food
     const header = `<div class="trip-head">
@@ -784,8 +788,10 @@ async function planTrip() {
     const warn = failed
       ? `<p class="status error">The free map-data server was too busy for ${failed} of ${results.length} searches, so some places may be missing. Press Plan again in a minute to fill them in.</p>`
       : '';
-    T.tripPanel.innerHTML = header + warn + itineraryHtml(ctx) + travel + weather + activitiesHtml(acts, interests)
-      + section('food', '🍴 Food', foodHtml(food)) + budgetHtml(ctx);
+    const budget = budgetHtml(ctx); // also fills ctx.budget for the AI summary
+    T.tripPanel.innerHTML = header + warn + aiSectionHtml() + itineraryHtml(ctx) + travel + weather
+      + activitiesHtml(acts, interests) + section('food', '🍴 Food', foodHtml(food)) + budget;
+    wireAiSection(ctx);
 
     // Map: everything in the plan
     const pinFor = {
