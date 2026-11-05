@@ -168,7 +168,7 @@ function wireAiSection(ctx) {
       return;
     }
     if (!user.isPro) {
-      msg.innerHTML = 'AI-built trips are part of <b>Pro</b> ($7.99/month). <a href="/#pricing">See Pro</a>';
+      msg.innerHTML = 'AI-built trips are part of <b>Pro</b> ($7.99/month). <a href="/account?upgrade=1">Upgrade to Pro</a>';
       return;
     }
     btn.disabled = true;
@@ -186,7 +186,7 @@ function wireAiSection(ctx) {
         let data = {};
         try { data = await res.json(); } catch { /* not JSON */ }
         if (data.code === 'login') msg.innerHTML = `<a href="/login?next=${here}">Log in</a> to use the AI trip planner.`;
-        else if (data.code === 'upgrade') msg.innerHTML = 'AI-built trips are part of <b>Pro</b>. <a href="/#pricing">See Pro</a>';
+        else if (data.code === 'upgrade') msg.innerHTML = 'AI-built trips are part of <b>Pro</b>. <a href="/account?upgrade=1">Upgrade to Pro</a>';
         else msg.textContent = data.error || `Something went wrong (${res.status}).`;
         return;
       }

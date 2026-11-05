@@ -21,8 +21,8 @@
   function renderNav(user) {
     for (const el of document.querySelectorAll('[data-account]')) {
       if (user) {
-        el.innerHTML = `<span class="who" title="${esc(user.email)}">${esc(user.name || user.email)}</span>
-          ${user.isPro ? '<span class="pro-badge">PRO</span>' : '<a class="upgrade" href="/#pricing">Go Pro</a>'}
+        el.innerHTML = `<a class="who" href="/account" title="Your account (${esc(user.email)})">${esc(user.name || user.email)}</a>
+          ${user.isPro ? '<span class="pro-badge">PRO</span>' : '<a class="upgrade" href="/account?upgrade=1">Go Pro</a>'}
           <button type="button" class="link-btn" data-logout>Log out</button>`;
         el.querySelector('[data-logout]').onclick = async () => {
           try { await api('/api/logout', {}); } catch { /* ignore */ }
