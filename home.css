@@ -103,6 +103,10 @@ body:not(.auth-page) main::before {
 .sample-days li { padding: 10px 12px; border-radius: 10px; background: var(--bg); }
 .sample-days b { display: inline-block; min-width: 34px; color: var(--accent); }
 .sample-foot { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 14px; font-size: 13px; color: var(--muted); }
+.sample-link {
+  display: inline-block; margin-top: 14px; font-weight: 700; text-decoration: none;
+}
+.sample-link:hover { text-decoration: underline; }
 
 /* Sections */
 .section { max-width: 1120px; margin: 0 auto; padding: 56px 24px; }
@@ -130,7 +134,7 @@ body:not(.auth-page) main::before {
 .price-card h3 { margin: 0; font-size: 20px; }
 .price { font-size: 40px; font-weight: 800; margin: 0; }
 .price span { font-size: 16px; font-weight: 500; color: var(--muted); }
-.price-card ul { margin: 0 0 12px; padding-left: 20px; display: grid; gap: 6px; flex: 1; }
+.price-card ul { margin: 0 0 12px; padding-left: 20px; display: grid; gap: 6px; flex: 1; align-content: start; }
 
 /* Footer */
 .site-footer { text-align: center; padding: 32px 24px 48px; }
@@ -152,7 +156,8 @@ body:not(.auth-page) main::before {
   background: var(--bg); color: var(--text);
 }
 .auth-card input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
-.form-msg { min-height: 1.4em; font-size: 14px; color: var(--muted); }
+.form-msg { font-size: 14px; color: var(--muted); }
+.form-msg:empty { display: none; }
 .form-msg.error { color: #d23c3c; }
 
 @media (max-width: 860px) {

@@ -55,6 +55,10 @@ body {
   line-height: 1.5;
 }
 .about h2 { margin: 0 0 6px; font-size: 16px; }
+/* Collapsed by default in the planner: the tool comes first, the explanation is one tap away */
+.about > summary { cursor: pointer; font-weight: 700; }
+.about > summary .muted { font-weight: 500; }
+.about[open] > summary { margin-bottom: 8px; }
 .about p { margin: 0 0 6px; }
 .about .author { margin: 0; }
 #search-form { display: flex; gap: 8px; flex: 1; min-width: 260px; max-width: 720px; }
@@ -198,7 +202,12 @@ main { flex: 1; display: flex; min-height: 0; }
   main { flex-direction: column-reverse; }
   #sidebar { width: 100%; border-right: none; flex: 1; }
   #map { flex: none; height: 45vh; }
-  .brand { width: 100%; }
+  /* Two rows instead of three: logo + account on top, search underneath */
+  .topbar { gap: 8px 12px; padding: 8px 12px; }
+  .brand { flex: 1; min-width: 0; font-size: 17px; line-height: 1.2; }
+  .byline { display: block; margin-left: 0; font-size: 12px; }
+  .topbar .account { order: 2; }
+  #search-form { order: 3; flex-basis: 100%; min-width: 0; max-width: none; }
 }
 
 /* ---------- Trip planner ---------- */

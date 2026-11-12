@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
-  <link rel="stylesheet" href="style.css?v=10">
+  <link rel="stylesheet" href="style.css?v=11">
 </head>
 <body>
   <header class="topbar">
@@ -31,8 +31,8 @@
 
   <main>
     <aside id="sidebar">
-      <section class="about" aria-labelledby="about-title">
-        <h2 id="about-title">About this website</h2>
+      <details class="about">
+        <summary>About this website <span class="muted">· by Zachary Shields</span></summary>
         <p>
           Cheap Stay Finder is an interactive travel map for budget travelers. Search any city,
           neighborhood or landmark and it lists the cheapest places to stay nearby (hostels,
@@ -48,7 +48,7 @@
           <b>weekend trip</b> near you.
         </p>
         <p class="author">Created by <b>Zachary Shields</b></p>
-      </section>
+      </details>
 
       <details id="trip-setup" class="trip-setup" open>
         <summary>🧳 Your trip</summary>
