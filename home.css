@@ -81,9 +81,25 @@ a { color: var(--accent); }
   max-width: 1120px; margin: 0 auto; padding: 64px 24px;
 }
 main > .hero { background: none; }
-body:not(.auth-page) main::before {
-  content: ""; position: absolute; inset: 0 0 auto 0; height: 640px; background: var(--hero); z-index: -1;
+/* Hero: a real place behind the promise. The Matterhorn above Zermatt, veiled on the text side
+   so the words stay readable and the mountain shows through behind the example plan. */
+main { overflow-x: clip; }
+.hero { position: relative; }
+.hero::before {
+  content: ""; position: absolute; z-index: -1; top: 0; bottom: 0; left: calc(50% - 50vw); right: calc(50% - 50vw);
+  background:
+    linear-gradient(90deg, rgba(8, 18, 32, .78) 0%, rgba(8, 18, 32, .58) 45%, rgba(8, 18, 32, .2) 100%),
+    url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/CH.VS.Zermatt_2021-10-17_Matterhorn_8726.jpg/1280px-CH.VS.Zermatt_2021-10-17_Matterhorn_8726.jpg") center 30% / cover no-repeat,
+    #1d2a3a;
 }
+/* Text sits on the dark photo, in both light and dark mode */
+.hero-text { color: #fff; }
+.hero-text .eyebrow { color: #8fe3b0; }
+.hero-text .lead { color: rgba(255, 255, 255, .9); }
+.hero-text .muted { color: rgba(255, 255, 255, .78); }
+.hero-text .btn.ghost { color: #fff; border-color: rgba(255, 255, 255, .85); }
+.hero-text .btn.ghost:hover { background: rgba(255, 255, 255, .12); }
+.hero-text h1 { text-shadow: 0 1px 12px rgba(0, 0, 0, .25); }
 .eyebrow { color: var(--green); font-weight: 700; margin: 0 0 8px; }
 .hero h1 { font-size: clamp(34px, 5vw, 54px); line-height: 1.08; margin: 0 0 16px; letter-spacing: -.02em; }
 .lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
@@ -139,6 +155,28 @@ body:not(.auth-page) main::before {
 /* Footer */
 .site-footer { text-align: center; padding: 32px 24px 48px; }
 .site-footer p { margin: 4px 0; }
+.site-footer .credits { max-width: 900px; margin: 10px auto 0; line-height: 1.6; }
+.site-footer .credits a { color: inherit; }
+
+/* Photo strip: the trips this is for */
+.activities {
+  display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px;
+  max-width: 1360px; margin: 6px auto 0; padding: 0 6px;
+}
+.act { position: relative; margin: 0; height: 280px; overflow: hidden; border-radius: 10px; background: var(--border); }
+.act img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.act figcaption {
+  position: absolute; inset: auto 0 0 0; padding: 40px 14px 12px; color: #fff;
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, .65));
+  display: grid; gap: 2px; text-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+}
+.act figcaption b { font-size: 16px; }
+.act figcaption span { font-size: 13px; opacity: .92; }
+
+/* Testimonials */
+.quote { margin: 0; display: grid; gap: 10px; align-content: start; }
+.quote blockquote { margin: 0; font-size: 17px; line-height: 1.5; }
+.quote figcaption { font-size: 14px; }
 
 /* Login / signup */
 .auth-wrap { display: grid; place-items: center; padding: 48px 16px; min-height: calc(100vh - 60px); }
@@ -162,6 +200,15 @@ body:not(.auth-page) main::before {
 
 @media (max-width: 860px) {
   .hero { grid-template-columns: 1fr; padding-top: 40px; }
+  .hero::before {
+    background:
+      linear-gradient(180deg, rgba(8, 18, 32, .72) 0%, rgba(8, 18, 32, .5) 100%),
+      url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/CH.VS.Zermatt_2021-10-17_Matterhorn_8726.jpg/960px-CH.VS.Zermatt_2021-10-17_Matterhorn_8726.jpg") center 30% / cover no-repeat,
+      #1d2a3a;
+  }
+  .activities { grid-template-columns: repeat(2, 1fr); }
+  .act { height: 180px; }
+  .act:last-child { grid-column: span 2; }
   .grid.three, .grid.two { grid-template-columns: 1fr; }
   .site-nav { display: none; }
   .site-header { padding: 10px 16px; }

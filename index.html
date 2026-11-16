@@ -6,7 +6,7 @@
   <title>Cheap Stay Finder · Cheap outdoor trips, planned for you</title>
   <meta name="author" content="Zachary Shields">
   <meta name="description" content="Cheap Stay Finder by Zachary Shields plans cheap outdoor trips: the cheapest places to stay, how to get there, trails, lifts and parks nearby, groceries and a day-by-day plan.">
-  <link rel="stylesheet" href="home.css?v=4">
+  <link rel="stylesheet" href="home.css?v=6">
 </head>
 <body>
   <header class="site-header">
@@ -58,6 +58,35 @@
     </section>
 
     <!-- What it does -->
+    <!-- What you can plan: real photos of the trips this is for -->
+    <section class="activities" aria-label="Trips you can plan">
+      <figure class="act">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Ski_resort%2C_Soelden_%28P1032614%29.jpg/960px-Ski_resort%2C_Soelden_%28P1032614%29.jpg"
+             alt="A skier carving a turn on a groomed slope in Sölden, Austria" loading="lazy" width="960" height="720">
+        <figcaption><b>Ski &amp; snowboard</b><span>Every lift, with the walk from your bed</span></figcaption>
+      </figure>
+      <figure class="act">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Die_letzten_Meter_zum_Gipfel.jpg/960px-Die_letzten_Meter_zum_Gipfel.jpg"
+             alt="A hiker reaching the summit cross above layers of Alpine valleys" loading="lazy" width="960" height="633">
+        <figcaption><b>Hike</b><span>Trails, huts and viewpoints</span></figcaption>
+      </figure>
+      <figure class="act">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Mountain_bikers_on_a_trail_near_Col_de_Bretaye%2C_Villars-sur-Ollon%2C_Ollon%2C_Vaud.jpg/960px-Mountain_bikers_on_a_trail_near_Col_de_Bretaye%2C_Villars-sur-Ollon%2C_Ollon%2C_Vaud.jpg"
+             alt="Mountain bikers on a singletrack trail near Col de Bretaye above Villars, Switzerland" loading="lazy" width="960" height="640">
+        <figcaption><b>Mountain &amp; gravel</b><span>Routes and bike rentals nearby</span></figcaption>
+      </figure>
+      <figure class="act">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Kayaker_on_Skoi_Lake_in_Bowron_Lake_Provincial_Park%2C_BC_%28DSCF3638%29.jpg/960px-Kayaker_on_Skoi_Lake_in_Bowron_Lake_Provincial_Park%2C_BC_%28DSCF3638%29.jpg"
+             alt="A kayaker crossing a calm forest lake in Bowron Lake Provincial Park, Canada" loading="lazy" width="960" height="589">
+        <figcaption><b>Paddle</b><span>Launches and boat rentals</span></figcaption>
+      </figure>
+      <figure class="act">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Camping_above_the_clouds_at_Rinjani.jpg/960px-Camping_above_the_clouds_at_Rinjani.jpg"
+             alt="A red tent pitched above a sea of clouds at sunrise on Mount Rinjani, Indonesia" loading="lazy" width="960" height="640">
+        <figcaption><b>Camp</b><span>The cheapest bed with the best view</span></figcaption>
+      </figure>
+    </section>
+
     <section id="how" class="section">
       <h2>What it does</h2>
       <div class="grid three">
@@ -95,6 +124,12 @@
     </section>
 
     <!-- Pricing -->
+    <!-- Testimonials: real quotes only, added in testimonials.js. Hidden until there's at least one. -->
+    <section id="testimonials" class="section" hidden>
+      <h2>What travelers are saying</h2>
+      <div class="grid three quotes" data-testimonials></div>
+    </section>
+
     <section id="pricing" class="section">
       <h2>Pricing</h2>
       <p class="muted center">One cheaper night pays for a whole month of Pro.</p>
@@ -145,7 +180,16 @@
   <footer class="site-footer">
     <p>© Zachary Shields · Cheap Stay Finder</p>
     <p class="muted small">Places from OpenStreetMap. Prices are estimates; typical US airfares from the US DOT Consumer Airfare Report. Always check live prices before booking.</p>
+    <p class="muted small credits">Photos via Wikimedia Commons:
+      <a href="https://commons.wikimedia.org/wiki/File:CH.VS.Zermatt_2021-10-17_Matterhorn_8726.jpg">Matterhorn above Zermatt</a> by Roy Egloff (CC BY-SA 4.0) ·
+      <a href="https://commons.wikimedia.org/wiki/File:Ski_resort,_Soelden_(P1032614).jpg">Sölden skier</a> by Matti Blume (CC BY-SA 4.0) ·
+      <a href="https://commons.wikimedia.org/wiki/File:Die_letzten_Meter_zum_Gipfel.jpg">Summit hiker</a> by Jörg Braukmann (CC BY-SA 4.0) ·
+      <a href="https://commons.wikimedia.org/wiki/File:Mountain_bikers_on_a_trail_near_Col_de_Bretaye,_Villars-sur-Ollon,_Ollon,_Vaud.jpg">Mountain bikers near Villars</a> by Christian David (CC BY-SA 4.0) ·
+      <a href="https://commons.wikimedia.org/wiki/File:Kayaker_on_Skoi_Lake_in_Bowron_Lake_Provincial_Park,_BC_(DSCF3638).jpg">Kayaker on Skoi Lake</a> by Trougnouf (Benoit Brummer) (CC BY 4.0) ·
+      <a href="https://commons.wikimedia.org/wiki/File:Camping_above_the_clouds_at_Rinjani.jpg">Camping above the clouds</a> by Paxson Woelber (CC BY-SA 4.0).
+      Licenses: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
   </footer>
   <script src="account.js?v=2"></script>
+  <script src="testimonials.js?v=1"></script>
 </body>
 </html>
