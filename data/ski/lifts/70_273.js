@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['70_273']=[[null,"drag_lift","operating",35.2822,136.5383,183,35.2823,136.5364,271,null],["金華山ロープウェイ, Mount Kinka Ropeway, Téléphérique du mont Kinka, きんかざんロープウェー, Kinka-zan Rōpuwē","cable_car","operating",35.4345,136.7748,24,35.4323,136.7802,287,null]];

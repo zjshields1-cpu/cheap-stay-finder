@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['28_13']=[["Горнолыжный комплекс \"Мальская долина\"",57.7562,27.8235,"operating","downhill",3,0.5,49,114,"https://www.mdolina.ru/",[57.7551,27.8207,57.7579,27.8264]],["Kütioru Centre",57.7851,27.1535,"operating","downhill",3,1.1,109,177,"https://kutiorg.ee/",null]];

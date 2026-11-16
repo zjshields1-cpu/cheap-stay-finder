@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['102_19']=[["Skilift","rope_tow","operating",51.2541,9.7372,386,51.2524,9.738,422,null],["Großer Skilift","drag_lift","operating",51.2017,9.8404,602,51.2037,9.8497,722,null],[null,"cable_car","operating",51.0727,9.5559,172,51.0724,9.5564,173,null],["Kleiner Skilift","rope_tow","operating",51.208,9.8393,632,51.2081,9.8422,669,null]];

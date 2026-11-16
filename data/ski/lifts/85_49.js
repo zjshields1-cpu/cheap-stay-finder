@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['85_49']=[[null,"drag_lift","operating",42.7875,24.6237,1343,42.7839,24.6229,1416,null],[null,"chair_lift","operating",42.7489,24.9053,980,42.75,24.8962,1385,null],[null,"drag_lift","operating",42.788,24.6267,1298,42.7877,24.624,1340,null],["Сопот - Междинна станция","chair_lift","operating",42.6644,24.747,557,42.6867,24.7477,1388,null]];

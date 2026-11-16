@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['84_-222']=[[null,"chair_lift","operating",42.1032,-110.8284,2092,42.0944,-110.8184,2507,"Pine Creek Ski Area"],["Magic Carpet","magic_carpet","operating",42.1031,-110.8276,2104,42.1028,-110.8269,2118,"Pine Creek Ski Area"]];

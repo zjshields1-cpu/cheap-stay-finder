@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['24_-30']=[["Blow Me Down Cross Country Ski Trails",48.9138,-58.0041,"operating","nordic",null,null,172,370,"https://blowmedown.ca/",null],["Whaleback Nordic Ski Club",48.581,-58.5252,"operating","nordic",null,null,72,116,"https://whalebacknordic.com/",null]];

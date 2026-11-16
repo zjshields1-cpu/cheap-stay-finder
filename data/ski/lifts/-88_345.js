@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-88_345']=[["Christchurch Adventure Park Chairlift","chair_lift","operating",-43.5935,172.6316,30,-43.6087,172.6337,457,null],["Christchurch Gondola","gondola","operating",-43.5849,172.7078,67,-43.5894,172.7162,435,null]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['82_-148']=[[null,"drag_lift","operating",41.3956,-73.9842,145,41.3943,-73.984,167,"Victor Constant Ski Area"],[null,"chair_lift","operating",41.3958,-73.9837,143,41.3901,-73.9804,298,"Victor Constant Ski Area"]];

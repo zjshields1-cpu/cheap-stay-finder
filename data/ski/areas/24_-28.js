@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['24_-28']=[["White Hills",48.1611,-54.0523,"operating","downhill",2,10.8,209,368,"https://www.whitehillsresort.com/",null],["Airport Nordic Ski Club Cross Country Ski Trails",48.9624,-54.6662,"operating","nordic",null,null,null,null,"https://www.airportnordic.ca/",null]];

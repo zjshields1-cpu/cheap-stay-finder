@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['130_42']=[["Barnbandet","magic_carpet","operating",65.3157,21.2855,12,65.3156,21.2838,24,"Lindbacksstadion"],[null,"t-bar","operating",65.315,21.2862,11,65.3123,21.2778,116,"Lindbacksstadion"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['106_-4']=[[null,"chair_lift","operating",53.1189,-1.5645,118,53.1185,-1.5659,160,null],["Heights of Abraham Cable Car","cable_car","operating",53.1243,-1.5567,102,53.1242,-1.5642,238,null]];

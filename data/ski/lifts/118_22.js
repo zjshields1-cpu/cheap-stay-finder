@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['118_22']=[[null,"j-bar","operating",59.3915,11.0969,84,59.3877,11.09,210,"Kjerringåsen"],[null,"j-bar","operating",59.3913,11.0975,83,59.3886,11.0968,144,"Kjerringåsen"]];

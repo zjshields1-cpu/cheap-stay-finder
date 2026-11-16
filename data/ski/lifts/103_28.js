@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['103_28']=[[null,"magic_carpet","operating",51.8157,14.4363,66,51.8155,14.4377,82,null],["Sommerrodelbahn","drag_lift","operating",51.8151,14.4355,65,51.8152,14.4397,92,null]];

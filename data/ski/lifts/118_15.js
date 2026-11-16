@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['118_15']=[[null,"drag_lift","operating",59.3598,7.7401,852,59.3612,7.7205,1058,"Hallbjønnsekken skisenter"],[null,"drag_lift","operating",59.3568,7.7494,778,59.3609,7.7414,859,"Hallbjønnsekken skisenter"]];

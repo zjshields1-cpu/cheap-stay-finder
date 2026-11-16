@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['128_-44']=[[null,"platter","operating",64.1204,-21.8349,21,64.1211,-21.8321,40,null],["Skíðalyftan Grafarvogi","platter","operating",64.1347,-21.7859,31,64.1352,-21.7804,63,null]];

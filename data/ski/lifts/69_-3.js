@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['69_-3']=[["Télécabine de Tlemcen, المصعد الهوائي تلمسان","gondola","operating",34.8816,-1.3174,794,34.8761,-1.3138,830,null],["Télécabine de Tlemcen, المصعد الهوائي تلمسان","gondola","operating",34.8761,-1.3138,830,34.8681,-1.3181,1026,null]];

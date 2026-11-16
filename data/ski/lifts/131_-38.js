@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['131_-38']=[["Neðri lyfta","t-bar","operating",65.9689,-18.5561,43,65.9715,-18.5679,174,"Dalvík"],["Efri lyfta","t-bar","operating",65.9716,-18.5691,188,65.9717,-18.5795,325,"Dalvík"]];

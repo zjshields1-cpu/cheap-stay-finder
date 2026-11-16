@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['91_52']=[[null,"rope_tow","operating",45.7433,26.0392,720,45.7434,26.0458,819,"Pârtia Oprea - Valea Mare"],[null,"drag_lift","operating",45.8347,26.1861,626,45.8275,26.1878,858,null],[null,"drag_lift","operating",45.8347,26.1862,627,45.8323,26.1868,667,null]];

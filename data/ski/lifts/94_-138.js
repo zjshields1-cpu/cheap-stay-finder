@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['94_-138']=[["Handle Tow","rope_tow","operating",47.2459,-68.5935,171,47.2439,-68.5931,214,"Lonesome Pine Trails"],["T-Bar","t-bar","operating",47.2456,-68.595,172,47.2397,-68.5939,298,"Lonesome Pine Trails"]];

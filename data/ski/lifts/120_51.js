@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['120_51']=[[null,"drag_lift","operating",60.3841,25.6606,2,60.382,25.6578,57,"Porvoo Ski"],[null,"drag_lift","operating",60.3842,25.6585,3,60.3821,25.6575,53,"Porvoo Ski"],[null,"drag_lift","operating",60.3841,25.6607,2,60.382,25.6579,56,"Porvoo Ski"]];

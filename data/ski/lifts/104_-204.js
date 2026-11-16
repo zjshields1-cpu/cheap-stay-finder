@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['104_-204']=[["Brandson Express","t-bar","operating",52.0152,-101.6033,508,52.0169,-101.6091,572,"Thunderhill Ski Area"],["JB Construction T-Bar","t-bar","operating",52.0131,-101.5972,462,52.0156,-101.602,528,"Thunderhill Ski Area"]];

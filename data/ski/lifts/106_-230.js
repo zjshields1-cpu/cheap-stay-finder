@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['106_-230']=[["Hill Top Tow","rope_tow","operating",53.236,-114.9273,800,53.235,-114.9264,803,"Drayton Valley"],["Bunny Tow","rope_tow","operating",53.2373,-114.9223,741,53.2367,-114.9234,753,"Drayton Valley"],["Orange T-Bar (Doppelmayr)","t-bar","operating",53.2378,-114.9232,745,53.2367,-114.9275,802,"Drayton Valley"]];

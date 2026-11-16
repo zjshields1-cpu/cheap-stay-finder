@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['20_34']=[["Beldersoy, Beldersay, Бельдерсай",41.4887,69.9767,"operating","downhill",1,1.0,1530,1779,null,[41.4756,69.9715,41.5018,69.9812]],["\"Амирсай\" Горнолыжный курорт, \"Amirsay\" Mountain Resort",41.4899,69.95,"operating","downhill",5,15.5,1628,2285,"https://www.amirsoy.com/",[41.4584,69.9241,41.4931,69.9704]]];

@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['28_-3']=[["Nevis Range",56.8346,-4.9725,"operating","downhill",10,19.6,634,1190,"https://www.nevisrange.co.uk/",null],["Glencoe Mountain Resort",56.6219,-4.8364,"operating","downhill",9,13.1,374,1079,"http://www.glencoemountain.com/",[56.6116,-4.8524,56.6312,-4.8268]]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['101_8']=[[null,"drag_lift","operating",50.8222,4.2752,33,50.8218,4.2767,56,"Yeti Skicentrum"],[null,"drag_lift","operating",50.8218,4.275,34,50.8216,4.2762,51,"Yeti Skicentrum"]];

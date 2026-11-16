@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['103_22']=[["Skilift","platter","operating",51.5253,11.3057,243,51.5235,11.3065,291,null],["Seilbahn Thale","gondola","operating",51.7415,11.0264,179,51.735,11.0286,426,null],["Sessellift Rosstrappe","chair_lift","operating",51.7427,11.026,177,51.7413,11.0175,425,null]];

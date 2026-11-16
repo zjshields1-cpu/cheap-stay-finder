@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['89_-148']=[["T-Bar","t-bar","operating",44.7635,-73.5842,262,44.763,-73.5874,302,"Beartown Ski Area"],["Platter","platter","operating",44.7644,-73.5844,266,44.7646,-73.5869,298,"Beartown Ski Area"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['94_-177']=[["Honey Pot Hoist","chair_lift","operating",47.3859,-88.0084,198,47.3922,-88.0137,442,"Mount Bohemia"],["Mountain Dew Hoist","chair_lift","operating",47.3871,-88.02,228,47.3916,-88.0138,444,"Mount Bohemia"]];

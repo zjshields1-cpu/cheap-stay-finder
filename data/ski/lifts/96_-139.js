@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['96_-139']=[[null,"chair_lift","operating",48.1542,-69.0094,124,48.1505,-69.002,304,"Mont Saint-Mathieu"],[null,"platter","operating",48.1556,-69.0058,126,48.1515,-68.9947,339,"Mont Saint-Mathieu"]];

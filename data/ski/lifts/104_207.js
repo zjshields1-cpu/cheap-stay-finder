@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['104_207']=[["Тюбинг","drag_lift","operating",52.4363,103.7571,473,52.4357,103.7591,501,null],["Подъёмник","drag_lift","operating",52.4382,103.7212,437,52.4366,103.7264,528,"Angarskaya Gorka"],["Подъёмник","drag_lift","operating",52.4361,103.7567,476,52.4332,103.7611,536,null]];

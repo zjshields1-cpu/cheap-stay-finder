@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['120_-258']=[[null,"t-bar","operating",60.1106,-128.7517,726,60.1144,-128.7495,769,"Mount Maichen (Watson Lake)"],[null,"t-bar","operating",60.1144,-128.7501,764,60.1167,-128.7404,918,"Mount Maichen (Watson Lake)"]];

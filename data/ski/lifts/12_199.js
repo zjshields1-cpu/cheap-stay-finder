@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['12_199']=[["Langkawi SkyCab, 浮罗交怡缆车, 浮羅交怡纜車","cable_car","operating",6.3712,99.6716,13,6.3854,99.6613,669,null],["Skyglide","funicular","operating",6.3858,99.6621,649,6.3857,99.6613,662,null]];

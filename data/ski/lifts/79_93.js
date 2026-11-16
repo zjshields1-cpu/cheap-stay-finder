@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['79_93']=[["Xankəndi-Şuşa kanat yolu","cable_car","construction",39.8165,46.7533,838,39.764,46.7495,1301,null],["Laçın kanat yolu","cable_car","construction",39.6304,46.5326,854,39.6433,46.5443,1167,null]];

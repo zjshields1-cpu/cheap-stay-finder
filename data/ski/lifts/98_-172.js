@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['98_-172']=[["Grip Tow Lift","rope_tow","operating",49.1306,-85.8512,351,49.1309,-85.8496,366,"Kiwissa Ski Centre"],["T-Bar Tow Lift","t-bar","operating",49.1312,-85.8509,354,49.1344,-85.853,445,"Kiwissa Ski Centre"]];

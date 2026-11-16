@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['57_236']=[["南部索道, Nanbu Cableway","gondola","operating",28.8826,118.0611,631,28.9027,118.0618,1287,null],["金沙索道, Jinsha Cableway","gondola","operating",28.9261,118.0881,393,28.91,118.0708,1272,null]];

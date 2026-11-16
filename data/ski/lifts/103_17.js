@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['103_17']=[["Übungsbahn 1","drag_lift","operating",51.7523,8.6669,96,51.7531,8.6674,96,null],["Bahn 2","drag_lift","operating",51.7502,8.6711,97,51.7502,8.6711,97,null],["Bahn 1","drag_lift","operating",51.7519,8.6719,96,51.7519,8.6719,96,null]];

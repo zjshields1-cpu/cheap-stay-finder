@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['14_201']=[["กระเช้าลอยฟ้านครหาดใหญ่, Hatyai Cable Car","cable_car","operating",7.0413,100.5109,163,7.0455,100.5135,215,null],[null,"funicular","operating",7.2108,100.5908,20,7.2105,100.5895,83,null]];

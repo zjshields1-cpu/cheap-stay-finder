@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['130_29']=[[null,"drag_lift","operating",65.0611,14.7921,591,65.0637,14.7828,750,"Klimpfjällsbackarna"],[null,"drag_lift","operating",65.0699,14.7924,611,65.0642,14.7738,808,"Klimpfjällsbackarna"],[null,"platter","operating",65.0705,14.7897,623,65.0691,14.7859,685,"Klimpfjällsbackarna"]];

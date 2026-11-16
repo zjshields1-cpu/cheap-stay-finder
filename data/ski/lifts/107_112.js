@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['107_112']=[[null,"drag_lift","operating",53.6961,56.0961,209,53.6955,56.0944,230,"Куш-Тау / Шиханы (Kushtau /Shihany)"],[null,"t-bar","operating",53.697,56.0948,216,53.6939,56.0874,373,"Куш-Тау / Шиханы (Kushtau /Shihany)"],[null,"rope_tow","operating",53.698,56.096,213,53.6974,56.0942,222,"Куш-Тау / Шиханы (Kushtau /Shihany)"]];

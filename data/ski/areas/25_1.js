@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['25_1']=[["SnowWorld Terneuzen",51.2964,3.8502,"operating","downhill",null,null,null,null,"https://www.snowworld.com/nl",[51.2955,3.8482,51.2974,3.8522]],["Noeux-les-Mines - Loisinord",50.4708,2.6797,"operating","downhill",2,0.6,54,114,"https://www.bethunebruay.fr/fr/loisinord",null]];

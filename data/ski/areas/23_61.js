@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['23_61']=[["Mingyuedao",47.4095,123.8987,"operating","downhill",null,null,null,null,null,null],["碾子山奥悦滑雪场",47.5401,122.8506,"operating","downhill",1,2.9,365,491,null,[47.5386,122.8407,47.5416,122.8608]]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['67_269']=[["参詣リフト","chair_lift","operating",33.8951,134.6463,226,33.895,134.6446,277,null],["太龍寺ロープウェイ","cable_car","operating",33.8626,134.5023,52,33.881,134.5214,465,null]];

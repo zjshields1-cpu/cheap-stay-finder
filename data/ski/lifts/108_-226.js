@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['108_-226']=[["T-Bar (Doppelmayr)","t-bar","operating",54.4672,-112.7747,644,54.4653,-112.7802,705,"Long Lake"],[null,"rope_tow","operating",54.4681,-112.7781,665,54.4675,-112.7805,699,"Long Lake"]];

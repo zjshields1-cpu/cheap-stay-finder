@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['100_-9']=[[null,"drag_lift","operating",50.397,-4.0903,31,50.3981,-4.0909,66,"Plymouth ski and snowboard center"],[null,"drag_lift","operating",50.3969,-4.0908,31,50.398,-4.0913,65,"Plymouth ski and snowboard center"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['107_40']=[["1","platter","operating",53.6977,20.4808,109,53.6959,20.4821,139,"Wyciąg narciarski \"Kartasiówka\""],["2","platter","operating",53.6975,20.48,110,53.6955,20.4816,142,"Wyciąg narciarski \"Kartasiówka\""],["3","platter","operating",53.697,20.4789,111,53.6953,20.4808,142,"Wyciąg narciarski \"Kartasiówka\""]];

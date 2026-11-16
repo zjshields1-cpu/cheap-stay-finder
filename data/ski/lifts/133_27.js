@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['133_27']=[["Glomfjord skitrekk","platter","operating",66.8204,13.9585,164,66.8224,13.9715,359,"Glomfjord Alpinsenter"],["Glomfjord stolheis","chair_lift","operating",66.8199,13.9569,144,66.8268,13.9494,515,"Glomfjord Alpinsenter"],[null,"cable_car","operating",66.9667,13.8771,190,66.972,13.8543,969,null]];

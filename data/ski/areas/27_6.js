@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['27_6']=[["Hedeland Skicenter",55.6273,12.1742,"operating","downhill",3,0.5,36,80,"https://www.roskildeskiklub.dk/",null],["CopenHill",55.6834,12.6216,"operating","downhill",5,0.4,3,6,"https://www.copenhill.dk/",[55.6842,12.6195,55.6856,12.622]]];

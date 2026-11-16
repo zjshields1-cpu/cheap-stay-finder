@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['21_-54']=[["Casper Nordic Center",42.7426,-106.3119,"operating","nordic",null,null,2349,2461,null,[42.735,-106.323,42.7505,-106.2876]],["Hogadon Basin Ski Area",42.7469,-106.341,"operating","downhill",2,7.2,2234,2412,"https://www.hogadon.net/",[42.743,-106.3466,42.7502,-106.3357]]];

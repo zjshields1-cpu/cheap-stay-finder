@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-89_339']=[["C-Chair","chair_lift","operating",-44.2234,169.7798,1456,-44.2187,169.7713,1799,"Ōhau Snow Fields"],["A-Snowmat","magic_carpet","operating",-44.2256,169.7793,1489,-44.225,169.7782,1505,"Ōhau Snow Fields"],["B-Platter","platter","operating",-44.2247,169.7815,1419,-44.2239,169.7792,1464,"Ōhau Snow Fields"]];

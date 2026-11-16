@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['74_86']=[["Amediye Cable Car Plan","cable_car","operating",37.1048,43.4817,1217,37.1056,43.491,1317,null],["Amediye Cable Car Plan","cable_car","operating",37.096,43.4892,1193,37.1056,43.4911,1316,null]];

@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['24_-29']=[["Marble Mountain",48.9407,-57.8237,"operating","downhill",3,20.9,19,468,"https://www.skimarble.com/",[48.9323,-57.8447,48.9496,-57.805]],["Pasadena Ski and Nature Park",49.0033,-57.594,"operating","nordic",null,null,null,null,"https://www.pasadenaskipark.org/",null]];

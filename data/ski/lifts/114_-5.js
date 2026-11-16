@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['114_-5']=[[null,"platter","operating",57.1224,-2.1257,8,57.1226,-2.127,24,"Garthdee Ski Centre"],[null,"platter","operating",57.1226,-2.1255,8,57.1228,-2.1266,22,"Garthdee Ski Centre"]];

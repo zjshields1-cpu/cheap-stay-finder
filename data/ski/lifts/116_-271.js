@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['116_-271']=[["Transporter","gondola","operating",58.1311,-135.4654,8,58.1332,-135.4531,25,null],["Sky Glider","gondola","operating",58.1325,-135.4534,25,58.128,-135.4312,487,null]];

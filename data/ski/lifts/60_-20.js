@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['60_-20']=[["Téléphérique d'Agadir تيليفيريك أكادير, تيليفريك أكادير, ⵜⵉⵍⵉⴼⵉⵔⵉⴽ ⵏ ⴰⴳⴰⴷⵉⵔ, Agadir Aerial Tramway, Teleférico de Agadir, Téléphérique d'agadir","gondola","operating",30.426,-9.606,27,30.4299,-9.6231,190,null]];

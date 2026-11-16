@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['27_-57']=[["Long Lake",54.4662,-112.7775,"operating","downhill",2,3.9,644,705,"https://skilonglake.com/",null],["Tawaitnaw Cross Country Ski Trails",54.31,-113.4695,"operating","downhill,nordic",4,8.0,617,684,"https://tawatinawvalley.ca/",[54.2993,-113.4797,54.3125,-113.4604]]];

@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['20_15']=[["Kartalkaya",40.5862,31.8033,null,"downhill",13,26.6,1862,2198,null,null],["Dorukkaya",40.5954,31.7999,null,"downhill",null,null,null,null,null,null],["Kartepe",40.6474,30.0985,"operating","downhill",5,9.4,1249,1589,null,null]];

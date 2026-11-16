@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['92_-177']=[["Big Hill Tow","rope_tow","operating",46.0924,-88.342,432,46.0902,-88.3422,459,"Crystella Ski Hill"],["Small Hill Tow","rope_tow","operating",46.0918,-88.3408,430,46.0926,-88.3408,441,"Crystella Ski Hill"]];

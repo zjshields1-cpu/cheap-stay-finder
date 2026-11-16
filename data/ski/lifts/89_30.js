@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['89_30']=[[null,"platter","operating",44.8246,15.0354,848,44.8208,15.0345,969,null],[null,"t-bar","operating",44.5241,15.168,941,44.5196,15.1686,1037,"Velebno – Baške Oštarije"],[null,"t-bar","operating",44.5251,15.1713,917,44.5233,15.1695,954,"Velebno – Baške Oštarije"]];

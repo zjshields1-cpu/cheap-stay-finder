@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['89_-139']=[[null,"rope_tow","operating",44.7952,-69.3879,67,44.7956,-69.388,71,"Pinnacle Ski Club"],[null,"rope_tow","operating",44.7958,-69.3881,73,44.796,-69.3897,98,"Pinnacle Ski Club"]];

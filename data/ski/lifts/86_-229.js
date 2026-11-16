@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['86_-229']=[[null,"platter","operating",43.4971,-114.3655,1671,43.4935,-114.3644,1790,"Rotarun Ski Area"],[null,"rope_tow","operating",43.4972,-114.3647,1669,43.496,-114.3642,1688,"Rotarun Ski Area"]];

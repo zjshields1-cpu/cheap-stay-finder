@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['21_-59']=[["Gateway Parks",43.686,-116.3964,"operating","downhill",null,null,null,null,"https://www.gatewayparks.com/",null],["Bogus Basin Mountain Recreation Area",43.7784,-116.0936,"operating","downhill,nordic",11,59.2,1758,2304,"https://bogusbasin.org",[43.7491,-116.1244,43.7911,-116.0604]]];

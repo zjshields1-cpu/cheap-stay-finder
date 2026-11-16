@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['85_40']=[[null,"chair_lift","operating",42.8304,20.0202,1297,42.828,20.0259,1479,"Lokve"],[null,"t-bar","operating",42.7401,20.0533,1355,42.7343,20.0462,1572,null],[null,"chair_lift","construction",42.7606,20.2069,1739,42.7541,20.1934,2109,null]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['83_18']=[["Cuperchiata","drag_lift","operating",41.9994,9.1244,1613,41.9964,9.1287,1748,"Val d'Ese"],["Débutants","drag_lift","operating",41.9998,9.1244,1617,42.0013,9.1217,1666,"Val d'Ese"],["Vacaghju","drag_lift","operating",42.0,9.1246,1619,42.0032,9.12,1695,"Val d'Ese"]];

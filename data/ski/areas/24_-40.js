@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['24_-40']=[["Mont Kanasuta",48.1789,-79.4029,"operating","downhill",2,6.7,327,471,"https://www.kanasuta.com/",null],["Larder Lake Ski Hill",48.092,-79.7262,"operating","downhill",null,null,null,null,"https://www.larderlake.ca/our-community/culture-recreation/larder-lake-ski-hill/",null]];

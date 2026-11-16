@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['86_259']=[[null,"drag_lift","operating",43.032,129.5799,265,43.0319,129.5839,284,"梦都美滑雪场"],[null,"gondola","operating",43.0319,129.5856,301,43.0322,129.5942,508,"梦都美滑雪场"]];

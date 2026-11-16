@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['91_27']=[["Vzpenjača od Škocjanske Jame","funicular","operating",45.6651,13.9903,328,45.6642,13.9904,390,null],[null,"magic_carpet","operating",45.7461,13.6921,126,45.746,13.6907,154,null]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['105_14']=[["Kabelbaan Ter Apel","cable_car","operating",52.8696,7.0975,20,52.8699,7.0972,21,null],[null,"drag_lift","operating",52.9853,7.2764,3,52.9853,7.2764,3,null],["Kinder-Wasserski","rope_tow","operating",52.7935,7.1978,10,52.794,7.1978,10,null],[null,"drag_lift","operating",52.794,7.1973,10,52.7941,7.1973,10,null]];

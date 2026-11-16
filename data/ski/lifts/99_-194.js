@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['99_-194']=[["South Tow","rope_tow","operating",49.964,-96.9837,224,49.9639,-96.9819,244,"Springhill"],[null,"chair_lift","operating",49.9626,-96.9838,224,49.9624,-96.9817,258,"Springhill"],["North Tow","rope_tow","operating",49.9634,-96.9838,224,49.9632,-96.9817,248,"Springhill"]];

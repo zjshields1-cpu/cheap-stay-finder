@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['85_44']=[[null,"drag_lift","operating",42.5404,22.1944,1456,42.5386,22.1982,1536,"Besna Kobila"],[null,"rope_tow","operating",42.6672,22.3351,1238,42.664,22.3332,1304,null]];

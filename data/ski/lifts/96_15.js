@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['96_15']=[["Wakepark Tunisee","drag_lift","operating",48.0649,7.8133,201,48.0649,7.8133,201,null],[null,"drag_lift","operating",48.2662,7.573,165,48.2655,7.5713,165,null]];

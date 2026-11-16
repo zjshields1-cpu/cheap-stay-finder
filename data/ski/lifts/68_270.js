@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['68_270']=[["紀三井寺ケーブルカー, Kimii-dera Cable Car, Téléphérique du temple Kimii, きみいでら ケーブルカー, Kimii-dera kēburukā","funicular","operating",34.1843,135.1889,3,34.1839,135.1897,35,null]];

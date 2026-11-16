@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['85_285']=[[null,"chair_lift","operating",42.8308,142.9888,167,42.8291,142.9819,319,"メムロスキー場, Memuro"],[null,"chair_lift","operating",42.8324,142.987,168,42.8312,142.9834,270,"メムロスキー場, Memuro"]];

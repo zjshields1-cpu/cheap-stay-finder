@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['68_268']=[[null,"funicular","operating",34.3565,134.1364,135,34.3568,134.137,148,null],["八栗ケーブル","funicular","operating",34.3551,134.1336,72,34.3581,134.1398,225,null]];

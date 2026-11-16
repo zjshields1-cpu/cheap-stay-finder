@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['85_280']=[[null,"rope_tow","operating",42.7941,140.2214,65,42.7935,140.2191,109,"寿都町民スキー場, Suttsu Town Ski Area"],[null,"rope_tow","operating",42.518,140.373,8,42.5177,140.3714,38,"長万部町営スキー場, Oshamambe Choei Ski Area"],[null,"rope_tow","operating",42.6667,140.3129,38,42.6674,140.3149,93,"東山公園スキー場, Higashiyama Koen Ski Area"]];

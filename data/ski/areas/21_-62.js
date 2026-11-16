@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['21_-62']=[["Mount Ashland",42.0819,-122.7204,"operating","downhill,nordic",6,17.4,1925,2279,"https://www.mtashland.com/",null],["Willamette Pass",43.6125,-122.0295,"operating","downhill,nordic",6,22.4,1560,2034,"https://www.willamettepass.ski/",[43.5973,-122.0414,43.6174,-122.0056]]];

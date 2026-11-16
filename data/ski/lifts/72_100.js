@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['72_100']=[["تله سیژ کاسپین, Caspian telesiege","chair_lift","operating",36.4708,50.129,2255,36.4725,50.1178,2627,null],[null,"drag_lift","operating",36.4707,50.1144,2531,36.4731,50.1168,2634,null]];

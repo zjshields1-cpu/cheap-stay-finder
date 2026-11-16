@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['91_34']=[[null,"rope_tow","operating",45.7829,17.4006,149,45.7856,17.3983,204,"Rezovačke Krčevine Bilogora"],[null,"platter","operating",45.5893,17.3115,539,45.586,17.3125,597,null]];

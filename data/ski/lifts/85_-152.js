@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['85_-152']=[[null,"rope_tow","operating",42.9776,-75.8531,290,42.9777,-75.8548,319,"Cazenovia Ski Club"],["Rope Tow","rope_tow","operating",42.9771,-75.8529,291,42.9771,-75.8567,381,"Cazenovia Ski Club"],[null,"t-bar","operating",42.9769,-75.8528,291,42.9768,-75.8588,436,"Cazenovia Ski Club"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['90_-187']=[[null,"magic_carpet","operating",45.138,-93.4408,267,45.1381,-93.4395,283,null],[null,"magic_carpet","operating",45.138,-93.4408,267,45.1381,-93.4395,283,null]];

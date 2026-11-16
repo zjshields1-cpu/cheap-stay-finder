@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['107_16']=[["Little B.R.O.-Lift - Hooksieler Skiterrassen","drag_lift","operating",53.6403,8.0706,0,53.6399,8.0693,0,null],["Hooksieler Skiterrassen","drag_lift","operating",53.6408,8.0738,0,53.6408,8.0738,0,null],["Hooksieler Skiterrassen","drag_lift","operating",53.6407,8.0737,0,53.6409,8.0737,0,null]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['68_266']=[["千光寺ロープウェイ, Mount Senkoji Ropeway, monte Senkoji, Téléphérique du mont Senkōji, せんこうじやまロープウェイ, Senkōji-yama rōpuwei","cable_car","operating",34.4107,133.2014,8,34.4106,133.1977,132,null]];

@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['30_-74']=[["Salmonberry Hill",61.0763,-146.1355,"operating","downhill",null,0.3,35,91,"https://www.valdezak.gov/754/Salmonberry-Ski-Hill",null],["Sheep Mountain Cross Country Ski Trails",61.8125,-147.4987,"operating","nordic",null,null,null,null,"https://www.anchoragenordicski.com/",null]];

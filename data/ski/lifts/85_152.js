@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['85_152']=[[null,"chair_lift","operating",42.8872,76.1477,2321,42.8827,76.1672,2798,"Горнолыжная база Актюз, Aktyz Mountain Resort"],[null,"chair_lift","operating",42.8852,76.1467,2320,42.8789,76.1541,2505,"Горнолыжная база Актюз, Aktyz Mountain Resort"]];

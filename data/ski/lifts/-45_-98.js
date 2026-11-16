@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-45_-98']=[["Teleférico Barra Bonita","chair_lift","operating",-22.4984,-48.5634,433,-22.4972,-48.5663,438,null],["Teleférico Barra Bonita","chair_lift","operating",-22.4984,-48.5634,433,-22.4972,-48.5663,438,null]];

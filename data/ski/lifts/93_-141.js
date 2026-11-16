@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['93_-141']=[[null,"t-bar","operating",46.6207,-70.4906,521,46.6171,-70.4893,612,"Station  touristique du Massif du Sud"],["Chaise Quadruple","chair_lift","operating",46.6207,-70.4912,522,46.6063,-70.489,900,"Station  touristique du Massif du Sud"]];

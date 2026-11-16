@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['107_-3']=[["Poma Left","platter","operating",53.7102,-1.3411,28,53.7106,-1.3435,28,"Xscape Castleford"],["Poma Right","platter","operating",53.71,-1.3413,28,53.7104,-1.3435,28,"Xscape Castleford"]];

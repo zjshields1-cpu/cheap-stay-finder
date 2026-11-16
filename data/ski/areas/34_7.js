@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['34_7']=[["Kongstind",68.2493,14.5264,null,"downhill",null,null,null,null,null,null],["Ånstadblåheia skitrekk",68.7135,15.318,"operating","downhill",1,4.5,170,503,"http://www.sortland-alpinklubb.no/alpinbakken/",[68.7086,15.3055,68.7193,15.3315]]];

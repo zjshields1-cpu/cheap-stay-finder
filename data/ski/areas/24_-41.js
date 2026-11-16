@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['24_-41']=[["Kamiskotia",48.5371,-81.5418,"operating","downhill",3,9.0,314,415,"https://mountjamieson.ca/",null],["Porcupine Ski Runners",48.4708,-81.2572,"operating","nordic",null,null,286,340,"https://www.porcupineskirunners.com/",null]];

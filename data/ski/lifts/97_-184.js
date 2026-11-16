@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['97_-184']=[[null,"t-bar","operating",48.807,-91.5919,378,48.8051,-91.5953,452,"Mount Fairweather"],[null,"rope_tow","operating",48.8067,-91.592,377,48.8061,-91.5925,386,"Mount Fairweather"]];

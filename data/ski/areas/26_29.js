@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['26_29']=[["Абзаково (Abzakovo)",53.8009,58.6206,"operating","downhill",8,14.7,510,817,"https://abzakovo.com/",null],["ГЛЦ Металлург-Магнитогорск",53.5915,58.5697,"operating","downhill",2,7.5,492,936,null,[53.5837,58.5532,53.5988,58.5902]]];

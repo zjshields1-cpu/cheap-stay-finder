@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['86_-152']=[[null,"chair_lift","operating",43.0351,-75.9724,167,43.0339,-75.9719,190,"Four Seasons Ski Center"],[null,"magic_carpet","operating",43.0352,-75.9717,167,43.0345,-75.9711,180,"Four Seasons Ski Center"]];

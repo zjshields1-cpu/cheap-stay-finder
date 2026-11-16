@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['123_14']=[["Stryn Sommerski 2/2","drag_lift","operating",61.948,7.359,1322,61.9423,7.3552,1562,"Stryn Sommerski"],["Stryn Sommerski 1/2","chair_lift","operating",61.9555,7.3604,1067,61.9477,7.3597,1331,"Stryn Sommerski"]];

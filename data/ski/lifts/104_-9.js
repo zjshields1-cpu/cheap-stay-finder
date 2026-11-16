@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['104_-9']=[["Aberystwyth Cliff Railway","funicular","operating",52.4224,-4.0839,19,52.4243,-4.0828,96,null],[null,"platter","operating",52.1668,-4.4502,99,52.1671,-4.4516,119,null],["Aberystwyth Cliff Railway","funicular","operating",52.4224,-4.0839,20,52.4243,-4.0828,96,null]];

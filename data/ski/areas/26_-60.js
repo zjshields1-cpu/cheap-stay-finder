@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['26_-60']=[["Canoe Mountain Resort",52.7379,-119.2511,"never_opened","",null,null,null,null,"https://www.canoemountainresorts.com/",null],["Marmot Basin",52.797,-118.1047,"operating","downhill",6,37.2,1724,2504,"https://www.skimarmot.com",[52.7849,-118.1282,52.806,-118.0817]]];

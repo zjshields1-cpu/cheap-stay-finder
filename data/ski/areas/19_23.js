@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['19_23']=[["Alvares",38.2044,47.874,"operating","downhill",null,null,null,null,null,[38.2041,47.8737,38.2046,47.8744]],["پیست اسکی آلوارس, Alvares Ski Complex",38.2067,47.8679,"operating","downhill",1,1.2,3051,3196,null,[38.2037,47.8619,38.2098,47.8746]]];

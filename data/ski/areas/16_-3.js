@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['16_-3']=[["Habri ski resort",33.3632,-5.1411,"operating","downhill",1,0.8,1949,2108,null,[33.3615,-5.1419,33.366,-5.1402]],["Michlifen ski resort",33.4108,-5.0808,"operating","downhill",2,0.3,1880,1932,"https://www.michlifen.com/en/",[33.4078,-5.0846,33.4151,-5.0765]]];

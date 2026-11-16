@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['18_29']=[["پیست اسکی شیرباد, Shirbad Ski Piste",36.2909,59.0613,"operating","downhill",1,2.8,2696,2896,"https://www.skishirbad.com/",[36.278,59.0506,36.2966,59.0706]]];

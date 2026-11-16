@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['124_18']=[[null,"drag_lift","operating",62.0765,9.1454,752,62.0693,9.1607,1040,"Dombas Skiheiser"],[null,"drag_lift","operating",62.0766,9.1454,752,62.0667,9.1671,1070,"Dombas Skiheiser"]];

@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['20_-55']=[["Buckskin Hills Ski + Tubing Hill",40.479,-109.4315,"operating","downhill",1,null,1622,1655,"https://www.buckskinhills.com/skiandtubinghill",[40.4783,-109.4324,40.4796,-109.4306]]];

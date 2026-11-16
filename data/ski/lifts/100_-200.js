@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['100_-200']=[["Tow Rope","rope_tow","operating",50.3195,-99.8781,526,50.319,-99.88,545,"Minnedosa Ski Valley"],["Chair Lift","chair_lift","operating",50.3194,-99.8768,518,50.317,-99.8814,599,"Minnedosa Ski Valley"]];

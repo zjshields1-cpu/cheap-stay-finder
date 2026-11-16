@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['58_204']=[[null,"magic_carpet","operating",29.4736,102.2963,2434,29.475,102.2984,2475,"王岗坪滑雪场"],[null,"magic_carpet","operating",29.4732,102.2966,2434,29.4747,102.2987,2473,"王岗坪滑雪场"],[null,"gondola","operating",29.4622,102.2469,1139,29.4726,102.2797,2310,null]];

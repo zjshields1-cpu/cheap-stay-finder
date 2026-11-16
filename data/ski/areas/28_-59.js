@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['28_-59']=[["Manning Ski Hill",56.9895,-117.4937,"operating","downhill",1,1.1,423,469,"https://www.facebook.com/ManningSkiHill/",null],["Misery Mountain Ski Hill",56.2232,-117.3088,"operating","downhill",3,8.5,339,509,"https://www.miserymountain.com/",[56.2185,-117.3179,56.2323,-117.3012]]];

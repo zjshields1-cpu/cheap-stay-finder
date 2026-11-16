@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['114_81']=[[null,"t-bar","operating",57.0276,40.8972,114,57.0268,40.8967,128,null],["Тюбинговый","rope_tow","operating",57.0276,40.8979,116,57.0269,40.8974,126,null]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-58_57']=[[null,"t-bar","operating",-28.8224,28.7261,3028,-28.8165,28.7198,3223,"AfriSki"],[null,"t-bar","operating",-28.8218,28.7266,3028,-28.8216,28.7262,3033,"AfriSki"]];

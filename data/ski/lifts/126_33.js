@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['126_33']=[["Näsåkers teknikbacke","platter","operating",63.4448,16.921,164,63.443,16.9249,208,null],[null,"t-bar","operating",63.0069,16.6722,156,63.0091,16.6792,227,null]];

@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['26_43']=[["Шерегеш, Sheregesh",52.9518,87.915,"operating","downhill",23,65.0,577,1462,"https://www.sheregesh.su/",[52.9225,87.8612,52.9803,87.9689]],["Туманная (Tumannaya)",52.7565,87.9348,null,"downhill",null,null,null,null,null,null]];

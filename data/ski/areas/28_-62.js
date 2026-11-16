@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['28_-62']=[["Portage Mountain Ski Hill",56.0099,-122.1711,"operating","downhill",1,0.7,795,842,"https://hudsonshope.ca/adventure/things-to-do/skiing/",[56.0086,-122.1733,56.0113,-122.1687]]];

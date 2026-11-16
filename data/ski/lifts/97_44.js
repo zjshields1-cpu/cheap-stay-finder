@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['97_44']=[[null,"platter","operating",48.8194,22.3544,561,48.8182,22.3538,594,null],[null,"platter","operating",48.8183,22.3556,578,48.8159,22.3562,639,null],["Бугель \"Термачув\"","t-bar","operating",48.9104,22.4834,256,48.9042,22.4836,372,null],["Tatrapoma P","platter","operating",48.956,22.4262,241,48.9541,22.4226,310,null]];

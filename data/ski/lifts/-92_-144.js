@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-92_-144']=[[null,"cable_car","operating",-45.8224,-71.9126,437,-45.8231,-71.9123,438,null],["Andarivel Principiantes","platter","operating",-45.6349,-71.9992,978,-45.6327,-72.0028,1048,"Divisadero (Formerly Cerro El Fraile)"]];

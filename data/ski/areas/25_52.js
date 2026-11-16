@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['25_52']=[["Гора Соболиная (Sobolinaya)",51.501,104.1182,"operating","downhill",7,11.4,532,998,"https://baikalski.net/",null],["Истлэнд (Eastland)",51.8763,104.8424,"operating","downhill",1,0.8,566,725,"https://eastland.ru/",null]];

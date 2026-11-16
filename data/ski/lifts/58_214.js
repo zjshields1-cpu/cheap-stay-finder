@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['58_214']=[["金佛山北坡索道, Mount Jinfo North Cableway","cable_car","operating",29.0435,107.1847,1595,29.0355,107.1854,2129,null],["金佛山西坡索道, Mount Jinfo West Cableway","gondola","operating",29.0317,107.1545,1185,29.02,107.1756,2084,null]];

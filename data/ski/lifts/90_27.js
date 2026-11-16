@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['90_27']=[[null,"drag_lift","operating",45.3457,13.6146,54,45.3459,13.6141,58,null],["Ski lift Poreč","drag_lift","operating",45.2036,13.5946,0,45.2036,13.5946,0,null]];

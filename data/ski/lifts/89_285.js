@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['89_285']=[[null,"rope_tow","operating",44.5762,142.9564,13,44.5771,142.9546,39,null],[null,"chair_lift","operating",44.9331,142.5648,37,44.9376,142.5633,160,"枝幸町三笠山スキー場, Mikasayama Esashi"]];

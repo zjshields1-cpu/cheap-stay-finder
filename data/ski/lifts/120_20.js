@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['120_20']=[[null,"drag_lift","operating",60.1641,10.3836,524,60.1667,10.3871,607,"Ringkollen alpinbakke"],[null,"platter","operating",60.1632,10.3853,520,60.1641,10.3871,544,"Ringkollen alpinbakke"],[null,"platter","operating",60.4013,10.0,710,60.3999,9.9985,757,"Ringerudsetra skitrekk"]];

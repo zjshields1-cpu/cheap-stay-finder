@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['19_56']=[["Youyu Nanshan",39.9796,112.5185,"operating","downhill",null,null,null,null,"http://www.nsski.cn/",null],["Xibaipo Hot Springs Resort",38.2133,113.9759,"operating","downhill",null,null,null,null,null,null]];

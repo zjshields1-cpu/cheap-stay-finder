@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['125_13']=[["Skiband","magic_carpet","operating",62.5383,6.9632,314,62.538,6.9641,320,"Ørskogfjell skisenter"],["Pomatrekk","platter","operating",62.5389,6.9648,315,62.5387,6.988,706,"Orskogfjell"],["T-Trekk","t-bar","operating",62.5383,6.9643,318,62.5363,6.9813,538,"Orskogfjell"]];

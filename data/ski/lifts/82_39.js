@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['82_39']=[["Dajti Ekspres","gondola","operating",41.3683,19.9055,1041,41.3684,19.9056,1041,null],["Dajti Ekspres","gondola","operating",41.3509,19.8613,222,41.3508,19.861,223,null],["Dajti Ekspres","gondola","operating",41.3509,19.8613,222,41.3683,19.9055,1041,null]];

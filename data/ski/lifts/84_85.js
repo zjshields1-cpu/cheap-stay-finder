@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['84_85']=[["\"ძველი ქალაქი\" - \"გაბაშვილის პარკი\" საბაგირო, \"Altstadt\" - \"Gabashvili Park\" Pendelbahn, \"Old Town\" - \"Gabashvili Park\" Aerial Tramway, Óváros-Gabasvili kábellift, Канатная дорога \"Старый город\" - \"Парк Габашвили\"","cable_car","operating",42.2696,42.7009,146,42.2707,42.6971,197,null]];

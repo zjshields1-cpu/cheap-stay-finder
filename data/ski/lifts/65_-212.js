@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['65_-212']=[["Tubing Hill","magic_carpet","operating",32.9513,-105.7061,2539,32.9502,-105.7047,2560,"Ski Cloudcroft"],[null,"chair_lift","operating",32.9515,-105.7089,2553,32.9456,-105.7092,2732,"Ski Cloudcroft"]];

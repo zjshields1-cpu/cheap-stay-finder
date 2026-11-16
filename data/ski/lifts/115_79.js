@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['115_79']=[[null,"drag_lift","operating",57.514,39.7411,110,57.515,39.745,148,null],[null,"drag_lift","operating",57.869,39.505,98,57.8678,39.508,134,"Николина гора (Nikolina Gora)"]];

@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['31_15']=[["Laskettelukeskus Mustavaara",62.6171,30.1333,"operating","downhill",4,1.5,113,201,"https://mustavaara.fi/",[62.6152,30.1274,62.6187,30.1377]]];

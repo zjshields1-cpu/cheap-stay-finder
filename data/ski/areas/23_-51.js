@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['23_-51']=[["Huff Hills Ski Resort",46.6255,-100.726,"operating","downhill",4,5.5,565,669,"https://www.huffhills.com/",[46.622,-100.7314,46.6293,-100.721]]];

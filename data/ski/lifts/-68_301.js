@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-68_301']=[[null,"t-bar","operating",-33.7587,150.6724,24,-33.7587,150.6724,24,"Winter Sport World (Penrith Indoor Ski)"],[null,"t-bar","operating",-33.758,150.6765,24,-33.758,150.6765,24,"Winter Sport World (Penrith Indoor Ski)"]];

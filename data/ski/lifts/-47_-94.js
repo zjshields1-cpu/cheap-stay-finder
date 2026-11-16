@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-47_-94']=[["Teleférico","chair_lift","operating",-23.1206,-46.5495,760,-23.1168,-46.5466,819,null],[null,"funicular","operating",-23.4573,-46.7662,1082,-23.4583,-46.7667,1112,null],["Teleférico","chair_lift","operating",-23.1168,-46.5466,819,-23.1168,-46.5466,819,null]];

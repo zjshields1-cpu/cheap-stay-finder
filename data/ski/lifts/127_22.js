@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['127_22']=[["Barneheisen","j-bar","operating",63.6855,11.3059,224,63.6846,11.3068,238,"Torsbustaden alpinsenter"],[null,"drag_lift","operating",63.8793,11.2846,26,63.8801,11.2814,71,"Prestlia"],["Hovedheisen","t-bar","operating",63.6856,11.3061,224,63.6804,11.3116,397,"Torsbustaden"]];

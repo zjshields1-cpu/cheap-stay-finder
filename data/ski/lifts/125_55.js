@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['125_55']=[[null,"drag_lift","operating",62.9163,27.6701,113,62.915,27.6584,198,null],["Puijon tuolihissi","chair_lift","operating",62.9088,27.648,135,62.9096,27.6544,229,"Puijon hyppyrimäet"]];

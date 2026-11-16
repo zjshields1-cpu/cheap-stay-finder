@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['55_168']=[["Maula Kalika Cable Car","cable_car","operating",27.7166,84.4158,212,27.7265,84.4117,525,null],["Maulakali Cable Car","cable_car","operating",27.7167,84.4155,213,27.7263,84.4115,518,null]];

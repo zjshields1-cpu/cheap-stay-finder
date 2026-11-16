@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['89_283']=[[null,"chair_lift","operating",44.9043,141.8292,30,44.9026,141.8331,101,"天塩町町民スキー場, Teshio Chomin Ski Area"],[null,"rope_tow","operating",44.727,141.8105,14,44.7286,141.8103,45,"幸和スキー場, Kowa Ski Area"],[null,"rope_tow","operating",44.5358,141.7696,9,44.5351,141.7712,42,"初山別村スキー場, Shosanbetsu-mura Ski Area"]];

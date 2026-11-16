@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['100_5']=[[null,"drag_lift","operating",50.472,2.6796,54,50.4713,2.6798,67,"Noeux-les-Mines - Loisinord"],[null,"drag_lift","operating",50.472,2.6791,54,50.4696,2.6798,114,"Noeux-les-Mines - Loisinord"]];

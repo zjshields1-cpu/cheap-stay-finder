@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['33_-10']=[["Tindaöxl – Ólafsfjörður",66.0684,-18.6406,"operating","downhill",1,1.0,48,204,"https://www.skiol.is/",null],["Siglufjordur",66.1241,-18.9831,"operating","downhill",4,3.8,328,634,"https://www.skardsdalur.is/",null]];

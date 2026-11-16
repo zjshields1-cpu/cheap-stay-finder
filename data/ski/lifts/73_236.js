@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['73_236']=[["云门山-驼山索道, Yunmenshan - Tuoshan gondola","gondola","operating",36.6491,118.4323,364,36.6411,118.4534,391,null],[null,"magic_carpet","operating",36.7788,118.3496,124,36.777,118.3488,151,"蓝溪国际滑雪场"],[null,"magic_carpet","operating",36.7784,118.3503,137,36.7759,118.3493,168,"蓝溪国际滑雪场"]];

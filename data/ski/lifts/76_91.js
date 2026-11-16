@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['76_91']=[[null,"drag_lift","operating",38.336,45.775,1981,38.3328,45.7754,2132,"پیست اسکی پیام, Payam Ski Resort"],[null,"drag_lift","operating",38.3414,45.7762,1866,38.3357,45.7754,1986,"پیست اسکی پیام, Payam Ski Resort"],[null,"drag_lift","operating",38.3398,45.7779,1885,38.3379,45.7771,1922,"پیست اسکی پیام, Payam Ski Resort"]];

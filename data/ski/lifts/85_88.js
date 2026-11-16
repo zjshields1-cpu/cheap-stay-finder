@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['85_88']=[["Kobi 2","gondola","operating",42.5317,44.4932,2512,42.5112,44.4928,2946,"გუდაური, Gudauri, Гудаури"],["Kobi 1","gondola","operating",42.5567,44.4975,1978,42.5318,44.4937,2512,"გუდაური, Gudauri, Гудаури"]];

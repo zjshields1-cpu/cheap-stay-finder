@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-15_-79']=[["Teleférico do Horto","cable_car","operating",-7.1914,-39.317,372,-7.1789,-39.33,586,null],["Teleférico do Caldas","chair_lift","operating",-7.3789,-39.3492,783,-7.3836,-39.3503,932,null]];

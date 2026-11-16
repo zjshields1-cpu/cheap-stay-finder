@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['90_-144']=[[null,"drag_lift","operating",45.3845,-71.9094,253,45.3844,-71.9094,253,"Mont-Bellevue (Sherbrooke)"],[null,"chair_lift","operating",45.3848,-71.9109,248,45.3806,-71.9124,325,"Mont-Bellevue (Sherbrooke)"]];

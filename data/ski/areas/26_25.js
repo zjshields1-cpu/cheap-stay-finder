@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['26_25']=[["УСЦ \"Чайка\"",53.3677,50.2364,"operating","nordic",null,null,106,222,"http://chaikasamara.ru/",null],["Красная Глинка (Krasnaya Glinka)",53.3904,50.1813,"operating","downhill",8,6.0,69,240,"https://glksok.ru/",null]];

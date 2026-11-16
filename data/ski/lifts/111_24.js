@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['111_24']=[["Hovedlift 1","drag_lift","operating",55.6276,12.1753,36,55.6258,12.1728,80,"Hedeland Skicenter"],["Hovedlift 2","drag_lift","operating",55.6276,12.1753,36,55.6259,12.1728,80,"Hedeland Skicenter"],["Børnelift","drag_lift","operating",55.6277,12.1739,38,55.6265,12.1725,64,"Hedeland Skicenter"]];

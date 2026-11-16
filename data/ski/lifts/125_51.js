@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['125_51']=[["Sompahissi I","drag_lift","operating",62.6089,25.7485,120,62.6062,25.7493,180,"Äänemäki"],["Naruhissi","rope_tow","operating",62.6088,25.7471,118,62.6083,25.7473,127,"Äänemäki"],["Sompahissi II","drag_lift","operating",62.6088,25.75,125,62.6057,25.7511,187,"Äänemäki"]];

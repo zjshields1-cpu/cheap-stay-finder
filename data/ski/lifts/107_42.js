@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['107_42']=[["WO 2","platter","operating",53.8577,21.3301,131,53.8561,21.3279,177,"Góra Czterech Wiatrów G4W"],["WO 1","platter","operating",53.8583,21.33,130,53.8575,21.3271,167,"Góra Czterech Wiatrów G4W"]];

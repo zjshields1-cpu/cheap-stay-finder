@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['79_-173']=[["Skyline","gondola","operating",39.7675,-86.1807,212,39.7675,-86.1807,212,null],["Sleep Number Skyride","chair_lift","operating",39.8281,-86.1321,224,39.8281,-86.1372,225,null]];

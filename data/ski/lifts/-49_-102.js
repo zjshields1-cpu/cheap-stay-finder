@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-49_-102']=[["Bonde Aéreo","cable_car","operating",-24.3187,-50.6173,736,-24.3085,-50.6106,762,null],["Bonde Aéreo","cable_car","operating",-24.3187,-50.6172,734,-24.3085,-50.6105,761,null]];

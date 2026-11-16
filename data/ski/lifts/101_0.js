@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['101_0']=[[null,"platter","operating",50.8607,0.2269,26,50.8603,0.2258,44,"Knockhatch Ski & Snowboard Centre"],[null,"platter","operating",50.861,0.2266,25,50.8605,0.2257,44,"Knockhatch Ski & Snowboard Centre"]];

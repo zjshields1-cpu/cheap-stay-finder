@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['20_24']=[["Şahdağ Xizək Kompleksi, قريه شاهداغ الثلجية, Shahdag Mountain Resort, Горнолыжный курорт Шахдаг",41.3037,48.1472,"operating","downhill",12,29.7,1435,2551,"https://www.shahdag.az/",[41.2969,48.1298,41.3237,48.1552]]];

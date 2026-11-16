@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['102_24']=[[null,"drag_lift","operating",51.1569,12.2714,129,51.1566,12.2715,129,null],["Wakeboard- & Wasserskilift Leipzig","drag_lift","operating",51.3175,12.2528,114,51.3177,12.2529,114,null]];

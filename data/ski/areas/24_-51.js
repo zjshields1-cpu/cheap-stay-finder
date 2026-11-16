@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['24_-51']=[["Bottineau Winter Park",48.9505,-100.4722,"operating","downhill",6,1.6,692,747,"https://skibwp.com/",null],["Lake Metigoshe State Park",48.9914,-100.3192,"operating","nordic",null,null,null,null,"https://www.parkrec.nd.gov/lake-metigoshe-state-park",null]];

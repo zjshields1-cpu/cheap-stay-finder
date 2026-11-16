@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['102_6']=[["Rookie Cable","drag_lift","operating",51.3375,3.2748,2,51.3375,3.2748,2,null],["Small Cable 2.0","drag_lift","operating",51.3381,3.2752,2,51.3381,3.2778,3,null],["Pro Cable","drag_lift","operating",51.3372,3.2732,2,51.3372,3.2732,2,null]];

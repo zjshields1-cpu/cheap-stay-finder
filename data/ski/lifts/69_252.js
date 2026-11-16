@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['69_252']=[["목포해상케이블카, Mokpo Marine Cable Car, 木浦海上ケーブルカー","gondola","operating",34.7744,126.3607,14,34.7994,126.37,29,null],["명량해상케이블카","cable_car","operating",34.5728,126.3089,12,34.5666,126.3026,88,null]];

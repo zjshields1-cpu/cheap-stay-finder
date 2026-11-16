@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['16_-53']=[["Ski Cloudcroft",32.9483,-105.7087,"operating","downhill",2,8.0,2539,2731,"https://skicloudcroft.net",[32.9447,-105.7146,32.9542,-105.7029]],["Ski Apache",33.3926,-105.7997,"operating","downhill",9,31.5,2943,3490,"https://www.skiapache.com/",null]];

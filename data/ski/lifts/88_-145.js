@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['88_-145']=[["Small Rope Tow","rope_tow","operating",44.0721,-72.2499,246,44.0714,-72.2504,261,"Northeast Slopes"],["Big Rope Tow","rope_tow","operating",44.0726,-72.2507,247,44.0709,-72.2534,318,"Northeast Slopes"],["T-Bar Lift","t-bar","operating",44.0726,-72.2508,247,44.0702,-72.2551,350,"Northeast Slopes"]];

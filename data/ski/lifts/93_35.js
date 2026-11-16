@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['93_35']=[[null,"drag_lift","operating",46.9418,17.8773,104,46.9418,17.8773,104,null],["felvonó","drag_lift","operating",46.9468,17.8635,124,46.9471,17.8642,126,null]];

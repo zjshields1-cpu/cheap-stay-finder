@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['28_26']=[["Спортивный курорт Чекерил",56.7957,53.0435,"operating","downhill,nordic",6,4.5,125,234,"https://chekeril.ru/",[56.7858,53.0375,56.7987,53.0621]],["СТЦ Нечкино",56.6703,53.7531,"operating","downhill",2,4.9,100,206,"https://www.nechkino.ru/",[56.6657,53.7417,56.6814,53.7635]]];

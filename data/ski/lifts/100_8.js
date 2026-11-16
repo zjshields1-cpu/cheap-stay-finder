@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['100_8']=[["Téléski nautique The Spin","drag_lift","operating",50.2203,4.385,208,50.2205,4.3873,209,null],["Téléski nautique The Spin","drag_lift","operating",50.221,4.3876,208,50.221,4.3876,208,null]];

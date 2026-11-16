@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['83_86']=[[null,"cable_car","operating",41.836,43.3906,811,41.8346,43.3946,938,null],["ნუნისი საბაგირო, Nunisi Pendelbahn","cable_car","operating",41.9505,43.4077,772,41.9517,43.4067,783,null]];

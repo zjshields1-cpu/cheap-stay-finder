@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['24_-37']=[["Do-Mi-Ski Ski Area",48.8927,-72.2368,"operating","downhill",2,1.5,118,164,"https://www.domiski.com/",[48.8915,-72.239,48.894,-72.2347]],["Toboski",48.5914,-72.5029,"operating","downhill",3,2.0,203,277,"https://www.toboski.ca/",null]];

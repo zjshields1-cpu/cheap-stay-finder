@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['20_-42']=[["Mad River Mountain",40.3159,-83.675,"operating","downhill",11,4.3,356,443,"https://www.skimadriver.com/",[40.3113,-83.6819,40.3198,-83.6698]],["Snow Trails",40.6708,-82.5027,"operating","downhill",8,3.7,374,444,"https://www.snowtrails.com",null]];

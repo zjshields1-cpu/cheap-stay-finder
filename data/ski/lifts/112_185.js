@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['112_185']=[[null,"drag_lift","operating",56.0013,92.7496,328,56.0019,92.743,435,null],["Канатно-кресельная дорога «Кросс»","chair_lift","operating",56.0049,92.7492,324,56.0025,92.7401,472,null]];

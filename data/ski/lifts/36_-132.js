@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['36_-132']=[["Línea Funicular El Conquistador","funicular","operating",18.3575,-65.626,4,18.3589,-65.6257,71,null],["Línea Funicular El Conquistador","funicular","operating",18.3575,-65.6261,3,18.3589,-65.6258,71,null]];

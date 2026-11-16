@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['-21_-37']=[["Volcán Osorno",-41.1214,-72.5234,"operating","downhill",2,6.6,1194,1647,"https://centrovolcanosorno.cl/",[-41.1285,-72.5304,-41.1148,-72.516]],["Estación Esquí Antillanca",-40.7676,-72.1956,"operating","downhill",5,15.7,1052,1528,"https://antillanca.cl/",[-40.7777,-72.2135,-40.7568,-72.184]]];

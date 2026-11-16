@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['91_-237']=[["Happy Chair","chair_lift","operating",45.7606,-118.0503,1503,45.7568,-118.0433,1659,"Spout Springs"],["Echo Chair","chair_lift","operating",45.7598,-118.0508,1507,45.758,-118.0469,1580,"Spout Springs"]];

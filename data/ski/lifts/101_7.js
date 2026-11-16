@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['101_7']=[[null,"rope_tow","operating",50.8419,3.5859,10,50.842,3.5862,10,null],["The Outsider cablepark","rope_tow","operating",50.842,3.5862,10,50.842,3.5862,10,null],[null,"rope_tow","operating",50.8421,3.5856,10,50.8428,3.5869,10,null]];

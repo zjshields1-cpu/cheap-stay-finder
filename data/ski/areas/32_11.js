@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['32_11']=[["Ormbergsbacken",65.6047,22.1881,"operating","downhill",1,0.2,30,68,"https://www.lulea.se/uppleva--gora/friluftsliv-och-natur/ormberget.html",[65.6039,22.1854,65.6058,22.1908]]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['68_146']=[["Abbottabad Chair Lift","chair_lift","operating",34.1932,73.2909,1477,34.2045,73.3052,1566,null],["Ayubia Chairlift","chair_lift","operating",34.0289,73.4044,2397,34.0291,73.3943,2666,null]];

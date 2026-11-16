@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['112_85']=[[null,"platter","operating",56.2017,42.6903,81,56.2001,42.6838,140,"Пужалова гора (Puzhalova gora)"],[null,"platter","operating",56.2009,42.6853,128,56.2005,42.6841,138,"Пужалова гора (Puzhalova gora)"],[null,"platter","operating",56.2024,42.6876,81,56.201,42.6855,127,"Пужалова гора (Puzhalova gora)"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['98_23']=[["Skilift","t-bar","operating",49.4755,11.9754,433,49.4736,11.9828,534,null],[null,"t-bar","operating",49.1008,11.7896,472,49.1,11.7872,518,null],["Ski-Lift/Alm Monte Voggo","platter","operating",49.2757,11.5318,511,49.2735,11.5326,565,null]];

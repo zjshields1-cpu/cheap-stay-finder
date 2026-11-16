@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['57_213']=[["黑山景区索道","gondola","operating",28.8595,106.9758,906,28.8659,106.9697,964,null],[null,"funicular","operating",28.6499,106.6762,404,28.6492,106.6754,459,null]];

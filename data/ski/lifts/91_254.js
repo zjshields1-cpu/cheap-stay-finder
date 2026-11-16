@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['91_254']=[[null,"chair_lift","operating",45.6185,127.2509,257,45.6116,127.2519,451,"吉华长寿山滑雪场"],[null,"chair_lift","operating",45.7226,127.4038,199,45.7204,127.4002,263,"Longzhu Erlongshan"],[null,"chair_lift","operating",45.62,127.2476,251,45.6151,127.242,404,"吉华长寿山滑雪场"]];

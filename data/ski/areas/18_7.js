@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['18_7']=[["Etna Nord",37.7894,15.0248,"operating","downhill",4,8.9,1807,2333,"https://www.etnasci.it/",null],["Piano Battaglia",37.8715,14.0232,"operating","downhill",3,3.4,1564,1833,"http://www.pianobattaglia.it/",null],["Etna Sud/Nicolosi",37.7108,14.9993,"operating","downhill",5,6.1,1928,2597,null,null]];

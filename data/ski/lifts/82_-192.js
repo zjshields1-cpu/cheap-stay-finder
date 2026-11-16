@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['82_-192']=[["Double","chair_lift","operating",41.3941,-95.8609,324,41.393,-95.8659,394,"Crescent Hill"],["Quad","chair_lift","operating",41.3945,-95.8617,329,41.3939,-95.8653,377,"Crescent Hill"],["Skyfari","gondola","operating",41.226,-95.9214,321,41.2239,-95.927,332,null]];

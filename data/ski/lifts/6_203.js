@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['6_203']=[["Genting Skyway, 云顶缆车, 雲頂纜車","gondola","operating",3.4081,101.7644,872,3.4227,101.7916,1749,null],["Awana Skyway, 云天缆车, 雲天纜車","gondola","operating",3.4049,101.7828,1103,3.424,101.7957,1700,null]];

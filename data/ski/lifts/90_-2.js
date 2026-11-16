@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['90_-2']=[["WAM PARK 33 Avensan","drag_lift","operating",45.0409,-0.7265,12,45.0409,-0.7265,12,null],[null,"drag_lift","operating",45.0402,-0.7269,12,45.0388,-0.727,12,null]];

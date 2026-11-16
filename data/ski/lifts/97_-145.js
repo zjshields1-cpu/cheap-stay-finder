@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['97_-145']=[[null,"drag_lift","operating",48.8926,-72.2379,124,48.8931,-72.2385,132,"Do-Mi-Ski Ski Area"],[null,"chair_lift","operating",48.8918,-72.237,118,48.8938,-72.2357,165,"Do-Mi-Ski Ski Area"]];

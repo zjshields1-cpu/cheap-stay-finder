@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['118_12']=[[null,"platter","operating",59.413,6.469,642,59.412,6.4692,658,"Gullingen skisenter"],[null,"t-bar","operating",59.4134,6.4682,641,59.4098,6.4627,779,"Gullingen skisenter"]];

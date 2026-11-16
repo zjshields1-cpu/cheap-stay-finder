@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['32_-7']=[["Oddsskarð",65.0656,-13.8867,"operating","downhill",3,8.2,511,839,"https://www.fjardabyggd.is/ibuar/ithrottir-og-tomstundir/skidasvaedi",null]];

@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['28_-56']=[["Birchwood Trail System",56.7444,-111.4464,null,"nordic",null,null,272,361,null,null],["Vista Ridge",56.6645,-111.1348,"operating","downhill",5,6.1,255,380,"https://www.vistaridge.ab.ca/",null]];

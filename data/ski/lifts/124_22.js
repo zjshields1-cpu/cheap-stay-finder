@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['124_22']=[[null,"t-bar","operating",62.4824,11.236,672,62.4739,11.2346,861,"Røros Alpinsenter Hummelfjell"],[null,"platter","operating",62.4828,11.2337,672,62.4813,11.2327,694,"Røros Alpinsenter Hummelfjell"],[null,"t-bar","operating",62.4812,11.2425,673,62.4747,11.24,854,"Røros Alpinsenter Hummelfjell"]];

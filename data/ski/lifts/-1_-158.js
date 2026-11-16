@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-1_-158']=[["Tarabita","cable_car","operating",-0.0763,-78.7644,1478,-0.0793,-78.7607,1501,null],["Not in operation (?)","cable_car","operating",-0.0736,-78.7539,1346,-0.0734,-78.754,1347,null],["TelefériQo","gondola","operating",-0.1922,-78.5196,3124,-0.1868,-78.5371,3950,null]];

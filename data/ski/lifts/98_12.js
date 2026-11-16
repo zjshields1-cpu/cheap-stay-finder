@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['98_12']=[[null,"platter","operating",49.249,6.1277,177,49.2447,6.1255,258,"Snoword (Snowhall)"],["Bambi Kid","magic_carpet","operating",49.2489,6.1281,177,49.2482,6.1277,184,"Snoword (Snowhall)"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['113_119']=[["Третий спуск","rope_tow","operating",56.8222,59.9985,352,56.8253,60.0038,436,"Гора Волчиха (Volchikha)"],[null,"rope_tow","operating",56.8247,59.997,367,56.8271,60.0028,480,"Гора Волчиха (Volchikha)"],[null,"rope_tow","operating",56.9439,59.8794,290,56.9462,59.8835,394,null]];

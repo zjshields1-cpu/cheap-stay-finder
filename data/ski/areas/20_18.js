@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['20_18']=[["Yildiz Dagi",40.1294,36.9291,"operating","downhill",3,null,1741,2331,null,null],["Cambasi",40.6298,37.9373,"operating","downhill",2,2.8,1751,1996,null,null]];

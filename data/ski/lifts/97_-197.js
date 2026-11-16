@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['97_-197']=[[null,"chair_lift","operating",48.9109,-98.0637,336,48.9095,-98.0701,438,"Frost Fire Park"],[null,"chair_lift","operating",48.9122,-98.0632,331,48.9118,-98.0689,392,"Frost Fire Park"],[null,"magic_carpet","operating",48.9122,-98.0662,368,48.9122,-98.068,382,"Frost Fire Park"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['121_152']=[[null,"drag_lift","operating",60.7554,76.4029,41,60.7549,76.3988,76,"Трехгорье (Trehgorye)"],[null,"drag_lift","operating",60.7547,76.4032,43,60.7535,76.3994,76,"Трехгорье (Trehgorye)"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['100_21']=[["Schlepplift WFC Coburg-Neukirchen e.V.","t-bar","operating",50.3515,10.9551,394,50.3514,10.9502,480,null],[null,"drag_lift","operating",50.466,10.9142,645,50.4671,10.9158,676,null],[null,"drag_lift","operating",50.3514,10.9567,383,50.3509,10.9551,397,null]];

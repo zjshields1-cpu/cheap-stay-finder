@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['96_-136']=[[null,"t-bar","operating",48.4728,-67.573,444,48.4786,-67.581,686,"Val-d'Irène"],[null,"chair_lift","operating",48.4727,-67.5731,444,48.4784,-67.5813,689,"Val-d'Irène"]];

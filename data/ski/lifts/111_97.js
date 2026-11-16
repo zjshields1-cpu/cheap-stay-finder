@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['111_97']=[[null,"chair_lift","operating",55.7348,48.7083,58,55.7385,48.7144,180,"Казань (Kazan)"],[null,"chair_lift","operating",55.7343,48.7089,59,55.7362,48.7223,210,"Казань (Kazan)"],[null,"chair_lift","operating",55.7336,48.7092,61,55.728,48.7201,220,"Казань (Kazan)"]];

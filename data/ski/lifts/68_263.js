@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['68_263']=[["大平山ロープウエー, Ōhirayama Ropeway","cable_car","operating",34.0665,131.6233,158,34.0716,131.6302,567,null],[null,"chair_lift","operating",34.4519,131.6967,564,34.448,131.6956,679,"十種ヶ峰スキー場, Tokusagamine Ski Area"],[null,"chair_lift","operating",34.4636,131.7672,192,34.4636,131.7672,192,null]];

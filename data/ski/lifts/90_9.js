@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['90_9']=[["Rebatte","drag_lift","operating",45.3634,4.5652,1081,45.3609,4.5623,1158,null],["Téléski nautique","drag_lift","operating",45.4541,4.7769,144,45.4541,4.7769,144,null],[null,"drag_lift","operating",45.4566,4.7801,144,45.4557,4.7821,144,null],["Ludo Ski","rope_tow","operating",45.3676,4.5273,1206,45.3672,4.5269,1211,null]];

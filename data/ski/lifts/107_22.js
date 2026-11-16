@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['107_22']=[["4er-Sessellift","chair_lift","operating",53.5093,11.0919,40,53.5078,11.0947,41,"alpincenter HAMBURG-WITTENBURG"],[null,"drag_lift","operating",53.5077,11.0939,41,53.5074,11.0944,41,"alpincenter HAMBURG-WITTENBURG"]];

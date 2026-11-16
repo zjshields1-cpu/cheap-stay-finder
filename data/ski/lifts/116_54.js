@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['116_54']=[["Põlva Wakepark","rope_tow","operating",58.057,27.0569,43,58.057,27.0569,43,null],["Põlva Wakepark","rope_tow","operating",58.0575,27.0568,43,58.0581,27.0604,44,null]];

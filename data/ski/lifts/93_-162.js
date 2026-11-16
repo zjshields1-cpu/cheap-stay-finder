@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['93_-162']=[[null,"magic_carpet","operating",46.5106,-80.9608,260,46.5101,-80.9611,267,"Adanac Ski Hill"],[null,"chair_lift","operating",46.51,-80.9599,261,46.5076,-80.9607,332,"Adanac Ski Hill"]];

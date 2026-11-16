@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['26_247']=[["Zip-line","cable_car","operating",13.2022,123.7132,226,13.2039,123.7114,256,null],["Sula Channel Cable Car","cable_car","operating",13.2264,123.8729,40,13.229,123.8678,49,null]];

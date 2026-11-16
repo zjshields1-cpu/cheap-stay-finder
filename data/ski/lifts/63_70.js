@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['63_70']=[["تلفريك أريحا, Jericho-Seilbahn, Jericho Cable Car, Иерихонская канатная дорога","gondola","operating",31.8693,35.4446,-223,31.8747,35.4324,-71,null]];

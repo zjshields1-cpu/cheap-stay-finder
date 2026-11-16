@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['29_-62']=[["Fort Nelson Demonstration Forest Recreation Site",58.8159,-122.7253,"operating","nordic",null,null,442,473,"https://www.sitesandtrailsbc.ca/resource/REC16109",[58.8119,-122.7526,58.8334,-122.7045]]];

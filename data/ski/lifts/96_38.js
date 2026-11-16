@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['96_38']=[["Dačov Lom","platter","operating",48.3213,19.2657,421,48.3208,19.2596,527,null],["Tôčky","drag_lift","operating",48.3986,19.1606,506,48.3966,19.1587,574,null]];

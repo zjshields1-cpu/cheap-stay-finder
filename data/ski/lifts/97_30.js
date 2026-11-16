@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['97_30']=[["Maiswald - Schilift","t-bar","operating",48.9039,15.3265,464,48.8999,15.329,549,null],["Frauenstaffel","drag_lift","operating",48.7926,15.3411,576,48.7931,15.3496,679,null],["Schlepplift Kirchbach","drag_lift","operating",48.5389,15.0434,649,48.5372,15.0382,730,null]];

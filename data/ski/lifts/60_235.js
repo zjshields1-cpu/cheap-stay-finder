@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['60_235']=[["百岁宫缆车","funicular","operating",30.4813,117.7999,619,30.4815,117.8037,815,null],["天台索道","cable_car","operating",30.4675,117.8047,700,30.4649,117.816,1185,null]];

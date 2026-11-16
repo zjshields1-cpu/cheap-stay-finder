@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['24_-49']=[["Springhill",49.9632,-96.9828,"operating","downhill",3,0.9,224,258,"https://www.springhillwinterpark.com/",null],["Windsor Park Nordic Centre",49.8597,-97.0993,"operating","nordic",null,null,null,null,"https://windsorparknordic.ca/",null]];

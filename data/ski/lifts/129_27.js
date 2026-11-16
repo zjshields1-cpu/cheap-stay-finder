@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['129_27']=[["Hovedheisen","platter","operating",64.8886,13.5187,461,64.8926,13.528,582,"Borgefjellsenteret"],[null,"drag_lift","operating",64.8889,13.5181,462,64.8915,13.52,518,"Borgefjellsenteret"]];

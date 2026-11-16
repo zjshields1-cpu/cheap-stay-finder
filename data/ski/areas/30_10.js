@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['30_10']=[["Germundö Alpin",60.2821,20.0062,"operating","downhill",2,0.7,2,41,"https://alpin.ax/",[60.2812,20.0043,60.2829,20.0085]],["Ruosniemi",61.507,21.8733,"operating","downhill",2,null,10,35,null,null]];

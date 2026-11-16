@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['56_-34']=[[null,"funicular","operating",28.1718,-16.8052,6,28.1712,-16.8046,50,null],["Teleférico del Teide","cable_car","operating",28.2546,-16.6258,2354,28.27,-16.6389,3543,null]];

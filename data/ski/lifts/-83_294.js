@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-83_294']=[["The Inclinator","funicular","operating",-41.4458,147.121,18,-41.4456,147.1213,34,null],["Gorge Scenic Chairlift","chair_lift","operating",-41.446,147.1218,29,-41.4449,147.1168,40,null]];

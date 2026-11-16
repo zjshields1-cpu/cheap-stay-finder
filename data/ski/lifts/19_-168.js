@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['19_-168']=[[null,"cable_car","operating",9.9999,-83.5391,226,10.0002,-83.5383,242,null],["Rio Pacuare cable cart crossing","cable_car","operating",9.9857,-83.5477,251,9.9863,-83.5467,281,null]];

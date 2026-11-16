@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['122_57']=[[null,"t-bar","operating",61.1147,28.5871,61,61.1151,28.5919,117,"Myllymaki"],[null,"j-bar","operating",61.1149,28.5872,61,61.1154,28.5915,124,"Myllymaki"],[null,"drag_lift","operating",61.2927,28.7964,77,61.2901,28.7947,127,"Ruokolahden Freeski"],[null,"j-bar","operating",61.1148,28.5871,61,61.1152,28.592,118,"Myllymaki"]];

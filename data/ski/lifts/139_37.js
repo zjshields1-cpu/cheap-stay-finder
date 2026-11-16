@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['139_37']=[[null,"funicular","operating",69.967,18.9026,0,69.9671,18.9028,1,null],["Bak-Olsen skitrekk","drag_lift","operating",69.6489,18.9135,46,69.6488,18.9172,82,null],["Fjellheisen","cable_car","operating",69.641,18.9864,54,69.636,18.9953,411,null]];

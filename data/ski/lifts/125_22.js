@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['125_22']=[[null,"drag_lift","operating",62.8367,11.3023,398,62.8353,11.3017,414,"Ålen skisenter"],[null,"t-bar","operating",62.8367,11.3012,398,62.8242,11.2832,729,"Ålen skisenter"]];

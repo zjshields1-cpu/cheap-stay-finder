@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['70_279']=[["鋸山ロープウェー, Nokogiriyama Ropeway, Téléphérique du mont Nokogori, のこぎりやまロープウェー, Nokogori-yama rōpuwei","gondola","operating",35.1622,139.8233,12,35.1583,139.8287,244,null],["YOKOHAMA AIR CABIN, Yokohama Air Cabin, ヨコハマ・エア・キャビン, Yokohama ea kabin","gondola","operating",35.4534,139.6384,3,35.4516,139.6316,4,null]];

@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['32_-10']=[["Tindastóll",65.7834,-19.7462,"operating","downhill",3,3.1,450,672,"https://skitindastoll.is/",null],["Dalvík",65.9707,-18.5678,"operating","downhill",2,4.4,43,324,"https://www.skidalvik.is/",null],["Hlíðarfjall",65.6598,-18.2345,"operating","downhill",7,10.0,478,943,"https://www.hlidarfjall.is/",null]];

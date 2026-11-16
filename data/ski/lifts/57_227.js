@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['57_227']=[[null,"cable_car","operating",28.9832,113.7973,335,28.9784,113.8221,1324,null],[null,"cable_car","operating",28.914,113.9857,152,28.9127,113.98,355,null],[null,"platter","operating",28.5934,113.9014,172,28.5881,113.8981,430,null]];

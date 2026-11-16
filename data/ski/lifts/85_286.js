@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['85_286']=[[null,"chair_lift","operating",42.8969,143.3707,54,42.8944,143.3706,112,"明野ヶ丘スキー場, Akenogaoka Ski Area"],[null,"chair_lift","operating",42.5632,143.3098,91,42.5582,143.314,228,"白銀台スキー場, Hakugindai Ski Area"]];

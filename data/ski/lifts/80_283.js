@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['80_283']=[[null,"chair_lift","operating",40.0861,141.5102,679,40.0849,141.5023,808,"平庭高原スキー場, Hiraniwa Kogen Ski Area"],[null,"chair_lift","operating",40.0837,141.5056,740,40.0824,141.4979,910,"平庭高原スキー場, Hiraniwa Kogen Ski Area"],[null,"chair_lift","operating",40.0874,141.5114,669,40.0865,141.5054,734,"平庭高原スキー場, Hiraniwa Kogen Ski Area"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['81_-158']=[["mine funicular (abandoned)","funicular","operating",40.6756,-78.6671,499,40.6753,-78.6709,585,null],["mine funicular (abandoned)","funicular","operating",40.6756,-78.667,500,40.6756,-78.6669,506,null],["mine funicular (abandoned)","funicular","operating",40.6756,-78.6671,499,40.6756,-78.667,500,null]];

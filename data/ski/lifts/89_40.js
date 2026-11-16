@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['89_40']=[["Ски стаза Кошутњак","rope_tow","operating",44.7794,20.428,141,44.7785,20.4269,168,"Ski staza Aleksandar club"],["Aqua Ski","drag_lift","operating",44.7785,20.3775,70,44.7785,20.3775,70,null]];

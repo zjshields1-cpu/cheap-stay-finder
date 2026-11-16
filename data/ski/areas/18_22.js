@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['18_22']=[["Korek Mountain",36.5896,44.4592,null,"downhill",null,null,null,null,null,null],["پیست اسکی خوشاکو, Khoshakoo Ski Resort",37.4609,44.7839,"operating","downhill",2,null,1928,2276,null,[37.4568,44.7784,37.4645,44.7912]]];

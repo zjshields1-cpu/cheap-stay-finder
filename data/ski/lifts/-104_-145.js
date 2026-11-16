@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-104_-145']=[["Poma de atras","platter","operating",-51.5748,-72.3633,652,-51.5772,-72.3599,707,"Valdelén"],["C - Poma aprendices","platter","operating",-51.5727,-72.3513,571,-51.5705,-72.3537,596,"Valdelén"],["B - T-Bar","t-bar","operating",-51.5727,-72.3515,574,-51.5737,-72.359,686,"Valdelén"]];

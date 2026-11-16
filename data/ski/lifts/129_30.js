@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['129_30']=[["Borgaliften","drag_lift","operating",64.8337,15.0235,503,64.8421,15.0394,792,"Borgafjällbackarna"],["Barnlift","drag_lift","operating",64.8355,15.07,546,64.8364,15.0693,562,"Borgafjällbackarna"],["Avasjöliftarna","drag_lift","operating",64.8345,15.0698,547,64.8357,15.0559,699,"Borgafjällbackarna"]];

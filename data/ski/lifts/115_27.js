@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['115_27']=[[null,"drag_lift","operating",57.8683,13.7684,242,57.868,13.7611,328,"Mullsjö Alpin"],[null,"drag_lift","operating",57.8682,13.7684,242,57.8679,13.761,328,"Mullsjö Alpin"]];

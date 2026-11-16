@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['32_12']=[["Ruskotunturi",65.0633,25.5384,"operating","downhill",2,1.2,18,58,"https://www.ruskotunturi.fi/",null],["Kallin",65.8196,24.5245,"operating","downhill",1,1.1,16,65,"https://kallinhiihtokeskus.fi/",null]];

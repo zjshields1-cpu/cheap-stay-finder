@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['18_-58']=[["Lee Canyon",36.3006,-115.6801,"operating","downhill",6,10.1,2617,2850,"https://www.leecanyonlv.com/",[36.2952,-115.6862,36.3057,-115.6735]]];

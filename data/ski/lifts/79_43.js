@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['79_43']=[[null,"chair_lift","operating",39.5533,21.5052,1177,39.546,21.4988,1340,"Χιονοδρομικό Κέντρο Περτουλίου, Pertouli Ski Resort"],[null,"platter","operating",39.5534,21.5046,1175,39.5529,21.5042,1186,"Χιονοδρομικό Κέντρο Περτουλίου, Pertouli Ski Resort"]];

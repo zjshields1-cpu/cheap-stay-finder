@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-68_300']=[["Scenic Cableway","cable_car","operating",-33.7335,150.3007,749,-33.7293,150.3012,944,null],["Scenic Railway","funicular","operating",-33.7313,150.3019,739,-33.729,150.3014,943,null],["Scenic Skyway","cable_car","operating",-33.7282,150.3054,941,-33.7289,150.3013,951,null]];

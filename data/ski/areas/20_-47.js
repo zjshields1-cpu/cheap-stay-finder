@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['20_-47']=[["Sleepy Hollow Sports Park",41.5883,-93.5342,"operating","downhill",2,1.0,242,277,"https://sleepyhollowsportspark.com/",[41.5872,-93.5356,41.5893,-93.5335]],["Sleepy Hollow Sports Park",41.5873,-93.5338,"operating","downhill",null,null,null,null,"https://sleepyhollowsportspark.com/",[41.5868,-93.5349,41.5878,-93.5328]]];

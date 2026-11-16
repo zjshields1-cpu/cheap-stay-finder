@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['17_-53']=[["Ski Santa Fe, Santa Fe, Q38555",35.7913,-105.7895,"operating","downhill",7,29.5,3151,3686,"https://www.skisantafe.com/",[35.7848,-105.8027,35.7976,-105.7769]],["Terrain Park",35.7924,-105.8,"operating","downhill",null,null,null,null,null,[35.7917,-105.8005,35.7932,-105.7995]]];

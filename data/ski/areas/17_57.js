@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['17_57']=[["Pushangyuan Swan Lake",35.7845,114.9541,"operating","downhill",null,null,null,null,null,null],["Yanming Crab Island",34.8235,114.0709,"operating","downhill",null,null,null,null,null,null]];

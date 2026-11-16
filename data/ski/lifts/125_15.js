@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['125_15']=[["Romsdalsgondolen","cable_car","operating",62.5676,7.6914,2,62.5609,7.717,688,null],[null,"drag_lift","operating",62.7912,7.517,90,62.7943,7.5142,203,null],[null,"drag_lift","operating",62.597,7.6479,318,62.5966,7.6674,619,"Rauma skisenter"]];

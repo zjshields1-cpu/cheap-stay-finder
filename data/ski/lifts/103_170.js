@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['103_170']=[[null,"drag_lift","operating",51.9743,85.0541,326,51.9748,85.0527,349,null],[null,"platter","operating",51.8987,85.3871,337,51.8935,85.3974,540,null],["Даниловка","drag_lift","operating",51.9738,85.0546,326,51.9709,85.043,513,null]];

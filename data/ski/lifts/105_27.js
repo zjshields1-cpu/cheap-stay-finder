@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['105_27']=[[null,"drag_lift","operating",52.8224,13.5756,35,52.8224,13.5756,35,null],["Seilbahn Gärten der Welt","gondola","operating",52.5305,13.5898,55,52.5339,13.5804,97,null],["Seilbahn Gärten der Welt","gondola","operating",52.5359,13.5687,52,52.5339,13.5804,97,null]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['103_12']=[["Wasserskianlage Xantener Südsee","drag_lift","operating",51.6867,6.4402,14,51.6866,6.44,14,null],[null,"platter","operating",51.9524,6.2622,13,51.9524,6.2626,13,null],["Waterskibaan Stroombroek","rope_tow","operating",51.9368,6.2721,12,51.9368,6.2721,12,null]];

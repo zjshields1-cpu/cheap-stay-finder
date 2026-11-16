@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['68_220']=[["华山北峰索道, Seilbahn zum Nordgipfel des Huashan, Cable car to the north summit of Huashan","cable_car","operating",34.4956,110.0954,826,34.4927,110.0815,1505,null],["华山西峰索道, Seilbahn zum Westgipfel von Huashan","gondola","operating",34.4761,110.0359,1117,34.4794,110.0767,1933,null]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['96_70']=[["Sentosa Cable Park","drag_lift","operating",48.4371,35.0724,48,48.4371,35.0724,48,null],[null,"magic_carpet","operating",48.4181,35.0465,72,48.4162,35.0476,114,null],[null,"magic_carpet","operating",48.4181,35.0465,72,48.4173,35.0469,87,null]];

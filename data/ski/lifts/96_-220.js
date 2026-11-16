@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['96_-220']=[[null,"rope_tow","operating",48.1636,-109.6707,1526,48.163,-109.6721,1548,"Bear Paw Ski Bowl"],[null,"chair_lift","operating",48.164,-109.6703,1517,48.1621,-109.6801,1783,"Bear Paw Ski Bowl"]];

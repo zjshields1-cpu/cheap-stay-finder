@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['84_280']=[[null,"chair_lift","operating",42.4672,140.202,127,42.456,140.2048,405,"ピリカスキー場, Pirika Ski Resort"],[null,"chair_lift","operating",42.213,140.2362,119,42.2127,140.2314,208,"八雲町営スキー場, Yakumo Choei Ski Area"]];

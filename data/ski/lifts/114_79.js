@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['114_79']=[[null,"j-bar","operating",57.4528,39.7528,95,57.4534,39.7523,108,null],[null,"magic_carpet","operating",57.4971,39.9425,120,57.4965,39.9424,127,null],[null,"t-bar","operating",57.4962,39.9557,118,57.4934,39.9557,164,null],["Подолино","t-bar","operating",57.4962,39.9556,118,57.4934,39.9556,164,null]];

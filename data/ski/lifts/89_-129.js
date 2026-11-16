@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['89_-129']=[["T-Bar","t-bar","operating",44.9349,-64.1714,31,44.9301,-64.164,184,"Ski Martock"],["Quad Chair","chair_lift","operating",44.9358,-64.1704,25,44.9301,-64.1629,188,"Ski Martock"],["Magic Carpet","magic_carpet","operating",44.9355,-64.1708,28,44.936,-64.1715,36,"Ski Martock"]];

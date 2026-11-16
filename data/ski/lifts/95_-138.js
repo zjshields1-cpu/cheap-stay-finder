@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['95_-138']=[["remontée","rope_tow","operating",47.6644,-68.8935,169,47.6658,-68.8955,206,"Centre de plein air familiale Richelieu"],[null,"t-bar","operating",47.9913,-68.566,272,47.9924,-68.5737,408,"Mont Biencourt"],[null,"t-bar","operating",47.9913,-68.566,272,47.9925,-68.5737,408,"Mont Biencourt"]];

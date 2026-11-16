@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['120_40']=[[null,"t-bar","operating",60.2816,20.0078,2,60.2829,20.0041,42,"Germundö Alpin"],[null,"platter","operating",60.2816,20.0078,2,60.2827,20.0046,42,"Germundö Alpin"]];

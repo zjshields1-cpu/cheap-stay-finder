@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['97_-116']=[["Lightning Express","chair_lift","operating",48.9475,-57.8324,20,48.9337,-57.8328,468,"Marble Mountain"],[null,"magic_carpet","operating",48.9471,-57.8331,27,48.9459,-57.8342,47,"Marble Mountain"],[null,"magic_carpet","operating",48.9478,-57.8325,19,48.9472,-57.833,27,"Marble Mountain"]];

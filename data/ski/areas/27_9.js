@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['27_9']=[["Ośrodek Narciarski Trzepowo",54.1805,18.2748,"operating","downhill",5,1.1,190,222,null,[54.1788,18.2729,54.1821,18.2769]],["Koszałkowo",54.2314,18.1015,"operating","downhill",13,1.0,180,244,null,[54.2322,18.1014,54.2347,18.1057]],["Zielona Brama",54.2024,18.3218,"operating","downhill",2,null,193,258,null,null]];

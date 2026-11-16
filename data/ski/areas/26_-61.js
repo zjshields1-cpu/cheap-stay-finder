@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['26_-61']=[["Troll Resort",53.077,-121.9435,"operating","downhill",5,34.0,1013,1531,"https://www.trollskiresort.com/",null],["Purden Ski Village",53.8954,-121.8807,"operating","downhill",3,20.0,1042,1365,"https://www.purden.com/skiabout.html",null]];

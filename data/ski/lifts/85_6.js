@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['85_6']=[["Téléski du Barcarès","drag_lift","operating",42.8368,3.0268,0,42.8368,3.0268,0,null],[null,"drag_lift","operating",42.8363,3.0301,0,42.8348,3.0302,0,null]];

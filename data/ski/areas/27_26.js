@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['27_26']=[["Уязы-Тау (Uyazy-Tau)",54.4235,53.4427,"operating","downhill",1,1.8,147,274,"https://www.u-tau.ru/",null],["Ян (Yan)",54.9658,52.3554,"operating","downhill",1,3.2,176,295,"https://yan.tatneft.ru/",null]];

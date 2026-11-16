@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['26_-58']=[["Medicine Lodge Ski Area",52.4534,-114.2596,"operating","downhill",4,4.8,1004,1116,"http://www.medicinelodgeskihill.com/",[52.4506,-114.2647,52.4565,-114.2544]],["Rotary-Pembina Nordic Community Trails North Trail System",53.2515,-114.8959,"operating","nordic",null,null,741,812,"https://pembinanordic.com/",null]];

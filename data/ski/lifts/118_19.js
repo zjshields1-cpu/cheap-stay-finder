@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['118_19']=[[null,"drag_lift","operating",59.1821,9.5945,45,59.18,9.5956,98,null],[null,"magic_carpet","operating",59.282,9.6756,203,59.2816,9.6746,215,"Siljan skisenter"]];

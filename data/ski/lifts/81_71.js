@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['81_71']=[[null,"drag_lift","operating",40.8768,35.9082,1522,40.8759,35.9096,1544,"Akdağ Kayak Merkezi"],["Teleferik Hattı","gondola","operating",40.8771,35.9067,1516,40.8697,35.9192,1767,"Akdağ Kayak Merkezi"]];

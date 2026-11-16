@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['25_68']=[["Amut Snow Lake",50.8188,136.4019,null,"downhill",1,null,753,916,null,null],["Al'mir Shargol",50.7142,137.2989,null,"downhill",2,null,23,217,null,null]];

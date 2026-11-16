@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['20_214']=[["Cáp treo Hồ Mây Park, Ho May Park Cable Cars, Kereta Gantung Ho May Park, Канатная дорога Хо Май Рарк, 湖梅帕克缆车","gondola","operating",10.3512,107.0664,8,10.3551,107.0688,198,null]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['104_18']=[["Rodellift Linderhofe-Extertal","rope_tow","operating",52.0573,9.0631,298,52.0569,9.0652,324,null],["Skilift Linderhofe-Extertal","rope_tow","operating",52.0566,9.0637,303,52.055,9.0658,345,null]];

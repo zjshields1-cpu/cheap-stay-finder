@@ -213,6 +213,69 @@ async function airportsNear(pt, km) {
   return [...tiles].flatMap((t) => (window.CSF_AP?.[t] || []).map(([c, n, lat, lon, cc, size]) => ({ c, n, lat, lon, cc, t: size })));
 }
 
+// ---------- Ski lifts and ski areas (OpenSkiMap, built by tools/build_ski.py) ----------
+async function loadTiles(dir, global, size, pt, km) {
+  const dLat = km / 111.32, dLon = Math.min(180, km / (111.32 * Math.max(0.1, Math.cos(pt.lat * Math.PI / 180))));
+  const tiles = new Set();
+  for (let la = Math.floor((pt.lat - dLat) / size); la <= Math.floor((pt.lat + dLat) / size); la++) {
+    for (let lo = Math.floor((pt.lon - dLon) / size); lo <= Math.floor((pt.lon + dLon) / size); lo++) tiles.add(`${la}_${lo}`);
+  }
+  // Tiles with nothing in them don't exist; a failed load just means "none here"
+  await Promise.all([...tiles].map((t) => loadScript(`data/ski/${dir}/${t}.js`).catch(() => {})));
+  return [...tiles].flatMap((t) => window[global]?.[t] || []);
+}
+
+async function liftsNear(pt, km) {
+  const rows = await loadTiles('lifts', 'CSF_LIFTS', 0.5, pt, km);
+  return rows.filter((r) => r[1] !== 'magic_carpet').map(([name, type, status, bLat, bLon, bElev, tLat, tLon, tElev, area], i) => ({
+    id: `lift/${bLat},${bLon},${i}`, name, lat: bLat, lon: bLon, kind: LIFT_TYPES[type] || 'Lift',
+    line: [[bLat, bLon], [tLat, tLon]], elev: [bElev, tElev], skiArea: area, status, tags: {},
+  })).filter((l) => l.kind !== 'Lift' || !/carpet/i.test(l.name || '')) // skip kids' magic carpets
+    .map((l) => ({ ...l, d: haversine(pt, l) })).filter((l) => l.d <= km * 1000).sort((a, b) => a.d - b.d);
+}
+
+async function skiAreasNear(pt, km) {
+  const rows = await loadTiles('areas', 'CSF_SKIAREAS', 2, pt, km);
+  return rows.map(([name, lat, lon, status, activities, lifts, runKm, minE, maxE, website, b]) => {
+    const bounds = b ? { minlat: b[0], minlon: b[1], maxlat: b[2], maxlon: b[3] } : null;
+    return {
+      id: `skiarea/${name}/${lat}`, name, lat, lon, status, activities, lifts, runKm, minE, maxE, website,
+      area: !!bounds, d: bounds ? distToBounds(pt, bounds) : haversine(pt, { lat, lon }), tags: {},
+    };
+  }).filter((a) => a.d <= km * 1000).sort((a, b) => a.d - b.d);
+}
+
+// ---------- Places from Geoapify (fast hosted OpenStreetMap data, via /api/places) ----------
+// Converted to OSM-style elements so the existing sorting code works unchanged.
+const GEO_TAGS = [
+  ['commercial.supermarket', { shop: 'supermarket' }], ['commercial.convenience', { shop: 'convenience' }],
+  ['commercial.food_and_drink.bakery', { shop: 'bakery' }], ['commercial.food_and_drink.deli', { shop: 'deli' }],
+  ['commercial.food_and_drink.fruit_and_vegetable', { shop: 'greengrocer' }], ['commercial.food_and_drink.butcher', { shop: 'butcher' }],
+  ['catering.fast_food', { amenity: 'fast_food' }], ['catering.cafe', { amenity: 'cafe' }], ['catering.pub', { amenity: 'pub' }],
+  ['catering.food_court', { amenity: 'food_court' }], ['catering.restaurant', { amenity: 'restaurant' }],
+  ['accommodation.hut', { tourism: 'alpine_hut' }], ['camping.camp_site', { tourism: 'camp_site' }], ['camping.caravan_site', { tourism: 'camp_site' }],
+  ['tourism.attraction.viewpoint', { tourism: 'viewpoint' }], ['rental.bicycle', { amenity: 'bicycle_rental' }],
+  ['rental.boat', { amenity: 'boat_rental' }], ['rental.ski', { shop: 'ski' }], ['commercial.outdoor_and_sport.ski', { shop: 'ski' }],
+  ['commercial.outdoor_and_sport.bicycle', { shop: 'bicycle' }], ['commercial.outdoor_and_sport.water_sports', { shop: 'water_sports' }],
+  ['leisure.spa', { leisure: 'spa' }], ['sport.swimming_pool', { leisure: 'swimming_pool' }],
+  ['natural.water.hot_spring', { natural: 'hot_spring' }], ['national_park', { boundary: 'national_park' }],
+];
+
+async function geoapify(set, pt, radiusM) {
+  const url = `/api/places?set=${set}&lat=${pt.lat.toFixed(4)}&lon=${pt.lon.toFixed(4)}&radius=${Math.round(radiusM)}`;
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 20000);
+  const r = await fetch(url, { signal: ctrl.signal }).finally(() => clearTimeout(timer));
+  if (!r.ok) throw new Error(`places ${r.status}`);
+  const data = await r.json();
+  return data.places.map((p) => {
+    const match = GEO_TAGS.find(([c]) => p.categories.includes(c));
+    const tags = { ...(match ? match[1] : {}), name: p.name || undefined };
+    for (const [k, v] of Object.entries(p.tags || {})) if (v != null && !(k in tags)) tags[k] = v;
+    return { type: 'geo', id: p.id, lat: p.lat, lon: p.lon, tags };
+  }).filter((e) => Object.keys(e.tags).some((k) => ['shop', 'amenity', 'tourism', 'leisure', 'natural', 'boundary'].includes(k)));
+}
+
 function nearestAirports(airports, pt, maxKm, n, minSize = 2) {
   return airports
     .filter((a) => a.t >= minSize)
@@ -298,15 +361,20 @@ function boxAround(pt, km) {
   return [pt.lat - dLat, pt.lon - dLon, pt.lat + dLat, pt.lon + dLon].map((v) => v.toFixed(4)).join(',');
 }
 
-// Split into small queries: the free Overpass servers are often busy, and big queries time out
-function activityQueries(pt, interests) {
+// Every search a plan needs. Each uses the fastest source it has:
+//   local — static OpenSkiMap tiles (instant)
+//   fast  — Geoapify via /api/places (cached, ~1 s)
+//   q     — the public Overpass servers (free, but often overloaded): the backup
+function tripSearches(pt, interests) {
   const b12 = boxAround(pt, 12), b60 = boxAround(pt, 60);
   const q = [];
-  q.push({ kind: 'points', label: 'Lifts, huts, launches & campgrounds', q: `[out:json][timeout:60];
-way["aerialway"~"^(cable_car|gondola|mixed_lift|chair_lift|drag_lift|t-bar|j-bar|platter|rope_tow)$"](${b12});
-out tags geom;
+  q.push({ kind: 'food', label: 'Groceries & places to eat', fast: () => geoapify('food', pt, 3000), q: foodQuery(pt) });
+  if (interests.has('ski')) {
+    // 15 km catches resorts spread over several villages (e.g. Crans-Montana)
+    q.push({ kind: 'ski', label: 'Ski lifts & ski areas', local: async () => ({ lifts: await liftsNear(pt, 15), areas: await skiAreasNear(pt, 30) }) });
+  }
+  q.push({ kind: 'points', label: 'Huts, rentals, viewpoints & campgrounds', fast: () => geoapify('outdoor', pt, 12000), q: `[out:json][timeout:60];
 (
-  nwr["landuse"="winter_sports"]["name"](${b12});
   nwr["shop"="ski"](${b12});
   nwr["amenity"="bicycle_rental"](${b12});
   nwr["shop"="bicycle"](${b12});
@@ -326,7 +394,7 @@ relation["route"~"^(mtb|bicycle|hiking)$"]["name"](${b12});
 out tags bb 300;` });
   }
   if (interests.has('parks')) {
-    q.push({ kind: 'parks', label: 'National parks', q: `[out:json][timeout:60];
+    q.push({ kind: 'parks', label: 'National parks', fast: () => geoapify('parks', pt, 60000), q: `[out:json][timeout:60];
 (
   relation["boundary"="national_park"]["name"](${b60});
   relation["boundary"="protected_area"]["protect_class"="2"]["name"](${b60});
@@ -337,27 +405,47 @@ out tags bb 100;` });
   return q;
 }
 
-// Run queries at most two at a time (the public servers allow two per visitor).
-// hooks: onStart(i), onRetry(i), onDone(i, ok) — used by the progress panel.
-async function runQueries(queries, hooks = {}) {
-  const results = new Array(queries.length);
-  let next = 0;
-  const worker = async () => {
-    while (next < queries.length) {
-      const i = next++;
-      hooks.onStart?.(i);
-      try {
-        results[i] = await overpass(queries[i], () => hooks.onRetry?.(i), 45000, 1);
-        hooks.onDone?.(i, true);
-      } catch (err) {
-        console.error(err);
-        results[i] = { elements: [], failed: true };
-        hooks.onDone?.(i, false);
+const BACKUP_WAIT_MS = 20000;
+
+// Run every search at once (Overpass calls still queue two at a time inside overpass()).
+// Each result: { elements } or { ski } or { elements: [], failed: true }.
+// hooks: onStart(i), onNote(i, note), onDone(i, ok, note) — used by the progress panel.
+async function runSearches(searches, hooks = {}) {
+  return Promise.all(searches.map(async (s, i) => {
+    hooks.onStart?.(i);
+    try {
+      if (s.local) {
+        const ski = await s.local();
+        hooks.onDone?.(i, true, `${ski.lifts.length} lifts`);
+        return { ski };
       }
+      if (s.fast) {
+        try {
+          const elements = await s.fast();
+          hooks.onDone?.(i, true);
+          return { elements };
+        } catch (err) {
+          console.warn('fast source failed, using backup', err);
+          hooks.onNote?.(i, 'using backup map server');
+        }
+      }
+      // The backup servers can take minutes; don't hold the whole plan hostage. After 20 s we show
+      // the plan without this search. The request keeps going and is cached, so "Plan again" is instant.
+      let tries = 0;
+      const pending = overpass(s.q, () => hooks.onNote?.(i, `backup server busy, trying another (${++tries})`), 45000, 1);
+      pending.catch(() => {}); // a late failure after the cut-off isn't an error anyone needs to see
+      const data = await Promise.race([
+        pending,
+        new Promise((_, reject) => setTimeout(() => reject(new Error('took too long')), BACKUP_WAIT_MS)),
+      ]);
+      hooks.onDone?.(i, true);
+      return data;
+    } catch (err) {
+      console.error(err);
+      hooks.onDone?.(i, false, /too long/.test(err.message) ? 'still loading in the background: press Plan again soon' : 'couldn’t load');
+      return { elements: [], failed: true };
     }
-  };
-  await Promise.all([worker(), worker()]);
-  return results;
+  }));
 }
 
 // Progress panel for planning: a bar, elapsed time and a checklist of steps.
@@ -410,7 +498,7 @@ function distToBounds(pt, b) {
 
 function classify(elements, base) {
   const out = { lifts: [], skiAreas: [], skiShops: [], bikeRent: [], mtb: [], road: [], hiking: [], trailheads: [], huts: [],
-    viewpoints: [], camps: [], paddle: [], parks: [] };
+    viewpoints: [], camps: [], paddle: [], parks: [], wellness: [] };
   const seen = new Set();
   for (const el of elements) {
     const t = el.tags || {};
@@ -446,7 +534,8 @@ function classify(elements, base) {
     else if (t.tourism === 'alpine_hut' || t.tourism === 'wilderness_hut') out.huts.push(item);
     else if (t.tourism === 'viewpoint') out.viewpoints.push(item);
     else if (t.tourism === 'camp_site') out.camps.push(item);
-    else if (t.leisure === 'slipway' || t.canoe === 'put_in' || t.amenity === 'boat_rental' || /canoe|kayak/.test(t.sport || '')) out.paddle.push(item);
+    else if (t.leisure === 'slipway' || t.canoe === 'put_in' || t.amenity === 'boat_rental' || t.shop === 'water_sports' || /canoe|kayak/.test(t.sport || '')) out.paddle.push(item);
+    else if (t.leisure === 'spa' || t.leisure === 'swimming_pool' || t.natural === 'hot_spring') out.wellness.push(item);
   }
   for (const k of Object.keys(out)) {
     // Merge same-named items close together (e.g. a park mapped as several areas)
@@ -649,15 +738,26 @@ function weatherHtml(w) {
 function activitiesHtml(a, interests, failed = new Set()) {
   // Empty section: say "couldn't load" when its search failed, instead of claiming there's nothing there
   const none = (msg, kinds) => (kinds.some((k) => failed.has(k))
-    ? '<p class="status error small">Couldn’t load this right now: the free map server is busy. Press <b>Plan a trip</b> again to retry.</p>'
+    ? '<p class="status error small">Not loaded yet: the free backup map server is slow. Press <b>Plan a trip</b> again in a minute; it keeps loading in the background.</p>'
     : `<p class="muted">${msg}</p>`);
   const out = [];
-  const liftRow = (it) => itemRow(it, '🚡', it.kind, it.tags['aerialway:duration'] ? `${esc(it.tags['aerialway:duration'])} min ride` : '');
+  const ft = (m) => (m == null ? '' : `${Math.round(m * 3.28084).toLocaleString()} ft`);
+  const liftRow = (it) => itemRow(it, '🚡', it.kind, [
+    it.elev && it.elev[0] != null && it.elev[1] != null ? `${ft(it.elev[0])} → ${ft(it.elev[1])}` : '',
+    it.skiArea ? esc(it.skiArea) : '',
+    it.tags['aerialway:duration'] ? `${esc(it.tags['aerialway:duration'])} min ride` : '',
+  ].filter(Boolean).join(' · '));
+  const areaRow = (it) => itemRow(it, '⛷️', 'Ski area', [
+    it.runKm >= 1.6 ? `${Math.round(it.runKm / 1.609)} mi of runs` : '',
+    it.lifts ? `${it.lifts} lift${it.lifts === 1 ? '' : 's'}` : '',
+    it.maxE ? `top ${ft(it.maxE)}` : '',
+    it.website && /^https?:/.test(it.website) ? link(it.website, 'Website') : '',
+  ].filter(Boolean).join(' · '));
   if (interests.has('ski')) {
-    const body = listBlock('Lifts — distance to the bottom station', a.lifts, liftRow, 8)
-      + listBlock('Ski areas', a.skiAreas, (it) => itemRow(it, '⛷️', 'Ski area'))
+    const body = listBlock('Ski areas', a.skiAreas, areaRow, 4)
+      + listBlock('Lifts — distance to the bottom station', a.lifts, liftRow, 8)
       + listBlock('Ski & snowboard shops (rentals)', a.skiShops, (it) => itemRow(it, '🎿', 'Shop'));
-    out.push(section('ski', `${INTERESTS.ski.icon} Ski & snowboard`, body || none('No lifts or ski areas mapped within ~7 mi.', ['points'])));
+    out.push(section('ski', `${INTERESTS.ski.icon} Ski & snowboard`, body || none('No lifts or ski areas within ~9 mi.', ['ski', 'points'])));
   }
   if (interests.has('mtb')) {
     const body = listBlock('Mountain-bike routes', a.mtb, (it) => itemRow(it, '🚵', 'MTB route', routeExtra(it)))
@@ -678,7 +778,7 @@ function activitiesHtml(a, interests, failed = new Set()) {
   }
   if (interests.has('kayak')) {
     const body = listBlock('Launches & rentals', a.paddle, (it) => itemRow(it, '🛶',
-      it.tags.amenity === 'boat_rental' ? 'Boat rental' : it.tags.leisure === 'slipway' ? 'Boat ramp' : 'Paddling spot'));
+      it.tags.amenity === 'boat_rental' ? 'Boat rental' : it.tags.shop === 'water_sports' ? 'Water-sports shop' : it.tags.leisure === 'slipway' ? 'Boat ramp' : 'Paddling spot'));
     out.push(section('kayak', `${INTERESTS.kayak.icon} Kayak & paddle`, body || none('No launches or rentals mapped within ~7 mi.', ['points'])));
   }
   if (interests.has('parks')) {
@@ -688,6 +788,12 @@ function activitiesHtml(a, interests, failed = new Set()) {
   if (interests.has('camp')) {
     const body = listBlock('Campgrounds', a.camps, (it) => itemRow(it, '⛺', 'Campground', it.tags.fee === 'no' ? '<b>free</b>' : ''));
     out.push(section('camp', `${INTERESTS.camp.icon} Camping`, body || none('No campgrounds mapped within ~7 mi.', ['points'])));
+  }
+  // Après-ski / rest days: public pools, spas and hot springs (shown whenever there are any)
+  if (a.wellness?.length) {
+    const kind = (t) => (t.natural === 'hot_spring' ? 'Hot spring' : t.leisure === 'swimming_pool' ? 'Pool' : 'Spa & sauna');
+    out.push(section('wellness', '♨️ Pools, spas & hot springs',
+      listBlock('Public pools, spas & hot springs', a.wellness, (it) => itemRow(it, '♨️', kind(it.tags), it.name ? reviewsLink(it.name) : ''), 5), false));
   }
   return out.join('');
 }
@@ -790,10 +896,7 @@ async function planTrip() {
   const dates = tripDates();
   const interests = new Set(trip.interests);
   // Every step of the plan, shown as a checklist with a progress bar
-  const searches = [
-    { kind: 'food', label: 'Groceries & places to eat', q: foodQuery(base) },
-    ...activityQueries(base, interests),
-  ];
+  const searches = tripSearches(base, interests);
   const progress = makeProgress([
     { label: 'Your departure', weight: 1 },
     { label: 'Routes, fares & weather', weight: 2 },
@@ -807,6 +910,13 @@ async function planTrip() {
     let from = null;
     try { from = await resolveFrom(); } catch (err) { setMsg(esc(err.message), true); }
     progress.set(0, 'done', from ? from.label : 'skipped (add where you’re leaving from)');
+
+    // Start the place searches now so they run alongside routes and weather
+    const searchesDone = runSearches(searches, {
+      onStart: (i) => progress.set(2 + i, 'active'),
+      onNote: (i, note) => progress.set(2 + i, 'active', note),
+      onDone: (i, ok, note = '') => progress.set(2 + i, ok ? 'done' : 'failed', note),
+    });
 
     progress.set(1, 'active');
     const straight = from ? haversine(from, place) : Infinity;
@@ -831,15 +941,13 @@ async function planTrip() {
     T.tripPanel.innerHTML = header + '<div id="trip-progress"></div>' + travel + weather;
     progress.render();
 
-    const tries = searches.map(() => 0);
-    const results = await runQueries(searches.map((s) => s.q), {
-      onStart: (i) => progress.set(2 + i, 'active'),
-      onRetry: (i) => progress.set(2 + i, 'active', `server busy, trying another (${++tries[i]})`),
-      onDone: (i, ok) => progress.set(2 + i, ok ? 'done' : 'failed', ok ? '' : 'couldn’t load'),
-    });
+    const results = await searchesDone;
     progress.stop();
     const food = classifyFood(results[0].elements || [], base);
     const acts = classify(results.slice(1).flatMap((r) => r.elements || []), base);
+    // Ski lifts and areas come straight from the OpenSkiMap tiles
+    const ski = results.find((r) => r.ski)?.ski;
+    if (ski) { acts.lifts = ski.lifts; acts.skiAreas = ski.areas; }
     // Which searches failed, so empty sections say "couldn't load" instead of "none nearby"
     const failedKinds = new Set(searches.filter((s, i) => results[i].failed).map((s) => s.kind));
     Object.assign(ctx, { acts, food, failedKinds });
@@ -856,16 +964,16 @@ async function planTrip() {
     // Map: everything in the plan
     const pinFor = {
       lifts: '🚡', skiAreas: '⛷️', skiShops: '🎿', bikeRent: '🔧', mtb: '🚵', road: '🚴', hiking: '🥾', trailheads: '🚩',
-      huts: '🛖', viewpoints: '🔭', camps: '⛺', paddle: '🛶', parks: '🏞️',
+      huts: '🛖', viewpoints: '🔭', camps: '⛺', paddle: '🛶', parks: '🏞️', wellness: '♨️',
     };
     const wanted = {
       lifts: 'ski', skiAreas: 'ski', skiShops: 'ski', bikeRent: 'mtb', mtb: 'mtb', road: 'road', hiking: 'hike', trailheads: 'hike',
-      huts: 'hike', viewpoints: 'hike', camps: 'camp', paddle: 'kayak', parks: 'parks',
+      huts: 'hike', viewpoints: 'hike', camps: 'camp', paddle: 'kayak', parks: 'parks', wellness: '*',
     };
     for (const [k, items] of Object.entries(acts)) {
-      if (!interests.has(wanted[k]) && !(k === 'bikeRent' && interests.has('road'))) continue;
+      if (wanted[k] !== '*' && !interests.has(wanted[k]) && !(k === 'bikeRent' && interests.has('road'))) continue;
       for (const it of items.slice(0, 40)) {
-        if (it.area && k !== 'parks') continue; // long routes: listed, not pinned
+        if (it.area && k !== 'parks' && k !== 'skiAreas') continue; // long routes: listed, not pinned
         addMarker(it, pinFor[k], `<h4>${pinFor[k]} ${esc(it.name || it.kind || 'Unnamed')}</h4>${distText(it)}`);
       }
     }
@@ -891,12 +999,12 @@ async function planTrip() {
 function weekendQuery(pt, interests) {
   const b = boxAround(pt, 250); // roughly 3–4 hours’ drive in any direction
   const parts = [];
-  if (interests.has('ski')) parts.push(`nwr["landuse"="winter_sports"]["name"](${b});`);
+  // (ski areas come from the OpenSkiMap tiles instead)
   if (interests.has('parks') || interests.has('hike') || interests.has('camp') || interests.has('mtb') || interests.has('kayak') || interests.has('road')) {
     parts.push(`relation["boundary"="national_park"]["name"](${b});`, `way["boundary"="national_park"]["name"](${b});`,
       `relation["boundary"="protected_area"]["protect_class"="2"]["name"](${b});`);
   }
-  return `[out:json][timeout:60];(${parts.join('')});out tags bb 250;`;
+  return parts.length ? `[out:json][timeout:60];(${parts.join('')});out tags bb 250;` : null;
 }
 
 async function planWeekend() {
@@ -960,8 +1068,14 @@ async function planWeekend() {
     // 2) Outdoor spots within a few hours' drive (OpenStreetMap)
     let drives = [];
     let failed = false;
+    // Ski areas: instant, from the static tiles. Skip tiny hills (fewer than 3 lifts).
+    if (interests.has('ski')) {
+      const areas = (await skiAreasNear(from, 250)).filter((a) => /downhill/.test(a.activities || '') && (a.lifts || 0) >= 3);
+      for (const a of areas) drives.push({ name: a.name, lat: a.lat, lon: a.lon, d: a.d, kind: 'ski', lifts: a.lifts, runKm: a.runKm });
+    }
     try {
-      const j = await overpass(weekendQuery(from, interests), () => {}, 60000, 1);
+      const pq = weekendQuery(from, interests);
+      const j = pq ? await overpass(pq, () => {}, 60000, 1) : { elements: [] };
       const seen = new Set();
       for (const el of j.elements || []) {
         const t = el.tags || {};
@@ -971,16 +1085,16 @@ async function planWeekend() {
         const d = haversine(from, { lat, lon });
         drives.push({ name: t.name, lat, lon, d, kind: t.landuse === 'winter_sports' ? 'ski' : 'park' });
       }
-      drives.sort((a, b) => a.d - b.d);
-      // Keep both kinds visible: the nearest ski areas and the nearest parks
-      drives = [...drives.filter((p) => p.kind === 'ski').slice(0, 8), ...drives.filter((p) => p.kind === 'park').slice(0, 6)];
     } catch (err) { console.error(err); failed = true; }
+    drives.sort((a, b) => a.d - b.d);
+    // Keep both kinds visible: the nearest ski areas and the nearest parks
+    drives = [...drives.filter((p) => p.kind === 'ski').slice(0, 8), ...drives.filter((p) => p.kind === 'park').slice(0, 6)];
 
     const estHours = (m) => (m / 1000 * 1.3) / 85; // road distance ≈ 1.3 × straight line, ~85 km/h average
     const row = (p, i) => `<li class="trip-item" data-i="${i}">
         <span class="ti-icon">${p.kind === 'ski' ? '⛷️' : '🏞️'}</span>
         <span class="ti-main"><b>${esc(p.name)}</b>
-        <span class="ti-sub">${fmtDist(p.d)} away · about ${estHours(p.d).toFixed(1)} h drive (estimate)</span></span>
+        <span class="ti-sub">${fmtDist(p.d)} away · about ${estHours(p.d).toFixed(1)} h drive (estimate)${p.lifts ? ` · ${p.lifts} lifts` : ''}${p.runKm ? ` · ${Math.round(p.runKm / 1.609)} mi of runs` : ''}</span></span>
         <button type="button" class="mini" data-go="${i}">Plan this</button></li>`;
     const group = (kind, title) => {
       const rows = drives.map((p, i) => (p.kind === kind ? row(p, i) : '')).join('');

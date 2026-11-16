@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['63_154']=[["Mata Baglamikhi Ropeway","cable_car","operating",31.674,77.0763,934,31.6715,77.0825,984,null],[null,"cable_car","operating",31.6952,77.1546,902,31.6945,77.1546,924,null]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['107_116']=[["Tatrapoma","drag_lift","operating",53.994,58.4487,574,53.9949,58.447,592,"Мраткино (Mratkino)"],["Юг","chair_lift","operating",53.995,58.4496,584,54.0022,58.441,802,"Мраткино (Mratkino)"],["Tatrapoma","drag_lift","operating",53.9937,58.446,584,53.9976,58.437,797,"Мраткино (Mratkino)"]];

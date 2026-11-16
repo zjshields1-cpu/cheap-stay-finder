@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['13_52']=[["Yushe",26.4495,104.8207,"operating","downhill",null,null,null,null,null,null],["六盘水梅花山国际滑雪场",26.6011,104.771,"operating","downhill",4,2.0,2201,2306,null,[26.6012,104.7367,26.6081,104.7445]]];

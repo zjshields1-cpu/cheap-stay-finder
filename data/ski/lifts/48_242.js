@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['48_242']=[["吊索","platter","operating",24.1666,121.4023,1871,24.1781,121.4087,2149,null],["Hehuanshan ski lift","rope_tow","operating",24.1403,121.286,3132,24.1382,121.2836,3277,null],[null,"platter","operating",24.2922,121.2636,1466,24.2932,121.2642,1476,null]];

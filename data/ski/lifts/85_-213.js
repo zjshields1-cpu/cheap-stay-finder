@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['85_-213']=[["Mine Shaft","magic_carpet","operating",42.7442,-106.3399,2397,42.744,-106.3389,2407,"Hogadon Basin Ski Area"],["Prospector","chair_lift","operating",42.7495,-106.3437,2234,42.7453,-106.3384,2412,"Hogadon Basin Ski Area"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['127_28']=[["P-A Liften","drag_lift","operating",63.5041,14.047,417,63.5113,14.0548,702,"Almåsa"],[null,"drag_lift","operating",63.7782,14.0306,510,63.7789,14.0028,725,"Åkersjöns Skidbacke"],["Teknikliften","drag_lift","operating",63.5041,14.0469,417,63.506,14.0488,470,"Almåsa"]];

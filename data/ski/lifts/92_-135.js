@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['92_-135']=[[null,"rope_tow","operating",46.1189,-67.1014,336,46.1187,-67.1043,365,"Crabbe Mountain"],["T-Bar","t-bar","operating",46.1285,-67.1051,151,46.1206,-67.1085,388,"Crabbe Mountain"],["Chair Lift","chair_lift","operating",46.1285,-67.1048,151,46.1206,-67.1082,391,"Crabbe Mountain"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['89_-138']=[["T-Bar","t-bar","operating",44.7801,-68.957,55,44.778,-68.9625,137,"Hermon Mountain"],["Chair Lift","chair_lift","operating",44.7801,-68.9572,55,44.7781,-68.9624,138,"Hermon Mountain"]];

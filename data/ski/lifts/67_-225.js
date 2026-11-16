@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['67_-225']=[["Soaring Eagle","chair_lift","operating",33.5458,-112.4166,343,33.5475,-112.4171,344,null],[null,"chair_lift","operating",33.55,-112.4129,344,33.55,-112.4129,344,null]];

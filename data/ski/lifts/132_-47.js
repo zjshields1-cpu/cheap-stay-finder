@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['132_-47']=[["Barnalyfta","drag_lift","operating",66.0562,-23.2266,114,66.0573,-23.2339,159,"Dalirnir tveir"],["Miðfellslyfta","t-bar","operating",66.0573,-23.2469,268,66.0611,-23.264,482,"Dalirnir tveir"],["Sandfellslyfta","t-bar","operating",66.0573,-23.2313,145,66.0646,-23.2339,400,"Dalirnir tveir"]];

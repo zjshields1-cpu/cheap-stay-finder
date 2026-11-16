@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['21_66']=[["Комета (Kometa)",43.2057,132.0748,"operating","downhill",3,null,85,250,"https://www.kometasport.ru/",null],["Лесная поляна (Lesnaya Polyana)",43.255,132.0309,"operating","downhill",1,null,26,70,null,null]];

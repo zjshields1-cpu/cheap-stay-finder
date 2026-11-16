@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['68_267']=[[null,"chair_lift","operating",34.0359,133.7192,861,34.0351,133.7216,918,"Unpenji Snow Park (スノーパーク雲辺寺ロープウェイ)"],["箸蔵山ロープウェイ","cable_car","operating",34.04,133.8439,158,34.0474,133.8405,493,null],["雲辺寺ロープウェイ","cable_car","operating",34.0562,133.7085,251,34.0371,133.7226,899,"Unpenji Snow Park (スノーパーク雲辺寺ロープウェイ)"]];

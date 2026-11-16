@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['100_-236']=[[null,"rope_tow","operating",50.1459,-117.6143,770,50.145,-117.6128,804,"Summit Lake Ski & Snowboard Area"],[null,"t-bar","operating",50.1456,-117.6148,771,50.1424,-117.6155,911,"Summit Lake Ski & Snowboard Area"]];

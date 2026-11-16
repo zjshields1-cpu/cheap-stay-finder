@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['26_9']=[["Ośrodek Narciarski Kurza Góra",53.3991,19.5898,"operating","downhill",6,1.7,99,160,null,[53.3957,19.5842,53.4021,19.5948]],["Myślęcinek",53.1689,18.0339,"operating","downhill",2,0.4,71,97,null,null],["Unisław",53.2082,18.354,"operating","downhill",3,null,34,69,null,null]];

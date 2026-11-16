@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['102_12']=[["Wasserski- & Wakeboardpark","drag_lift","operating",51.3799,6.2701,50,51.3799,6.2698,51,null],[null,"drag_lift","operating",51.1312,6.0939,27,51.1311,6.0938,28,null]];

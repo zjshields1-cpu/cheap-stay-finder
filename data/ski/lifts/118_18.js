@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['118_18']=[[null,"drag_lift","operating",59.477,9.0439,445,59.473,9.0367,574,"Lifjell Skisenter"],[null,"drag_lift","operating",59.4778,9.0414,454,59.4725,9.0278,652,"Lifjell Skisenter"],[null,"drag_lift","operating",59.477,9.0129,751,59.4792,9.0102,797,null],[null,"drag_lift","operating",59.2914,9.129,117,59.2893,9.1292,210,null]];

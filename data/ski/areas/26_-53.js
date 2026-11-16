@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['26_-53']=[["Wapiti Valley",53.2341,-104.4571,"operating","downhill",2,4.9,351,433,"https://www.skiwapiti.com/",null],["Kinsmen",53.2224,-105.7165,"operating","downhill",null,null,null,null,"https://www.facebook.com/KinsmenLittleRed/",null]];

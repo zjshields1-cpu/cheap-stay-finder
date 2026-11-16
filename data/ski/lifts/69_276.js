@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['69_276']=[["日本平ロープウェイ, Nihondaira Ropeway","cable_car","operating",34.9642,138.4665,144,34.9736,138.4638,267,null],["日本平ロープウェイ, Nihondaira Ropeway","cable_car","operating",34.9643,138.4666,144,34.9736,138.4638,268,null]];

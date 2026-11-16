@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['100_-11']=[["St Michael's Mount Tramway","funicular","operating",50.1183,-5.4781,4,50.1182,-5.4781,6,null],["St Michael's Mount Tramway","funicular","operating",50.1182,-5.4781,6,50.1165,-5.4783,64,null]];

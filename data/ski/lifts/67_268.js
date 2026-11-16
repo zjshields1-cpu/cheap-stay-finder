@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['67_268']=[["野猿猴橋, Pont du singe sauvage, Saru-bashi","rope_tow","operating",33.8538,134.0466,973,33.8539,134.0464,978,null],["剣山登山リフト, Tsurugi-san Chairlift, Télésiège du mont Tsurugi, つるぎさん とざん りふと, Tsurugi-san tozanrifuto","chair_lift","operating",33.8666,134.0889,1398,33.8605,134.0923,1712,null]];

@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['23_71']=[["Горный Воздух (Gorny Vozdukh Mountain Air)",46.9475,142.7981,"operating","downhill",6,25.8,104,752,"https://ski-gv.ru/",null],["Парковая гора",46.9722,142.7565,"operating","downhill",1,2.5,76,254,null,[46.9685,142.7515,46.9754,142.7611]]];

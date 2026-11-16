@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['20_-36']=[["Yawgoo Valley Ski Area",41.5173,-71.53,"operating","downhill",4,2.8,34,91,"https://yawgoo.com/",null],["Yawgoo Valley Ski Area",41.5169,-71.53,"operating","downhill",null,null,null,null,"https://www.yawgoo.com",[41.5163,-71.5322,41.5181,-71.5276]]];

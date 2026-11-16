@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-13_213']=[["Gondola Ancol","gondola","operating",-6.1257,106.8412,6,-6.1211,106.8325,6,null],["Taman Mini Skylift","gondola","operating",-6.3003,106.8897,43,-6.3035,106.8909,43,null]];

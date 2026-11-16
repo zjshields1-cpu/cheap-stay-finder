@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['24_-63']=[["Mount Washington Alpine Resort",49.7508,-125.2982,"operating","downhill",10,60.9,1081,1569,"https://www.mountwashington.ca",[49.7353,-125.3119,49.7659,-125.2844]]];

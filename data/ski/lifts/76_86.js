@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['76_86']=[[null,"chair_lift","operating",38.2655,43.2076,1982,38.2548,43.2107,2440,"Abalı Kayak Merkezi"],[null,"chair_lift","operating",38.2724,43.2105,1889,38.2638,43.2052,2018,"Abalı Kayak Merkezi"]];

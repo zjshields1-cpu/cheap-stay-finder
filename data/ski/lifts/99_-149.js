@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['99_-149']=[[null,"drag_lift","operating",49.9093,-74.2987,410,49.9117,-74.3021,489,"Mont Chalco"],[null,"rope_tow","operating",49.9139,-74.3064,415,49.9129,-74.307,442,"Mont Chalco"],[null,"chair_lift","operating",49.9144,-74.3053,414,49.9124,-74.3052,480,"Mont Chalco"]];

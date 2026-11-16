@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['17_26']=[["مجموعه گردشگری سیبلند فیروزکوه, Seebland Firoozkooh Tourism Complex",35.6899,52.5737,"operating","downhill",1,null,2260,2977,"https://www.seebland.com",[35.6778,52.5635,35.7066,52.5805]]];

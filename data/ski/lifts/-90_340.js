@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-90_340']=[[null,"rope_tow","operating",-44.7798,170.3215,1427,-44.7797,170.3184,1469,"Awakino Ski Area"],[null,"rope_tow","operating",-44.7793,170.3271,1229,-44.7831,170.3214,1479,"Awakino Ski Area"],[null,"rope_tow","operating",-44.7805,170.3193,1445,-44.7799,170.3118,1694,"Awakino Ski Area"]];

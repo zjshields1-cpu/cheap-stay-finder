@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['102_45']=[[null,"t-bar","operating",51.1916,22.5407,179,51.1916,22.5404,179,null],["Wyciąg Nart Wodnych","t-bar","operating",51.1916,22.5404,179,51.1916,22.5404,179,null]];

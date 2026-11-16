@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-18_230']=[[null,"funicular","operating",-8.8476,115.1531,8,-8.8468,115.1533,75,null],["Bvlgari Beach Access","cable_car","operating",-8.8459,115.1188,25,-8.8451,115.1194,121,null],["Inclinator","funicular","operating",-8.7846,115.1381,24,-8.7845,115.1384,27,null]];

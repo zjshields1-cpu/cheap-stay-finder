@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['96_-159']=[[null,"t-bar","operating",48.176,-79.403,328,48.182,-79.4037,471,"Mont Kanasuta"],[null,"chair_lift","operating",48.1759,-79.4033,327,48.182,-79.4042,470,"Mont Kanasuta"]];

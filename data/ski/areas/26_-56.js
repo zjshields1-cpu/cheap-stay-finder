@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['26_-56']=[["Mount Joy",53.1005,-110.1579,"operating","downhill",2,4.5,662,756,"https://www.mountjoyresort.com/",null],["Valley Ski Hill",52.4128,-111.8259,"operating","downhill",2,1.9,652,704,"https://www.valleyskihill.ca/",null]];

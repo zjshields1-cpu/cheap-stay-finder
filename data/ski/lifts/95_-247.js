@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['95_-247']=[["Intermediate Tow","rope_tow","operating",47.9706,-123.494,1608,47.9718,-123.4919,1662,"Hurricane Ridge"],["Poma Lift","platter","operating",47.9747,-123.4967,1485,47.9711,-123.4936,1610,"Hurricane Ridge"],["Bunny Tow","rope_tow","operating",47.9702,-123.4957,1603,47.9708,-123.4955,1610,"Hurricane Ridge"]];

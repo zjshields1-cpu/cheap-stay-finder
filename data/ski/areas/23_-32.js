@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['23_-32']=[["Mark Arendz Provincial Ski Park at Brookvale",46.2802,-63.4094,"operating","downhill",1,3.5,42,108,"https://www.tourismpei.com/brookvale-activity-park",null],["Souris Strider Ski Club",46.4014,-62.2654,"operating","nordic",null,null,27,62,null,null]];

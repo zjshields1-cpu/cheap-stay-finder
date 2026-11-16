@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['130_-28']=[["Byrjendalyfta","drag_lift","operating",65.067,-13.8978,553,65.0685,-13.8931,598,"Oddsskarð"],["1 Lyfta","drag_lift","operating",65.065,-13.8984,511,65.0648,-13.8845,703,"Oddsskarð"],["Topplyfta","drag_lift","operating",65.0644,-13.8852,694,65.065,-13.8745,839,"Oddsskarð"]];

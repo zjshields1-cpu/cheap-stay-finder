@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['80_-15']=[[null,"t-bar","operating",40.4105,-7.4696,580,40.4085,-7.4711,653,"Ski Parque"],["Funicular de São João","funicular","operating",40.2812,-7.4991,569,40.2815,-7.501,630,null]];

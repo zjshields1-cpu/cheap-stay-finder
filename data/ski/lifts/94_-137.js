@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['94_-137']=[[null,"rope_tow","operating",47.4146,-68.3837,151,47.4143,-68.3854,167,"Mont Farlagne"],[null,"chair_lift","operating",47.4135,-68.3814,151,47.4074,-68.3858,330,"Mont Farlagne"],[null,"rope_tow","operating",47.4142,-68.3837,157,47.4138,-68.3854,175,"Mont Farlagne"]];

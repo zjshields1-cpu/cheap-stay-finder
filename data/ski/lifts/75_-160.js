@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['75_-160']=[[null,"magic_carpet","operating",37.9972,-79.8238,758,37.9965,-79.8228,771,"The Homestead Ski Area"],[null,"chair_lift","operating",37.9967,-79.8244,756,37.9915,-79.8152,929,"The Homestead Ski Area"]];

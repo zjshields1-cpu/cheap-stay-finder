@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['101_13']=[[null,"drag_lift","operating",50.5999,6.6309,284,50.5991,6.6287,312,null],[null,"drag_lift","operating",50.8449,6.8572,95,50.8449,6.8572,95,null],["Rheinseilbahn, Cologne Cable Car","gondola","operating",50.9572,6.9735,46,50.95,6.9806,48,null]];

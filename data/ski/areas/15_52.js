@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['15_52']=[["九皇山滑雪场",31.9485,104.6939,"operating","downhill",1,0.1,1950,1960,null,[31.9482,104.6931,31.9487,104.6948]],["Jiulong Skiing Field",31.4091,104.1305,"operating","downhill",null,null,null,null,null,null]];

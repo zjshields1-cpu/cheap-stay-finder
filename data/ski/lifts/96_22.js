@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['96_22']=[["Wicking-Slip-Schienen","funicular","operating",48.0027,11.1659,533,48.0034,11.1659,534,null],["Filzberg Landsberied","platter","operating",48.1548,11.1794,557,48.1566,11.1784,580,null],[null,"drag_lift","operating",48.2549,11.3818,491,48.2555,11.3818,503,null]];

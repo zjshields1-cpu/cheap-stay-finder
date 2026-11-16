@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['108_171']=[[null,"drag_lift","operating",54.228,85.899,253,54.2224,85.8971,406,"Гора Золотая (Mt. Zolotaya or Gold Mt.)"],[null,"drag_lift","operating",54.2286,85.9003,252,54.2214,85.899,411,"Гора Золотая (Mt. Zolotaya or Gold Mt.)"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['97_-179']=[[null,"t-bar","operating",48.5256,-89.1263,358,48.5247,-89.1202,486,"Mount Baldy"],["Stanislav Express","chair_lift","operating",48.5251,-89.1272,348,48.5244,-89.1201,489,"Mount Baldy"],[null,"magic_carpet","operating",48.5259,-89.1271,351,48.5263,-89.1255,370,"Mount Baldy"]];

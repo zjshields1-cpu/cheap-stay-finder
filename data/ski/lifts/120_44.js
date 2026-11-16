@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['120_44']=[["Naruhissi","drag_lift","operating",60.4176,22.2271,4,60.4175,22.226,9,"Hirvensalon Hiihtokeskus"],["Sompahissi","platter","operating",60.4166,22.2279,4,60.4153,22.2247,52,"Hirvensalon Hiihtokeskus"],["Ankkurihissi","drag_lift","operating",60.4173,22.2273,5,60.4158,22.224,54,"Hirvensalon Hiihtokeskus"]];

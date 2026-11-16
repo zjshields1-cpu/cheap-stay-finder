@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['14_51']=[["Emeishan",29.5451,103.328,"operating","downhill",2,0.2,2376,2392,null,null],["王岗坪滑雪场",29.474,102.2976,"operating","downhill",2,0.7,2434,2475,null,[29.4725,102.2953,29.4758,102.2993]]];

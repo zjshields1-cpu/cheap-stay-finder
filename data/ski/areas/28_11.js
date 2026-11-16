@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['28_11']=[["Kamparkalns",57.2161,22.6379,"operating","downhill",2,null,127,155,null,null],["Milzkalns",57.0019,23.2056,"operating","downhill,nordic",10,2.2,70,110,"https://www.milzkalns.lv/",[56.9987,23.2019,57.0051,23.2105]]];

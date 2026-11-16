@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['19_-46']=[["Hidden Valley",38.5354,-90.6556,"operating","downhill",8,3.5,171,260,"https://www.hiddenvalleyski.com/",[38.5326,-90.6615,38.5397,-90.6472]]];

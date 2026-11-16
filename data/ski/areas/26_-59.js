@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['26_-59']=[["Silver Summit",53.89,-116.5765,"operating","downhill",1,6.3,1207,1230,"https://www.silversummit.ca",[53.8865,-116.5874,53.8957,-116.5647]],["Hinton Nordic Centre",53.4258,-117.7722,null,"nordic",null,null,1304,1504,"https://www.hintonnordic.ca/",null]];

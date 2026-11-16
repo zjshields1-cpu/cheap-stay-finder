@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['17_-56']=[["Arizona Snowbowl",35.3301,-111.6981,"operating","downhill",8,22.3,2791,3510,"http://www.arizonasnowbowl.com/",null],["Arizona Nordic Village",35.3742,-111.7739,"operating","nordic",null,null,2430,2638,"https://www.arizonanordicvillage.com/",null]];

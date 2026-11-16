@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['99_-189']=[["Colin Myles T-Bar Lift","t-bar","operating",49.7929,-94.4124,352,49.7926,-94.4091,390,"Mount Evergreen"],["Skyline T-Bar Lift","t-bar","operating",49.7917,-94.413,352,49.7905,-94.4103,401,"Mount Evergreen"],["Rotary Carpet Lift","magic_carpet","operating",49.7924,-94.4125,352,49.7922,-94.4116,364,"Mount Evergreen"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['76_97']=[[null,"drag_lift","operating",38.4145,48.5784,1236,38.4158,48.5759,1338,null],["تله کابین حیران","gondola","operating",38.412,48.581,1247,38.4227,48.5734,1679,null]];

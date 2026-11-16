@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['23_59']=[["Alshan Alpine",47.1694,119.9499,"operating","downhill",null,null,null,null,null,null],["阿尔山太伟滑雪场",47.1662,119.9275,"operating","downhill",null,0.7,1025,1056,null,[47.162,119.9241,47.1744,119.9322]]];

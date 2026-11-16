@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['59_213']=[["长江索道, Yangtze River Cableway","cable_car","operating",29.5556,106.5898,221,29.5606,106.5792,280,null],["长江索道, Yangtze River Cableway","cable_car","operating",29.5555,106.5898,219,29.5606,106.5791,280,null]];

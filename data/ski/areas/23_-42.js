@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['23_-42']=[["Mount Dufour",46.3872,-82.6347,"operating","downhill",2,2.3,316,418,"https://www.mountdufour.com",null],["Chapleau Ski Hill",47.8484,-83.4225,"operating","downhill",null,null,null,null,"https://www.facebook.com/ChapleauSkiClub/",null]];

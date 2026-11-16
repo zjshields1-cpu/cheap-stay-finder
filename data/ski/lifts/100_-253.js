@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['100_-253']=[["Upper T Bar","t-bar","operating",50.2217,-126.3426,1378,50.2261,-126.3367,1617,"Mount Cain Alpine Park"],[null,"rope_tow","operating",50.2188,-126.3512,1194,50.2202,-126.3516,1220,"Mount Cain Alpine Park"],["Lower T Bar","t-bar","operating",50.219,-126.3532,1190,50.2255,-126.3465,1404,"Mount Cain Alpine Park"]];

@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['30_-73']=[["Mount Eyak Ski Area",60.5521,-145.7406,"operating","downhill",2,5.6,124,375,"https://www.mteyak.org/",[60.5486,-145.7514,60.5551,-145.7304]]];

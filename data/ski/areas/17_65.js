@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['17_65']=[["十種ヶ峰スキー場, Tokusagamine Ski Area",34.4499,131.6952,"operating","downhill",1,1.2,564,679,"http://woodpark.jp/",[34.4411,131.6933,34.4521,131.6969]],["Hirayama (船平山スキー場)",34.4262,131.7379,"operating","downhill",null,null,null,null,"https://www.oidemase.or.jp/tourism-information/spots/10127",null]];

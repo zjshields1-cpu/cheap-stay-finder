@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['85_-225']=[["Skyline Lift","chair_lift","operating",42.7789,-112.159,2031,42.7709,-112.1449,2594,"Pebble Creek"],["Aspen Lift","chair_lift","operating",42.7816,-112.1634,1945,42.7785,-112.1574,2063,"Pebble Creek"],["Sunshine Lift","chair_lift","operating",42.778,-112.159,2037,42.773,-112.1508,2382,"Pebble Creek"]];

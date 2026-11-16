@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['79_-160']=[["Tubing Carpet","magic_carpet","operating",39.8139,-79.5476,600,39.813,-79.5467,608,"Mystic Mountain Ski Area"],["Tubing Tow","rope_tow","operating",39.6804,-79.7851,647,39.6806,-79.7861,661,"Chestnut Ridge"],["Quad Chair Lift","chair_lift","operating",39.8159,-79.5527,527,39.8139,-79.5461,619,"Mystic Mountain Ski Area"]];

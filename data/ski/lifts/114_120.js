@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['114_120']=[[null,"drag_lift","operating",57.1108,60.2669,333,57.1153,60.2645,456,"Стожок (Stozhok)"],[null,"drag_lift","operating",57.111,60.2672,338,57.1153,60.2664,432,"Стожок (Stozhok)"]];

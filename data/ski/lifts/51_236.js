@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['51_236']=[["岱仙瀑布索道, Daixian Waterfall Cableway","gondola","operating",25.6713,118.4419,501,25.6662,118.442,846,null],["石牛山索道, Shiniu Mountain Cableway","gondola","operating",25.6827,118.4309,300,25.6378,118.4765,1383,null]];

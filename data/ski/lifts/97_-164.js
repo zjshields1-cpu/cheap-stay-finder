@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['97_-164']=[["Downhill Quad Chairlift","chair_lift","operating",48.5371,-81.5356,314,48.5369,-81.5415,415,"Kamiskotia"],["Chalet T-Bar Lift","t-bar","operating",48.5343,-81.5404,358,48.5364,-81.541,408,"Kamiskotia"],["Xstrata Skyway Chairlift","chair_lift","operating",48.5348,-81.5474,321,48.537,-81.5421,412,"Kamiskotia"]];

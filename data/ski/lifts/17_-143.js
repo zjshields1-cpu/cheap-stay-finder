@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['17_-143']=[["Trolcable de Mérida","gondola","operating",8.5875,-71.1443,1412,8.591,-71.1457,1555,"Mérida"],["Teleférico de Mérida, Seilbahn von Mérida, Teleferico: Mérida Aerial Tramway, Téléphérique de Mérida","cable_car","operating",8.5915,-71.1415,1581,8.5316,-71.0533,4765,"Mérida"]];

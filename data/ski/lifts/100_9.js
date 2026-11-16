@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['100_9']=[["Téléphérique de la Citadelle de Namur","gondola","operating",50.4618,4.8653,81,50.4578,4.8587,190,null],[null,"drag_lift","operating",50.0199,4.6379,309,50.0174,4.6367,340,null]];

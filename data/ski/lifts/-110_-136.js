@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-110_-136']=[["Teleski del Sol","platter","operating",-54.7207,-67.9771,474,-54.7134,-67.9775,714,"Cerro Castor"],["Telesilla del Filo","chair_lift","operating",-54.7167,-67.9916,592,-54.7091,-67.9843,863,"Cerro Castor"],["Teleski del Este","platter","operating",-54.7207,-67.977,474,-54.7134,-67.9774,712,"Cerro Castor"]];

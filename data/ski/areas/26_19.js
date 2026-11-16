@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['26_19']=[["Горка (Gorka)",52.5671,39.5508,"operating","downhill",null,null,null,null,"https://gorka48.ru/",null],["Большая Кузьминка (Bolshaya Kuzminka)",52.7614,39.6688,"operating","downhill",null,null,null,null,null,null]];

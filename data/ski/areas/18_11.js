@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['18_11']=[["Mainalo",37.6503,22.262,"operating","downhill",3,3.6,1560,1793,"https://mainaloski.gr/",null],["Χιονοδρομικό Κέντρο Καλαβρύτων, Kalavrita Ski Resort",37.9986,22.1916,"operating","downhill",7,10.6,1700,2328,"https://www.kalavrita-ski.gr/",[37.9842,22.1821,38.0091,22.201]]];

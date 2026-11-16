@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['114_-6']=[[null,"platter","operating",57.231,-2.7097,158,57.2305,-2.7098,169,"Alford Snow Sports Centre"],[null,"magic_carpet","operating",57.2309,-2.7093,158,57.2307,-2.7094,162,"Alford Snow Sports Centre"]];

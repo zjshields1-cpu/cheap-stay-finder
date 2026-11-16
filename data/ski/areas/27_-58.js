@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['27_-58']=[["Eastlink Park",54.1346,-115.6541,"operating","downhill",2,4.0,700,750,"https://eastlinkpark.com/",null],["Misty Ridge",54.3641,-114.5411,"operating","downhill",1,1.2,596,668,"https://mistyridgeskihill.com/",null]];

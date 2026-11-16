@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['94_-234']=[["Intermediate Rope","rope_tow","operating",47.0654,-116.6598,1136,47.0642,-116.6591,1156,"Palouse Divide Nordic Ski Area"],["Bunny Rope","rope_tow","operating",47.0663,-116.6599,1138,47.0671,-116.6603,1148,null]];

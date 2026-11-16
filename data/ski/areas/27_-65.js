@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['27_-65']=[["Onion Lake (Snow Valley Nordic)",54.2943,-128.5678,"operating","nordic",null,null,141,223,"https://www.snowvalleynordics.com/",null],["Shames Mountain",54.4931,-128.9641,"operating","downhill",3,18.8,714,1161,"https://mymountaincoop.ca/",[54.4846,-128.9766,54.5015,-128.9518]]];

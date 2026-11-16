@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['101_60']=[[null,"drag_lift","operating",50.6042,30.4885,153,50.6034,30.4884,166,null],["Воднолижна канатна дорога","drag_lift","operating",50.5333,30.4867,92,50.5333,30.4867,92,null],[null,"magic_carpet","operating",50.6048,30.4905,127,50.6032,30.4897,167,null]];

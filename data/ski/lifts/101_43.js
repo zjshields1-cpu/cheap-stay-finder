@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['101_43']=[[null,"rope_tow","operating",50.5405,21.6258,146,50.539,21.627,147,null],[null,"rope_tow","operating",50.5411,21.626,146,50.5393,21.6276,147,null],["Siedleszczany Ośrodek Narciarski","platter","operating",50.5031,21.5893,152,50.5011,21.5935,184,null]];

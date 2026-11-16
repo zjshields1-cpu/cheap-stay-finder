@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['89_-219']=[[null,"platter","operating",44.9788,-109.435,3163,44.9765,-109.4348,3254,"Beartooth Basin Summer Ski Area"],[null,"platter","operating",44.9773,-109.4344,3212,44.9754,-109.4331,3329,"Beartooth Basin Summer Ski Area"]];

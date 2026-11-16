@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['28_29']=[["Гора Белая (Belaya)",57.6587,59.7034,"operating","downhill",4,5.6,463,707,"https://www.gorabelaya.ru/",null],["ГЛЦ Ежовая",57.4479,59.9586,"operating","downhill",6,5.7,294,534,"http://www.ezhovaya.ru/",[57.4453,59.9503,57.4507,59.9661]]];

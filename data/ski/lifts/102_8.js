@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['102_8']=[["Death ride","t-bar","operating",51.0884,4.3825,5,51.0881,4.3847,8,null],["600","magic_carpet","operating",51.1596,4.3747,18,51.1608,4.373,20,"SnowWorld Antwerpen"],["900","magic_carpet","operating",51.1594,4.3743,18,51.1607,4.3726,19,"SnowWorld Antwerpen"],[null,"rope_tow","operating",51.2144,4.3665,4,51.2144,4.3665,4,null]];

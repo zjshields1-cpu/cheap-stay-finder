@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['85_157']=[["Jyrgalan B1","gondola","operating",42.602,78.9628,2534,42.583,78.9531,2972,"Ala Too"],["Jyrgalan B2","gondola","operating",42.6178,78.9658,2247,42.602,78.9628,2534,"Ala Too"],["Jyrgalan B1","gondola","construction",42.6027,78.967,2518,42.581,78.9577,3027,"Ala Too"]];

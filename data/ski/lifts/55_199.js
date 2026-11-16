@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['55_199']=[[null,"chair_lift","operating",27.9551,99.5804,3391,27.9437,99.5774,3986,"Shangri-la"],["蓝月山谷缆车, Shi Ka Snow mountain cable car","gondola","operating",27.7974,99.6283,3436,27.7946,99.5889,4385,null],[null,"chair_lift","operating",27.96,99.5835,3315,27.9542,99.5794,3410,"Shangri-la"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['38_-142']=[["Teléferico de Santiago","gondola","operating",19.4564,-70.7071,163,19.4447,-70.709,172,null],["Teléferico de Santiago","gondola","operating",19.4447,-70.709,172,19.4222,-70.7167,202,null]];

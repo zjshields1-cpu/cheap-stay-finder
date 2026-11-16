@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['107_-244']=[["Baker Creek Lift","chair_lift","operating",53.9009,-121.8829,1056,53.8968,-121.8633,1356,"Purden Ski Village"],["T-Bar","t-bar","operating",53.9001,-121.8845,1043,53.8985,-121.8777,1130,"Purden Ski Village"],["Yellow Chair","chair_lift","operating",53.8995,-121.8849,1042,53.89,-121.8878,1365,"Purden Ski Village"]];

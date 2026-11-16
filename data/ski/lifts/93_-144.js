@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['93_-144']=[[null,"chair_lift","operating",46.9132,-71.81,164,46.9105,-71.8059,246,"St Raymond"],[null,"magic_carpet","operating",46.9136,-71.8094,167,46.9133,-71.8083,179,"St Raymond"],[null,"t-bar","operating",46.9133,-71.8099,164,46.9106,-71.8059,247,"St Raymond"]];

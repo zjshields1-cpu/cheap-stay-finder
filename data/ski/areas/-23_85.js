@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['-23_85']=[["Awakino Ski Area",-44.7812,170.3194,"operating","downhill",3,null,1229,1694,"https://skiawakino.com",[-44.7878,170.3011,-44.7728,170.3296]]];

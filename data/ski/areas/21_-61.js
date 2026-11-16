@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['21_-61']=[["Warner Canyon Ski Area",42.2334,-120.2973,"operating","downhill",1,9.0,1744,1974,"https://www.warner-canyon.com/",[42.2278,-120.3025,42.2386,-120.2925]],["Mt. Bachelor",43.9915,-121.6852,"operating","downhill,nordic",15,94.7,1738,2724,"https://www.mtbachelor.com/",[43.9585,-121.7226,44.0183,-121.6451]]];

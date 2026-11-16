@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['24_-47']=[["Dryden Ski Club",49.9027,-92.7881,"operating","downhill",4,1.7,358,404,"https://www.skidryden.com/",null],["Tilson Creek Ski Trails",48.5817,-93.2031,"operating","nordic",null,null,338,364,null,null]];

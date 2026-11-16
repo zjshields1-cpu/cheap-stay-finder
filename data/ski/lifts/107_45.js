@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['107_45']=[["Narty wodne","drag_lift","operating",53.8565,22.9927,122,53.8565,22.9927,122,null],[null,"drag_lift","operating",53.8547,22.9889,122,53.8546,22.9891,122,null]];

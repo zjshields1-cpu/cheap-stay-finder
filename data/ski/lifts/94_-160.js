@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['94_-160']=[[null,"t-bar","operating",47.362,-79.5708,240,47.3606,-79.5756,338,"Tri Town Ski and Snowboard Village"],["Beginner's Tow","rope_tow","operating",47.3621,-79.571,240,47.3618,-79.5722,259,"Tri Town Ski and Snowboard Village"]];

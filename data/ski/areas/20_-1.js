@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['20_-1']=[["Valdelinares",40.4,-0.6,"operating","downhill",null,null,null,null,"http://www.valdelinares.com",null],["Javalambre",40.1089,-1.0257,"operating","downhill",9,8.4,1673,2004,"http://www.javalambre.com",null],["Valdelinares",40.3839,-0.6336,"operating","downhill",12,9.4,1733,1980,null,null]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['131_56']=[[null,"t-bar","operating",65.5656,28.1999,201,65.5637,28.204,280,"Taivalvaaran Hiihtokeskus"],[null,"t-bar","operating",65.5655,28.1982,200,65.5637,28.1987,268,"Taivalvaaran Hiihtokeskus"]];

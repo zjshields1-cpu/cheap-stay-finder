@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['83_85']=[["Chanchakhi","chair_lift","operating",41.6216,42.5,1989,41.6074,42.5139,2338,"Goderdzi Mountain Resort"],["ასტროფიზიკური ობსერვატორიის საბაგირო, Astrophysik Observatorium Pendelbahn","cable_car","operating",41.7582,42.8304,1303,41.7548,42.8223,1577,null]];

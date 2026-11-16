@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['33_-27']=[["Tosebakken",66.935,-53.6512,"operating","downhill",1,null,45,68,"http://www.ski.gl/",null],["Sisismut Solbakken",66.9413,-53.531,"operating","downhill",1,1.1,231,333,null,null]];

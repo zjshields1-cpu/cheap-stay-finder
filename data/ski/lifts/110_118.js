@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['110_118']=[[null,"drag_lift","operating",55.3832,59.3944,329,55.3843,59.3942,352,"Евразия (Euroasia)"],["ЦАО Евразия","chair_lift","operating",55.3835,59.3959,332,55.3915,59.4031,606,"Евразия (Euroasia)"]];

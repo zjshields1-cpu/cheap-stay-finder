@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['101_-4']=[["Fisherman's Walk Cliff Lift","funicular","operating",50.721,-1.8173,3,50.7212,-1.8173,26,null],["West Cliff Lift","funicular","operating",50.7149,-1.8813,3,50.7153,-1.8814,31,null],["Needles Chairlift","chair_lift","operating",50.6691,-1.5696,-1,50.6684,-1.5665,49,null]];

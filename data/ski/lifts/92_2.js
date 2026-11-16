@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['92_2']=[["Lake Wake Park","drag_lift","operating",46.0471,1.2778,360,46.0471,1.2778,360,null],["Bi poulie","drag_lift","operating",46.0477,1.2777,360,46.0485,1.275,360,null]];

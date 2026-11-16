@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['109_-2']=[["Cliff Tramway","funicular","operating",54.5861,-0.9708,6,54.5857,-0.971,38,null],["Cliff Tramway","funicular","operating",54.5861,-0.9708,7,54.5857,-0.971,38,null]];

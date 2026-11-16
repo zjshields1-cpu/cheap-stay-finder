@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['70_-225']=[[null,"magic_carpet","operating",35.253,-112.1786,2093,35.2533,-112.1778,2104,null],[null,"t-bar","operating",35.2152,-112.1917,2302,35.2111,-112.1905,2456,"Elk Ridge (Williams Ski Area)"]];

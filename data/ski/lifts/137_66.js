@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['137_66']=[[null,"drag_lift","operating",68.9335,33.151,184,68.9327,33.1501,193,null],[null,"drag_lift","operating",68.9332,33.1518,186,68.9279,33.1549,269,null],[null,"drag_lift","operating",68.919,33.1089,91,68.9161,33.1224,197,"Норд Стар (Nord Star)"]];

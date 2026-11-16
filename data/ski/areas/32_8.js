@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['32_8']=[["Nalovardo",65.6568,17.513,"operating","downhill",3,4.0,422,718,"https://nalovardo.se/",null],["Ammarnas",65.9669,16.1887,null,"downhill",1,5.8,446,705,null,null]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['47_241']=[["福天吊橋","platter","operating",23.7006,120.5969,87,23.7013,120.5976,88,null],["九族空中纜車","gondola","operating",23.8687,120.9493,776,23.8607,120.9512,873,null],["日月潭纜車, Sun Moon Lake Ropeway, 日月潭ロープウェイ","gondola","operating",23.8523,120.9348,759,23.8601,120.9509,878,null]];

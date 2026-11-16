@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['88_34']=[[null,"t-bar","operating",44.3776,17.3845,1281,44.3813,17.3922,1420,"Ski Centar Ranča"],[null,"drag_lift","operating",44.479,17.4342,1015,44.4745,17.4334,1122,null]];

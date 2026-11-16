@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['54_177']=[[null,"gondola","operating",27.3741,88.758,3768,27.3684,88.7579,4012,null],["Damodar Ropeway","cable_car","operating",27.3178,88.6067,1488,27.3237,88.6136,1698,null]];

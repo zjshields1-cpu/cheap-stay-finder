@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['88_11']=[["Céüzette","drag_lift","operating",44.4849,5.94,1294,44.4834,5.9396,1315,null],["Grand Pin","drag_lift","operating",44.1143,5.7804,1591,44.117,5.7813,1645,"Montagne de Lure"],["Forêt","drag_lift","operating",44.4803,5.6035,1313,44.472,5.6056,1533,"Valdrôme"]];

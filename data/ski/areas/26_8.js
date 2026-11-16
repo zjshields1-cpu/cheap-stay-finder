@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['26_8']=[["Stok narciarski",52.9819,16.9395,"operating","downhill",2,null,86,127,null,[52.9806,16.9374,52.9833,16.9416]],["Malta Ski",52.3993,16.9794,"operating","downhill",3,0.6,61,94,null,null]];

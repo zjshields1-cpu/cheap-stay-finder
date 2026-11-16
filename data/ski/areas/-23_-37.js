@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['-23_-37']=[["Divisadero (Formerly Cerro El Fraile)",-45.6299,-72.0059,"operating","downhill",2,6.9,978,1296,"https://www.instagram.com/cerroelfraile/?hl=es",null]];

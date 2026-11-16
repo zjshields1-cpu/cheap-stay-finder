@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['96_-10']=[["Ascenseur de la Cavale-Blanche","funicular","operating",48.4014,-4.5256,30,48.4015,-4.526,38,null],[null,"drag_lift","operating",48.4287,-4.6077,32,48.4276,-4.6082,32,null],[null,"drag_lift","operating",48.4289,-4.6118,32,48.4289,-4.6118,32,null]];

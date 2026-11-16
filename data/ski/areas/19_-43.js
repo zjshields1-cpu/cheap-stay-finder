@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['19_-43']=[["Perfect North Slopes",39.1456,-84.8869,"operating","downhill",14,6.0,145,259,"https://www.perfectnorth.com/",[39.1418,-84.8939,39.1529,-84.88]]];

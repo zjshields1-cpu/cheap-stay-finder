@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['28_20']=[["Красная горка (Krasnaya gorka)",56.29,41.2948,"operating","downhill",4,1.3,108,146,"https://redmountain33.ru/",null],["Шакша (Shaksha)",57.4562,40.0323,"operating","downhill",2,null,112,152,"https://shaksha.ru/",null]];

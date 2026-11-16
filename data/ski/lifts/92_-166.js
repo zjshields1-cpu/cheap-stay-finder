@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['92_-166']=[[null,"platter","operating",46.3855,-82.6341,316,46.3851,-82.6314,342,"Mount Dufour"],[null,"chair_lift","operating",46.3857,-82.6351,317,46.3889,-82.6353,418,"Mount Dufour"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['136_48']=[[null,"drag_lift","operating",68.0591,24.0548,528,68.062,24.0321,756,"Pallas Ski Resort, Hiihtokeskus Pallas"],[null,"drag_lift","operating",68.0464,24.0569,438,68.0557,24.0386,671,"Pallas Ski Resort, Hiihtokeskus Pallas"]];

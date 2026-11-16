@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['88_38']=[["Bukova glava","t-bar","operating",44.066,19.32,784,44.0641,19.3238,826,"Javor ski Srebrenica"],[null,"rope_tow","operating",44.1642,19.0755,280,44.1635,19.076,290,"Sportski centar Milići"]];

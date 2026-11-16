@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['109_-249']=[[null,"rope_tow","operating",54.5182,-124.2112,900,54.5196,-124.2132,933,"Murray Ridge"],[null,"t-bar","operating",54.5177,-124.21,897,54.5319,-124.1933,1404,"Murray Ridge"]];

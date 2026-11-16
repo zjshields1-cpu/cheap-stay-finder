@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['102_46']=[["Wyciąg Mikeska","t-bar","operating",51.1486,23.4238,223,51.148,23.4226,227,"Ośrodek Narciarski \"NartRaj\""],["Wyciąg Bachleda","t-bar","operating",51.1487,23.4243,222,51.1474,23.4214,239,"Ośrodek Narciarski \"NartRaj\""]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['96_-240']=[["Junior Poma","platter","operating",48.3941,-119.9124,1247,48.3927,-119.9157,1308,"Loup Loup Ski Bowl"],["Peanut Tow","rope_tow","operating",48.3934,-119.9107,1236,48.3941,-119.9108,1242,"Loup Loup Ski Bowl"],["Quad Chairlift","chair_lift","operating",48.3933,-119.9111,1240,48.3886,-119.9247,1611,"Loup Loup Ski Bowl"]];

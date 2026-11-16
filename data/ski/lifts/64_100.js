@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['64_100']=[[null,"drag_lift","operating",32.4583,50.1242,2334,32.4556,50.1174,2563,"پیست اسکی کوهرنگ, Chelgerd Ski Resort"],[null,"drag_lift","operating",32.4583,50.1242,2334,32.4556,50.1173,2564,"پیست اسکی کوهرنگ, Chelgerd Ski Resort"]];

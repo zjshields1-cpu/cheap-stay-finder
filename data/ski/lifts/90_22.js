@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['90_22']=[["Funicolare di Castel San Pietro","funicular","operating",45.4487,11.0009,68,45.4487,11.0027,118,null],["Funicolare di Castel San Pietro","funicular","operating",45.4487,11.0027,118,45.4487,11.0028,121,null],["Funicolare di Castel San Pietro","funicular","operating",45.4487,11.0009,67,45.4487,11.0009,68,null]];

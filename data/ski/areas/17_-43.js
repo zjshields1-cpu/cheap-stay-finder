@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['17_-43']=[["Cloudmont Ski Hill",34.5343,-85.6015,"operating","downhill",1,0.2,461,494,null,[34.5333,-85.6026,34.5355,-85.6002]],["Cloudmont Ski Resort",34.5381,-85.6037,"operating","downhill",null,null,null,null,"https://www.facebook.com/cloudmont/",null]];

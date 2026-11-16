@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['74_89']=[[null,"drag_lift","operating",37.4636,44.7882,1928,37.4609,44.7849,2015,"پیست اسکی خوشاکو, Khoshakoo Ski Resort"],[null,"drag_lift","operating",37.464,44.7869,1935,37.4577,44.7796,2276,"پیست اسکی خوشاکو, Khoshakoo Ski Resort"]];

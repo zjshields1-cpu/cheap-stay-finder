@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-75_-143']=[["Cóndores","platter","operating",-37.3874,-71.3763,1444,-37.3974,-71.3661,1898,"Antuco"],[null,"rope_tow","operating",-37.3839,-71.3778,1390,-37.3846,-71.3776,1393,"Antuco"],["Condorito","platter","operating",-37.3846,-71.3773,1395,-37.3878,-71.3757,1458,"Antuco"]];

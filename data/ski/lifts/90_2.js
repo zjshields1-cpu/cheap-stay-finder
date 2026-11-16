@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['90_2']=[["Rouffiac Cablepark","drag_lift","operating",45.4149,1.1615,267,45.4149,1.1615,267,null],[null,"drag_lift","operating",45.4144,1.1619,268,45.4148,1.1606,268,null]];

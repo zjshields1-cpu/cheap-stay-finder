@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['88_-176']=[[null,"drag_lift","operating",44.4608,-87.5591,183,44.4608,-87.5619,221,"Kewaunee County Winter Park"],[null,"rope_tow","operating",44.4594,-87.5588,186,44.459,-87.5598,201,"Kewaunee County Winter Park"]];

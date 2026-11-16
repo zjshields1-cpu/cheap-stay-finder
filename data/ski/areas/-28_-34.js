@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['-28_-34']=[["Cerro Castor",-54.7145,-67.9963,"operating","downhill,nordic",11,32.3,189,943,"https://www.cerrocastor.com/",[-54.725,-68.0207,-54.7049,-67.9699]]];

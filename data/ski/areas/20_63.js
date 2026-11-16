@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['20_63']=[["白山大镜沟滑雪场（规划）",41.8326,126.5483,"operating","",1,null,632,1486,null,[41.821,126.528,41.851,126.5837]],["Kanggye Ski Resort",40.9863,126.5978,"operating","downhill",null,1.2,326,433,null,null],["长白山华美胜地滑雪场",41.9608,127.5162,"operating","downhill",4,4.7,868,967,null,[41.9571,127.5105,41.9646,127.5211]]];

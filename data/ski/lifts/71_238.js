@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['71_238']=[[null,"gondola","operating",35.6891,119.378,147,35.6901,119.3892,402,null],[null,"gondola","operating",35.6894,119.3775,140,35.694,119.3652,444,null],[null,"magic_carpet","operating",35.512,119.4797,71,35.5112,119.4779,98,"日照沁园春滑雪场"]];

@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['12_60']=[["Little Ding-Dong Ski Resort",24.8688,120.9788,"operating","downhill",null,null,null,null,"https://www.ding-dong.com.tw/skifacility-jp?lang=en",null]];

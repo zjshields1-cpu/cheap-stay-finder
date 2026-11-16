@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['87_85']=[[null,"rope_tow","operating",43.8217,42.663,1515,43.819,42.6645,1592,null],[null,"platter","operating",43.8218,42.6621,1510,43.8189,42.6634,1596,null],["Подвесная канатная дорога","cable_car","construction",43.8979,42.7372,952,43.8984,42.7585,1179,null]];

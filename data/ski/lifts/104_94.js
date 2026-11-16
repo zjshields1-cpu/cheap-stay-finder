@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['104_94']=[[null,"rope_tow","operating",52.0657,47.3878,62,52.0624,47.3935,178,"Ассоль (Assol volsk)"],[null,"rope_tow","operating",52.066,47.3879,63,52.0669,47.3965,214,"Ассоль (Assol volsk)"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['69_269']=[["書写山ロープウェイ, Mt. Shosha Ropeway, Q11515163, Téléphérique du mont Shosha, しょしゃざんロープウェイ, Shoshasan-rōpuwei","cable_car","operating",34.8786,134.6667,35,34.8842,134.662,246,null]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['73_96']=[[null,"drag_lift","operating",36.5169,48.3658,2065,36.5124,48.3677,2176,"پیست اسکی پاپایی, Papaei Ski Resort"],[null,"drag_lift","operating",36.5169,48.3659,2064,36.5123,48.3678,2175,"پیست اسکی پاپایی, Papaei Ski Resort"]];

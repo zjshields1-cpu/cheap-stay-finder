@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['25_-64']=[["Mount Cain Alpine Park",50.2227,-126.3464,"operating","downhill",3,13.5,1190,1616,"https://www.mountcain.com/",[50.2182,-126.355,50.227,-126.3357]]];

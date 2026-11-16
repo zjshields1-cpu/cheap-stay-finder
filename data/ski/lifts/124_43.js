@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['124_43']=[[null,"t-bar","operating",62.4351,21.8178,109,62.4318,21.8204,167,"Parra Snowpark"],[null,"t-bar","operating",62.4351,21.8177,109,62.4318,21.8203,167,"Parra Snowpark"],[null,"drag_lift","operating",62.2837,21.6235,60,62.2823,21.6276,102,null]];

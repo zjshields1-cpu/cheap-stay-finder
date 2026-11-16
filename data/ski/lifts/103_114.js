@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['103_114']=[[null,"drag_lift","operating",51.5048,57.3481,216,51.5071,57.3386,419,"Долина (Dolina)"],[null,"drag_lift","operating",51.5055,57.3485,217,51.5076,57.3385,427,"Долина (Dolina)"]];

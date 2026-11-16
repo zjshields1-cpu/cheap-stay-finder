@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['61_103']=[[null,"drag_lift","operating",30.6707,51.7265,2630,30.6675,51.7247,2727,"پیست اسکی کاکان, Kakan Ski Resort"],[null,"drag_lift","operating",30.6707,51.7264,2631,30.6677,51.7245,2731,"پیست اسکی کاکان, Kakan Ski Resort"]];

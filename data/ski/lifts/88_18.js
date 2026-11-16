@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['88_18']=[["Funivia Rapallo-Montallegro","cable_car","operating",44.353,9.2359,16,44.369,9.2538,582,null],[null,"cable_car","operating",44.3262,9.2908,31,44.3269,9.2907,114,null]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['46_226']=[["白云山索道, Baiyun Cable Way","gondola","operating",23.16,113.29,43,23.174,113.2951,244,null],["长隆野生动物世界空中缆车","cable_car","operating",23.0034,113.3058,25,23.0034,113.3058,25,null]];

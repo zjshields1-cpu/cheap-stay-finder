@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['125_30']=[[null,"drag_lift","operating",62.9228,15.2261,319,62.9218,15.22,418,"Mickelbacken Gallo"],[null,"drag_lift","operating",62.7471,15.4325,334,62.7478,15.4358,382,null]];

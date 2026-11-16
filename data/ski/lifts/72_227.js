@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['72_227']=[["红旗渠索道","gondola","operating",36.3527,113.7515,467,36.3529,113.7555,616,null],[null,"gondola","operating",36.2066,113.5875,976,36.2084,113.5809,1291,null]];

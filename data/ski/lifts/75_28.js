@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['75_28']=[["Mufara","chair_lift","operating",37.8742,14.0219,1564,37.8689,14.0209,1833,"Piano Battaglia"],["Mufaretta","platter","operating",37.8743,14.0218,1564,37.8725,14.0199,1640,"Piano Battaglia"],[null,"magic_carpet","operating",37.8746,14.0231,1565,37.8739,14.0242,1587,"Piano Battaglia"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['106_98']=[[null,"drag_lift","operating",53.3757,49.0958,134,53.3721,49.0983,212,null],[null,"drag_lift","operating",53.4686,49.383,66,53.4731,49.3815,137,"Спин-Спорт (Spin-Sport)"]];

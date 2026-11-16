@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['108_-232']=[["T-Bar (Mueller)","t-bar","operating",54.1361,-115.6549,700,54.1334,-115.6558,750,"Eastlink Park"],[null,"magic_carpet","operating",54.1346,-115.6524,727,54.1331,-115.6521,748,"Eastlink Park"]];

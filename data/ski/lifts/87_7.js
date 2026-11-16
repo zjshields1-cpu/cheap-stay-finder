@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['87_7']=[["Transcanal","mixed_lift","operating",43.5272,3.9325,2,43.5267,3.9319,2,null],[null,"funicular","operating",43.9075,3.7446,279,43.9078,3.7444,344,null]];

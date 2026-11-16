@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['20_-170']=[["Sky Tram","cable_car","operating",10.3364,-84.811,1563,10.3347,-84.8049,1740,null],[null,"cable_car","operating",10.4246,-84.7357,717,10.4192,-84.7265,950,null]];

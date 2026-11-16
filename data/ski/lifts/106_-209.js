@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['106_-209']=[[null,"magic_carpet","operating",53.2355,-104.4598,360,53.236,-104.4579,379,"Wapiti Valley"],[null,"chair_lift","operating",53.2351,-104.461,351,53.2344,-104.4533,433,"Wapiti Valley"]];

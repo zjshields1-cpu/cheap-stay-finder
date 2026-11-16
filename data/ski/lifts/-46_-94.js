@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-46_-94']=[["Teleférico de Serra Negra","chair_lift","operating",-22.6081,-46.7031,930,-22.6043,-46.6988,1110,null],["Morro do Cristo Teleférico","j-bar","operating",-22.7427,-46.9116,592,-22.7469,-46.9082,704,null]];

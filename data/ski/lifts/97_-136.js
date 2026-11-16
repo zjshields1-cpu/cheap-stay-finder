@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['97_-136']=[["Poma Débrayable A","drag_lift","operating",48.7664,-67.5457,22,48.7669,-67.5538,181,"Mont Castor"],["Poma Automatique B","drag_lift","operating",48.7684,-67.5459,20,48.7691,-67.555,189,"Mont Castor"],["Fil Neige","drag_lift","operating",48.7657,-67.5454,23,48.7653,-67.5466,38,"Mont Castor"]];

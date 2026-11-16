@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['91_-128']=[["Blue Quad","chair_lift","operating",45.6098,-63.5614,55,45.6059,-63.5474,283,"Ski Wentworth"],["Cobequid Chair","chair_lift","operating",45.6105,-63.561,54,45.6061,-63.5474,281,"Ski Wentworth"],["T-bar","t-bar","operating",45.6089,-63.5611,58,45.6059,-63.5481,280,"Ski Wentworth"]];

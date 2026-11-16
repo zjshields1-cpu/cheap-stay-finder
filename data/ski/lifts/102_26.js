@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['102_26']=[["Panoramaaufzug Burgberg Meißen","funicular","operating",51.1663,13.4693,110,51.1661,13.4696,135,null],["Panoramaaufzug Burgberg Meißen","funicular","operating",51.1661,13.4696,138,51.166,13.4696,140,null],["Panoramaaufzug Burgberg Meißen","funicular","operating",51.1661,13.4696,135,51.1661,13.4696,138,null]];

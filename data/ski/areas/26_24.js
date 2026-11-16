@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['26_24']=[["Спин-Спорт (Spin-Sport)",53.4709,49.3823,"operating","downhill",1,null,66,137,"http://www.spin-sport.ru/",null],["Хвалынский (Hvalin)",52.529,48.0678,"operating","downhill",2,1.7,118,237,"https://hvalin.ru/",null]];

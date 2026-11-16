@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['26_7']=[["Sztuczny stok narciarski",52.6045,15.9071,"operating","downhill",null,null,null,null,null,[52.6044,15.9067,52.6045,15.9074]],["Gubałówka",53.4859,14.5231,"operating","downhill",1,0.5,85,112,null,[53.4839,14.5222,53.487,14.5256]]];

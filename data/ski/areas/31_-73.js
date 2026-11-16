@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['31_-73']=[["Northern Warfare Training Center",63.515,-145.8497,"operating","downhill,nordic",null,null,null,null,"https://11thairbornedivision.army.mil/Units/Northern-Warfare-Training-Center/",null]];

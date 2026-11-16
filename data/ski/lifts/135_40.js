@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['135_40']=[["Luossabacken Stolliften","chair_lift","operating",67.8733,20.2082,570,67.8757,20.2218,724,"Luossavaarabacken"],[null,"platter","operating",67.8736,20.2077,569,67.8752,20.2164,649,"Luossavaarabacken"],[null,"t-bar","operating",67.8727,20.2112,578,67.8757,20.2227,724,"Luossavaarabacken"]];

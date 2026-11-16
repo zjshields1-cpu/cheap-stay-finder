@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['27_-3']=[["Bearsden Ski & Board",55.9277,-4.3415,"operating","downhill",2,0.2,79,97,"https://www.skibearsden.co.uk/",null],["Newmilns Snow & Sports Complex",55.6102,-4.3247,"operating","downhill",2,null,91,112,null,[55.6096,-4.3255,55.611,-4.3239]]];

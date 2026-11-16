@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['92_40']=[["Wakeboard-pálya","t-bar","operating",46.3838,20.2703,77,46.3853,20.2725,77,null],[null,"drag_lift","operating",46.3822,20.2726,76,46.3822,20.2726,76,null],[null,"t-bar","operating",46.384,20.1049,80,46.384,20.1075,82,null],["Wakeboard-pálya","t-bar","operating",46.3837,20.2712,76,46.385,20.2729,78,null]];

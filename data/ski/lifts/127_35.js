@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['127_35']=[[null,"platter","operating",63.7942,17.6282,360,63.7969,17.6318,420,"Solbergsbacken"],[null,"t-bar","operating",63.7941,17.6279,359,63.8026,17.6379,577,"Solbergsbacken"]];

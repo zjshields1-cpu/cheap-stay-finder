@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['20_-62']=[["Mt. Shasta Nordic",41.3082,-122.2184,"operating","nordic",null,null,1573,1722,"https://www.mtshastanordic.org/",null],["Mt. Shasta Ski Park",41.3329,-122.1973,"operating","downhill",6,29.1,1666,2298,"https://www.skipark.com/",null]];

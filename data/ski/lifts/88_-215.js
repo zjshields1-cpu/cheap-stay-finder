@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['88_-215']=[["Cloud Peak","chair_lift","operating",44.1643,-107.2171,2583,44.1589,-107.223,2825,"Meadowlark Ski Area"],["Little Chief","chair_lift","operating",44.164,-107.2165,2587,44.162,-107.2173,2628,"Meadowlark Ski Area"]];

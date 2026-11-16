@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['79_282']=[[null,"rope_tow","operating",39.8756,141.1339,264,39.8738,141.1343,312,"盛岡市立生出スキー場, Morioka Shiritsu Oide Ski Area"],[null,"rope_tow","operating",39.876,141.1331,253,39.8753,141.1328,266,"盛岡市立生出スキー場, Morioka Shiritsu Oide Ski Area"]];

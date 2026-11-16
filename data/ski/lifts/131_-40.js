@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['131_-40']=[[null,"magic_carpet","operating",65.7782,-19.7634,449,65.7779,-19.764,453,"Tindastóll"],["Heljarskin","platter","operating",65.7837,-19.7472,640,65.789,-19.7284,902,"Tindastóll"],[null,"platter","operating",65.7794,-19.7622,450,65.7854,-19.7461,683,"Tindastóll"]];

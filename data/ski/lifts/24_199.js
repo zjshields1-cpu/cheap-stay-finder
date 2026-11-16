@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['24_199']=[["kite cable 1","drag_lift","operating",12.3889,99.9672,2,12.3905,99.9675,2,null],["kite cable 2","drag_lift","operating",12.3888,99.966,2,12.3888,99.967,2,null]];

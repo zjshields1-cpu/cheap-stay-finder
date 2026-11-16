@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['75_252']=[[null,"gondola","operating",37.6162,126.4988,67,37.6108,126.5003,201,"Gangwa Seaside Resort"],[null,"gondola","operating",37.6162,126.4988,67,37.6162,126.4987,67,"Gangwa Seaside Resort"],[null,"gondola","operating",37.6162,126.4987,67,37.6108,126.5003,202,"Gangwa Seaside Resort"]];

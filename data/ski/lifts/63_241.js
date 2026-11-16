@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['63_241']=[[null,"gondola","operating",31.9527,120.8858,7,31.9525,120.8836,80,null],["虞山索道, Teleférico Yushan","cable_car","operating",31.6672,120.7143,33,31.6652,120.7041,236,null]];

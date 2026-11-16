@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['117_17']=[[null,"drag_lift","operating",58.7536,8.8616,172,58.7547,8.8553,252,"Vegårshei skisenter"],[null,"magic_carpet","operating",58.7538,8.8613,174,58.754,8.8603,185,"Vegårshei skisenter"]];

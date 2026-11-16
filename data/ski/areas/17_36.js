@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['17_36']=[["Kala Bagh (Nathiagali)",34.0778,73.377,null,"downhill",null,null,null,null,null,null],["Malam Jabba",34.7982,72.5755,"operating","downhill",1,null,2472,2671,"https://malamjabbaskiresort.com/",null]];

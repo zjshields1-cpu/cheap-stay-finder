@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['133_-108']=[[null,"drag_lift","operating",66.9393,-53.5316,231,66.9433,-53.5302,333,"Sisismut Solbakken"],["Tøsebakken","drag_lift","operating",66.9356,-53.6501,45,66.9343,-53.6522,68,"Tosebakken"]];

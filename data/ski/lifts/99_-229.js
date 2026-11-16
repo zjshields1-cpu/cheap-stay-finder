@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['99_-229']=[["Upper T-Bar","t-bar","operating",49.6034,-114.4523,1410,49.5999,-114.4577,1587,"Pass Powderkeg ski"],["Lower T-Bar","t-bar","operating",49.6065,-114.4466,1292,49.602,-114.4516,1443,"Pass Powderkeg ski"],["Rope Tow","rope_tow","operating",49.6025,-114.45,1415,49.6018,-114.4507,1428,"Pass Powderkeg ski"]];

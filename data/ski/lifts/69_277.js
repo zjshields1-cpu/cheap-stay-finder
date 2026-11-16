@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['69_277']=[["下田ロープウェイ, Shimoda Ropeway, Téléphérique de Shimoda, しもだロープウェイ, Shimoda rōpuwei","cable_car","operating",34.6789,138.9462,2,34.6792,138.9518,164,null]];

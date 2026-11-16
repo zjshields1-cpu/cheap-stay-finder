@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['24_-44']=[["Trestle Ridge",48.7876,-87.1073,"operating","downhill",1,null,253,300,"https://www.facebook.com/trestleridge/",null],["Marathon Cross Country Ski and Snowshoe Club",48.7388,-86.3697,"operating","nordic",null,null,223,299,"https://www.marathonskiclub.ca/",null]];

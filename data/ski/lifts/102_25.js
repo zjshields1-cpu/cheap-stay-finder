@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['102_25']=[[null,"platter","operating",51.4623,12.6183,107,51.462,12.618,128,null],["Wasserskianlage Eilenburg","drag_lift","operating",51.4757,12.6784,99,51.4757,12.6779,100,null]];

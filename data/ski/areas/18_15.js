@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['18_15']=[["Davraz Dağı",37.77,30.7513,"operating","downhill",7,14.2,1643,2349,"https://davrazkayakmerkezi.org",null],["Saklıkent",36.8318,30.3297,"operating","downhill",2,3.8,1892,2371,"https://www.saklikent.com.tr/Default.aspx",null]];

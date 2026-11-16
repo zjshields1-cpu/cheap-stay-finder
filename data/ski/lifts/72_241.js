@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['72_241']=[["太清索道, Taiqing Cableway, Tàiqīng suǒdào","gondola","operating",36.1457,120.6743,164,36.152,120.6668,382,null],[null,"cable_car","operating",36.155,120.6178,405,36.1695,120.6237,776,null],[null,"gondola","operating",36.2361,120.6616,39,36.2302,120.6557,254,null]];

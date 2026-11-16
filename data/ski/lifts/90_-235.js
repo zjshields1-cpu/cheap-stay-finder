@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['90_-235']=[["Wallowa Lake Tramway","gondola","operating",45.277,-117.2072,1364,45.2628,-117.1802,2472,"High Wallowas"],[null,"rope_tow","operating",45.2818,-117.1113,1561,45.2802,-117.1097,1591,"Ferguson Ridge Ski Area"],[null,"t-bar","operating",45.2819,-117.1127,1561,45.2749,-117.1125,1752,"Ferguson Ridge Ski Area"]];

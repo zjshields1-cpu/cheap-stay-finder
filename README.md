@@ -37,6 +37,8 @@ Cheap Stay Finder is an interactive travel map for budget travelers. Search any 
 - **Typical US airfares** come from the US DOT [Consumer Airfare Report, Table 6](https://data.transportation.gov/d/yj5y-b2ir): average one-way fares for real tickets sold, by city pair, for the last four published quarters. They're historical averages, not quotes; every flight links to Google Flights, Skyscanner and Kayak for live prices.
 - Airports come from [OurAirports](https://ourairports.com/data/) (public domain), driving routes from the [OSRM](https://project-osrm.org/) demo server, and weather from [Open-Meteo](https://open-meteo.com/).
 - Restaurants have no ratings: free map data doesn't include them, so each one links to its Google Maps reviews.
+- **Ski lifts and ski areas** come from [OpenSkiMap](https://openskimap.org) (derived from OpenStreetMap, [ODbL](https://opendatacommons.org/licenses/odbl/)), pre-built into small tiles in `data/ski/`, so they load instantly with no live server. The tiles are a derived database under the same ODbL license.
+- **Places** (groceries, restaurants, huts, rentals, campgrounds, parks, pools and spas) come from [Geoapify](https://www.geoapify.com/)'s hosted OpenStreetMap data through `/api/places`, which keeps the key server-side, caches results in Neon for a week, and stays under the free plan (3,000 requests a day) with a daily cap. If Geoapify is unavailable, the planner falls back to the public Overpass servers.
 
 ## Updating the airfare data
 
@@ -51,6 +53,20 @@ python tools/build_airfares.py dl data
 ```
 
 Change the `year>=` filter so `t6.json` holds the last four quarters.
+
+## Updating the ski data
+
+OpenSkiMap rebuilds its data daily; refreshing every month or two is plenty:
+
+```bash
+curl -o dl/lifts.geojson https://tiles.openskimap.org/geojson/lifts.geojson
+curl -o dl/ski_areas.geojson https://tiles.openskimap.org/geojson/ski_areas.geojson
+python tools/build_ski.py dl data
+```
+
+## Environment variables (Vercel)
+
+`DATABASE_URL` (Neon), `ANTHROPIC_API_KEY`, `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`, `GEOAPIFY_API_KEY`. None of them belong in the repo.
 
 ## Run locally
 

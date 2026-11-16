@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['94_61']=[["Бугель \"Action City\"","platter","operating",47.1675,30.9213,9,47.1643,30.9156,96,null],["Бугель \"Action City\"","platter","operating",47.1675,30.9213,9,47.1647,30.9161,90,null],["Мультиліфт","rope_tow","operating",47.1671,30.9219,10,47.166,30.9214,27,null]];

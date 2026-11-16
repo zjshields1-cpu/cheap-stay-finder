@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['93_-232']=[[null,"t-bar","operating",46.5748,-115.8709,1147,46.5668,-115.8725,1344,"Bald Mountain Ski Area"],[null,"rope_tow","operating",46.5703,-115.8695,1230,46.569,-115.8702,1255,"Bald Mountain Ski Area"]];

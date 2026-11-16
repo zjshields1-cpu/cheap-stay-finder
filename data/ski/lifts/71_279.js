@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['71_279']=[["スカイシャトル, Sky Shuttle, Sukai shatoru","gondola","operating",35.6322,139.5175,55,35.6242,139.5179,101,null],["さくらレール","funicular","operating",35.7171,139.8031,3,35.7172,139.803,6,null],["ターザンロープ","rope_tow","operating",35.5251,139.5017,59,35.5249,139.5015,60,null]];

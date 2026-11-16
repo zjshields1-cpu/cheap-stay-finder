@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-86_343']=[["Cassidy Tow","drag_lift","operating",-42.9105,171.5758,1364,-42.9121,171.5784,1466,"Temple Basin"],["Downhill Tow","drag_lift","operating",-42.9042,171.585,1550,-42.9057,171.5895,1751,"Temple Basin"],["Temple Tow","drag_lift","operating",-42.9098,171.5752,1346,-42.9078,171.5809,1541,"Temple Basin"]];

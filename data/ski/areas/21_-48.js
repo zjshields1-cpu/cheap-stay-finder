@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['21_-48']=[["Horseshoe Bend",43.2991,-95.2087,"operating","downhill",null,null,null,null,"https://dickinsoncountyconservationboard.com/horseshoe-bend-tubing-hill/",null]];

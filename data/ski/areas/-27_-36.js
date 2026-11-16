@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['-27_-36']=[["Los Tres Morros",-53.3175,-71.2754,"never_opened","downhill",null,null,null,null,null,null],["Club Andino Punta Arenas",-53.1605,-71.0291,"operating","downhill,nordic",1,6.3,363,572,"http://www.clubandino.cl/",[-53.1685,-71.044,-53.1552,-71.0168]]];

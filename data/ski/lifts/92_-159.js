@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['92_-159']=[["Conveyor","magic_carpet","operating",46.3369,-79.4297,306,46.3377,-79.4313,323,"Laurentian Ski Hill"],["Quad Chair","chair_lift","operating",46.3328,-79.433,229,46.3372,-79.432,326,"Laurentian Ski Hill"],["Handle Tow","rope_tow","operating",46.3349,-79.4302,291,46.3373,-79.4317,324,"Laurentian Ski Hill"]];

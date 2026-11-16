@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['112_-8']=[[null,"drag_lift","operating",56.1568,-3.7386,29,56.1579,-3.7389,54,"Firpark Ski Centre"],["Flying Fox","rope_tow","operating",56.0589,-3.8812,66,56.0588,-3.8817,67,null]];

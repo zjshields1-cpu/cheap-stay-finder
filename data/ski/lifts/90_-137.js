@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['90_-137']=[[null,"rope_tow","operating",45.3573,-68.2844,126,45.3561,-68.2847,148,"Mount Jefferson Ski Area"],[null,"t-bar","operating",45.3572,-68.2835,128,45.3523,-68.2822,229,"Mount Jefferson Ski Area"]];

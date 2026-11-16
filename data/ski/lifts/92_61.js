@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['92_61']=[[null,"funicular","operating",46.4887,30.7428,9,46.4881,30.7417,34,null],["Канатна дорога, Канатная дорога","gondola","operating",46.4633,30.762,14,46.4638,30.7565,55,null]];

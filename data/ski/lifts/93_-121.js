@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['93_-121']=[["Atlantic Gondola","gondola","operating",46.6275,-60.4213,15,46.6208,-60.4317,285,"Ski Cape Smokey"],[null,"j-bar","operating",46.6278,-60.4225,24,46.6259,-60.4274,128,"Ski Cape Smokey"]];

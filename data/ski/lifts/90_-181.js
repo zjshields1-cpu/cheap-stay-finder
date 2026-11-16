@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['90_-181']=[[null,"rope_tow","operating",45.3575,-90.2246,522,45.3582,-90.227,564,"Forest Springs"],[null,"rope_tow","operating",45.3571,-90.225,522,45.3574,-90.2263,551,"Forest Springs"],[null,"magic_carpet","operating",45.3581,-90.2237,522,45.3587,-90.2236,535,"Forest Springs"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['69_255']=[["여수해상케이블카, Yeosu Maritime Cable Car, 麗水海上ロープウェイ, 丽水海上缆车, 麗水海上纜車","cable_car","operating",34.7402,127.7528,63,34.7308,127.7417,74,null],[null,"cable_car","operating",34.9807,127.8953,65,34.9919,127.8711,802,null]];

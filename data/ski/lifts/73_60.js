@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['73_60']=[["Saklıbel Teleski","drag_lift","operating",36.838,30.3337,1892,36.8366,30.3257,2040,"Saklıkent"],["Karakaya Telesiej","chair_lift","operating",36.8379,30.3338,1893,36.8256,30.3328,2373,"Saklıkent"],["Tahtali 2365","cable_car","operating",36.5409,30.4869,723,36.5367,30.4423,2346,null]];

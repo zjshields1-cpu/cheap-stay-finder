@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['99_0']=[["Funiculaire du Havre","funicular","operating",49.5,0.1108,47,49.5002,0.1107,57,null],["Funiculaire du Havre","funicular","operating",49.5007,0.1104,78,49.5009,0.1104,83,null],["Funiculaire du Havre","funicular","operating",49.5002,0.1107,57,49.5007,0.1104,78,null]];

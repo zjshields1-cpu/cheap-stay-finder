@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['86_-176']=[[null,"funicular","operating",43.0569,-87.88,180,43.0571,-87.8804,196,null],[null,"funicular","operating",43.0571,-87.8804,196,43.0571,-87.8804,196,null],["Summerfest Skyglider","chair_lift","operating",43.0298,-87.8987,178,43.0341,-87.899,178,null]];

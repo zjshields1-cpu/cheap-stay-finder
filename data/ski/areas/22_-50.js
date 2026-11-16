@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['22_-50']=[["Winter Park (Wessington Springs)",44.0752,-98.5738,"operating","downhill",null,null,null,null,"https://wessingtonsprings.com/winterpark",null]];

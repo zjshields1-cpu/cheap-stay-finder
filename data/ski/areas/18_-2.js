@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['18_-2']=[["Estación de Esquí y Montaña de Sierra Nevada",37.0755,-3.3886,"operating","downhill,nordic",22,106.4,2138,3300,"https://sierranevada.es",[37.049,-3.4098,37.1018,-3.3677]]];

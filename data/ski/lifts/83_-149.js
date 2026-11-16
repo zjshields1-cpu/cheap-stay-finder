@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['83_-149']=[[null,"magic_carpet","operating",41.6912,-74.0165,172,41.6902,-74.0152,192,"Rocking Horse Ranch"],[null,"magic_carpet","operating",41.9847,-74.0442,153,41.9835,-74.0445,173,"Sawkill Family Ski Center"]];

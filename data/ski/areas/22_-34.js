@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['22_-34']=[["Wostawea - Kingswood Nordic Pulse",45.9269,-66.6906,"operating","nordic",null,null,100,132,"https://wostawea.ca/trail-conditions/",null],["Rockwood Ski Club",45.2995,-66.065,null,"downhill",null,null,null,null,null,null]];

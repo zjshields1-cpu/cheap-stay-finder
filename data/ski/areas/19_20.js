@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['19_20']=[["Konaklı Kayak Merkezi",39.7804,41.2076,"operating","downhill",4,22.4,2324,2898,null,null],["Palandöken Kayak Merkezi",39.8473,41.2892,"operating","downhill",14,29.5,2146,3146,null,null],["Bingöl Hasarek",38.8818,40.2874,"operating","downhill",1,2.5,1903,2251,null,null]];

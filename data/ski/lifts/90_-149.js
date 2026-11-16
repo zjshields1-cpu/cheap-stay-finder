@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['90_-149']=[["1 Quadruple Doppelmayr","chair_lift","operating",45.4681,-74.3384,58,45.4647,-74.3315,166,"Mont Rigaud"],["Tapis roulant","magic_carpet","operating",45.4677,-74.3386,61,45.4675,-74.3382,67,"Mont Rigaud"],["2 - Quadruple Poma Express","chair_lift","operating",45.4684,-74.3376,58,45.4649,-74.3312,167,"Mont Rigaud"]];

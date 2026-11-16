@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['24_-48']=[["Falcon Ridge",49.7035,-95.1888,"operating","downhill,nordic",4,null,328,368,"https://www.falconridgeski.com/",null],["Mount Evergreen",49.7915,-94.4122,"operating","downhill",3,3.3,352,401,"https://www.skikenora.com/",null]];

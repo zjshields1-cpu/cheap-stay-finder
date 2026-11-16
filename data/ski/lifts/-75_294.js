@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-75_294']=[["Cobungra Platter","platter","operating",-37.0245,147.2442,1561,-37.023,147.244,1582,"Cobungra Slope"],[null,"rope_tow","operating",-37.0111,147.0809,1438,-37.0107,147.0781,1530,"Mt St Bernard"],[null,"rope_tow","operating",-37.0085,147.0814,1475,-37.0078,147.0827,1496,"Mt St Bernard"]];

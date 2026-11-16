@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['131_44']=[[null,"t-bar","operating",65.6044,22.1862,29,65.604,22.1906,68,"Ormbergsbacken"],[null,"drag_lift","operating",65.8295,22.2453,71,65.8287,22.2504,107,null]];

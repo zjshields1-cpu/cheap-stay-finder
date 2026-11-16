@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['75_93']=[[null,"drag_lift","operating",37.7565,46.5149,2943,37.7471,46.5135,3303,"پیست اسکی سهند, Sahand Ski Resort"],[null,"drag_lift","operating",37.7565,46.515,2942,37.7471,46.5136,3304,"پیست اسکی سهند, Sahand Ski Resort"],[null,"drag_lift","operating",37.7583,46.5139,2925,37.7573,46.514,2936,"پیست اسکی سهند, Sahand Ski Resort"]];

@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['19_16']=[["Snowland Ski Park",39.8451,32.8613,"operating","downhill",null,null,null,null,null,null],["Elmadağ",39.8069,32.9643,null,"downhill",null,null,null,null,null,null]];

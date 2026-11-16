@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['70_257']=[[null,"chair_lift","operating",35.4283,128.9851,562,35.4218,128.9886,717,"에덴벨리스키장, Eden Valley Resort"],[null,"chair_lift","operating",35.4284,128.9853,566,35.4241,128.9874,637,"에덴벨리스키장, Eden Valley Resort"],[null,"chair_lift","operating",35.4283,128.9844,559,35.4197,128.9823,736,"에덴벨리스키장, Eden Valley Resort"]];

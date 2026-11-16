@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['65_100']=[["تلسکی, Surface Lift","drag_lift","operating",32.9499,50.0508,2771,32.944,50.0468,3073,"پیست اسکی فریدون شهر, Fereydunshahr Ski Resort"],[null,"rope_tow","operating",32.9494,50.0526,2785,32.9486,50.052,2794,"پیست اسکی فریدون شهر, Fereydunshahr Ski Resort"]];

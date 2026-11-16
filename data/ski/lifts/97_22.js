@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['97_22']=[["Skilift Laubenthal","drag_lift","operating",48.9807,11.0533,480,48.9806,11.0559,519,null],[null,"rope_tow","operating",48.8496,11.0858,432,48.8479,11.0858,488,null]];

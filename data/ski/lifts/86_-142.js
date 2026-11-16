@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['86_-142']=[[null,"drag_lift","operating",43.0365,-70.7804,19,43.0364,-70.7811,26,null],[null,"rope_tow","operating",43.2369,-70.8023,35,43.2352,-70.8032,75,"Powderhouse Hill Ski Area"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['101_-3']=[[null,"platter","operating",50.942,-1.4168,42,50.9418,-1.4152,66,"Southampton Alpine Centre"],[null,"platter","operating",50.9423,-1.4166,43,50.9423,-1.4156,60,"Southampton Alpine Centre"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['98_18']=[[null,"drag_lift","operating",49.3769,9.1235,225,49.3761,9.1213,275,null],["ehem. Skilift Stocksberg","drag_lift","operating",49.0693,9.4059,494,49.0684,9.4054,512,null]];

@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['28_42']=[["Эдельвейс, Edelveis",56.3453,84.9732,"operating","downhill",2,0.9,115,175,null,null],["Балетка, Baletka",56.4689,85.0315,"operating","downhill",1,0.4,95,159,"https://vk.com/baletkatomsk",null]];

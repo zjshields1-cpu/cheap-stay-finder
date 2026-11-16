@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['94_-146']=[[null,"t-bar","operating",47.4349,-72.7753,170,47.4302,-72.7708,301,"Ski La Tuque"],[null,"magic_carpet","operating",47.4343,-72.7762,169,47.4339,-72.776,175,"Ski La Tuque"],[null,"chair_lift","operating",47.4351,-72.7749,170,47.4297,-72.7698,312,"Ski La Tuque"]];

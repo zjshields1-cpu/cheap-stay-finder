@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['105_9']=[["Water Ski","drag_lift","operating",52.6451,4.7975,-3,52.6451,4.7975,-3,null],[null,"rope_tow","operating",52.6503,4.7799,-1,52.6502,4.7799,-1,null]];

@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['22_-58']=[["Chipmunk Ski Hill",44.4694,-114.3215,"operating","downhill",1,1.0,1962,2055,null,[44.4676,-114.324,44.4713,-114.3198]],["Big Hill Nordic",44.4954,-114.3526,"operating","nordic",null,null,2127,2295,"https://bighillnordic.com/",[44.4913,-114.3692,44.4996,-114.3556]]];

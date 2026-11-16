@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['79_-242']=[[null,"drag_lift","operating",39.7671,-120.6996,1671,39.7638,-120.7078,1871,"Plumas Eureka Ski Bowl"],[null,"drag_lift","operating",39.7661,-120.7003,1682,39.7638,-120.7038,1781,"Plumas Eureka Ski Bowl"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['86_-10']=[["Funicular de Bulnes","funicular","operating",43.2577,-4.8303,225,43.2382,-4.8233,629,null],["Teleférico de Fuente Dé","cable_car","operating",43.1441,-4.8121,1088,43.1535,-4.8054,1798,null]];

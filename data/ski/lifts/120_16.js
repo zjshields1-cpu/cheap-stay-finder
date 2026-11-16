@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['120_16']=[[null,"drag_lift","operating",60.3956,8.423,896,60.3855,8.4287,1111,"Dagali Fjellpark"],[null,"t-bar","operating",60.4634,8.3645,844,60.4688,8.3694,991,null]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['132_42']=[["restaurangliften","drag_lift","operating",66.0234,21.2539,78,66.0231,21.2485,122,"Storklinten"],["topplift","drag_lift","operating",66.0219,21.2549,78,66.021,21.2688,267,"Storklinten"],["Lilla liften","drag_lift","operating",66.0217,21.253,80,66.022,21.2481,116,"Storklinten"]];

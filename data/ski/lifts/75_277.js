@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['75_277']=[["弥彦山ロープウェイ, Yahikoyama Ropeway, Téléphérique du mont Yahiko, やひこやま ロープウェイ, Yahiko-yama Rōpuwei","cable_car","operating",37.7086,138.8212,110,37.71,138.8115,537,null]];

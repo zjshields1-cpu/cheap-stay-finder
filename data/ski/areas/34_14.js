@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['34_14']=[["Sandnes",69.6735,29.9336,"operating","downhill",1,1.4,2,125,"https://www.sandnesil.no/",[69.6716,29.9284,69.6749,29.939]],["Sandnes",69.6755,29.9684,"operating","nordic",null,null,18,74,"https://www.sandnesil.no/",[69.673,29.9335,69.6742,29.938]]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['121_21']=[[null,"drag_lift","operating",60.8789,10.9655,204,60.8821,10.9689,301,null],[null,"drag_lift","operating",60.8137,10.8228,265,60.8171,10.8173,392,null],[null,"platter","operating",60.7973,10.6741,171,60.7941,10.6761,257,"Hovdebakken"]];

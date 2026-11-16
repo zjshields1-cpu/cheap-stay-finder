@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['85_27']=[["Jolly 2","platter","operating",42.5024,13.5547,1399,42.5,13.556,1437,"Prati di Tivo"],["Tre Caciare","chair_lift","operating",42.7873,13.5818,1429,42.7805,13.5861,1648,"Monte Piselli"],["Jolly 1","platter","operating",42.5024,13.5547,1399,42.5,13.556,1437,"Prati di Tivo"]];

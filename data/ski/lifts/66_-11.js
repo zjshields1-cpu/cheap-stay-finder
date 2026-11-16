@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['66_-11']=[[null,"drag_lift","operating",33.3649,-5.1411,1949,33.3615,-5.1418,2110,"Habri ski resort"],["petit teleski","drag_lift","operating",33.4108,-5.0771,1882,33.4088,-5.0776,1932,"Michlifen ski resort"],[null,"drag_lift","operating",33.4125,-5.0804,1873,33.4105,-5.0845,2069,"Michlifen ski resort"]];

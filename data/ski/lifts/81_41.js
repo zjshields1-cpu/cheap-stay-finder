@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['81_41']=[["Bigëll 1","t-bar","operating",40.5203,20.7995,1592,40.5176,20.797,1678,"Ski Pista Bigëll – Dardhë"],["Bigëll 2","magic_carpet","operating",40.5201,20.7999,1601,40.5197,20.7998,1605,"Ski Pista Bigëll – Dardhë"],[null,"t-bar","operating",40.9874,20.8697,1484,40.9894,20.8776,1656,null]];

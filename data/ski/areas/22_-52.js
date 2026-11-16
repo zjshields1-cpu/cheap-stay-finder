@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['22_-52']=[["Terry Peak Ski Area",44.3329,-103.8317,"operating","downhill",5,15.3,1804,2129,"https://terrypeak.com/",[44.3259,-103.8413,44.3398,-103.8225]],["Deer Mountain Village",44.3055,-103.8276,"operating","downhill",3,14.6,1839,2026,"https://deermountainvillage.com/",null]];

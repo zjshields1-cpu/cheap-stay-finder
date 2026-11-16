@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['104_-224']=[["T-Bar","t-bar","operating",52.4139,-111.8243,652,52.4118,-111.8269,704,"Valley Ski Hill"],["Tow","rope_tow","operating",52.4136,-111.8236,652,52.4125,-111.8241,674,"Valley Ski Hill"]];

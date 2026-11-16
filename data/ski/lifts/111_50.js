@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['111_50']=[[null,"platter","operating",55.5271,25.1263,76,55.5259,25.1249,110,"Kalita Kalnas"],[null,"platter","operating",55.5269,25.1271,76,55.5254,25.1256,111,"Kalita Kalnas"]];

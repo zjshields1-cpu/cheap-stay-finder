@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['89_76']=[["Олимп","gondola","operating",44.5777,38.0932,141,44.5852,38.1016,544,null],[null,"chair_lift","operating",44.5856,38.0753,111,44.5966,38.0853,617,null]];

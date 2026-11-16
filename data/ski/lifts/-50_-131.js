@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-50_-131']=[["Teleférico San Bernardo","gondola","operating",-24.7938,-65.4016,1176,-24.7938,-65.4016,1176,null],[null,"cable_car","operating",-24.7892,-65.3922,1446,-24.7877,-65.3823,1466,null],[null,"cable_car","operating",-24.7892,-65.3921,1446,-24.7877,-65.3823,1467,null]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['125_57']=[[null,"drag_lift","operating",62.8528,28.9201,108,62.8458,28.9136,239,"Maarianvaaran hiihtokeskus"],[null,"drag_lift","operating",62.8528,28.9201,108,62.849,28.9141,199,"Maarianvaaran hiihtokeskus"],[null,"drag_lift","operating",62.8525,28.9209,109,62.8509,28.9224,148,"Maarianvaaran hiihtokeskus"]];

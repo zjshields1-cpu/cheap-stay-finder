@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['96_-179']=[["South Double Chair","chair_lift","operating",48.295,-89.3456,251,48.2979,-89.3401,368,"Loch Lomond"],["North Quad Chair","chair_lift","operating",48.2935,-89.3466,254,48.2891,-89.3512,431,"Loch Lomond"],["Snoopy Chair","chair_lift","operating",48.2946,-89.3452,253,48.2954,-89.3416,296,"Loch Lomond"]];

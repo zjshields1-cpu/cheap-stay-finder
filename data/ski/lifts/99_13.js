@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['99_13']=[["Saarburger Sesselbahn","chair_lift","operating",49.6116,6.5536,152,49.6132,6.5447,318,null],["Wake Park Riol","drag_lift","operating",49.7924,6.8023,122,49.7926,6.8024,122,null],[null,"drag_lift","operating",49.9599,6.6157,239,49.9612,6.6128,293,null],[null,"drag_lift","operating",49.7928,6.8018,122,49.7935,6.7996,122,null]];

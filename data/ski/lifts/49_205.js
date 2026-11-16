@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['49_205']=[["龙门索道, Longmen Cableway","chair_lift","operating",24.9618,102.6335,2144,24.9528,102.637,2274,null],["昆明旅游索道","gondola","operating",24.9631,102.6509,1890,24.9626,102.6338,2127,null]];

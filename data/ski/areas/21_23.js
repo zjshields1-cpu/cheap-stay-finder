@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['21_23']=[["Матлас (Matlas)",42.6087,46.5807,"operating","downhill",null,null,null,null,null,null],["Chindirchero (ЧИНДИРЧЕРО)",42.1911,47.4021,"operating","downhill",null,null,null,null,"https://www.instagram.com/chindirchero2500/",null]];

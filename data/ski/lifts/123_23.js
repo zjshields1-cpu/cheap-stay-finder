@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['123_23']=[[null,"t-bar","operating",61.7846,11.9652,794,61.7838,11.9777,914,"Engerdal Østfjell"],[null,"drag_lift","operating",61.8254,11.7361,669,61.8177,11.7362,834,null]];

@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['21_22']=[["Армхи (Armkhi)",42.8092,44.7061,"operating","downhill",1,null,1261,1484,"https://ingkurort.ru/",null],["გუდაური, Gudauri, Гудаури",42.5093,44.4944,"operating","downhill",16,40.5,1989,3246,"mta.ski",null]];

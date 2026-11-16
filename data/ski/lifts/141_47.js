@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['141_47']=[["Hammerfest Alpinklubb","drag_lift","operating",70.6941,23.6785,290,70.6942,23.6768,300,"Hammerfest"],["Hammerfest Alpinklubb","drag_lift","operating",70.6929,23.6954,140,70.6941,23.6785,290,"Hammerfest"]];

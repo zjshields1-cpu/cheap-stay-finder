@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['109_37']=[[null,"funicular","operating",54.5713,18.5493,1,54.5715,18.5485,34,null],["Kolejka na Kamienną Górę","funicular","operating",54.5164,18.5435,10,54.5157,18.5439,43,null]];

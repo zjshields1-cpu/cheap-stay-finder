@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['84_44']=[["Staza 1","t-bar","operating",42.0333,22.3548,1577,42.0308,22.3553,1609,"Ponikva"],[null,"t-bar","operating",42.0418,22.3581,1510,42.0396,22.353,1632,"Ponikva"]];

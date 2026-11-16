@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['67_146']=[["Patriyata Chair Lift","gondola","operating",33.8693,73.4696,1937,33.8572,73.4827,2151,null],["پنڈی پوائنٹ چیئر لفٹ, Pindi Point Chairlift","chair_lift","operating",33.8951,73.3684,1807,33.893,73.3784,2150,null],["Patriyata Chair Lift","chair_lift","operating",33.8742,73.4579,1643,33.869,73.4696,1936,null]];

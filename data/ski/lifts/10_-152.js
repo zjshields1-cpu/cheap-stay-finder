@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['10_-152']=[["Línea 1 Cable Aéreo","gondola","operating",5.0503,-75.5067,1882,5.0671,-75.5115,2127,null],["Línea 3 Cable Aéreo","gondola","operating",5.0501,-75.5065,1882,5.0569,-75.4868,2164,null],["Línea 2 Cable Aéreo","gondola","operating",5.05,-75.5067,1882,5.0462,-75.512,1911,null]];

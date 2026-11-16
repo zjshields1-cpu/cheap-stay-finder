@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['71_95']=[[null,"drag_lift","operating",35.873,47.5853,2008,35.8705,47.5779,2137,"پیست اسکی نسار, Nesar Ski Resort"],[null,"chair_lift","operating",35.8732,47.5857,2000,35.8692,47.5741,2272,"پیست اسکی نسار, Nesar Ski Resort"]];

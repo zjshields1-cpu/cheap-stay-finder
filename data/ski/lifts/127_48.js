@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['127_48']=[[null,"t-bar","operating",63.9135,24.3274,76,63.9118,24.329,118,"Louekeskus"],[null,"platter","operating",63.9138,24.3291,77,63.913,24.3291,90,"Louekeskus"]];

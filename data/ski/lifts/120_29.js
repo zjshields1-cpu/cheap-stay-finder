@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['120_29']=[[null,"drag_lift","operating",60.3436,14.5128,235,60.3423,14.5095,281,null],[null,"t-bar","operating",60.0886,14.9293,299,60.0921,14.9206,424,"Fjallberget"]];

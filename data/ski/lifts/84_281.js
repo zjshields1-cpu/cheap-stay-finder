@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['84_281']=[["第2ペアリフト【オーロラ】","chair_lift","operating",42.0075,140.5961,311,42.0111,140.5933,437,"グリーンピア大沼, Greenpia Onuma"],["第1ペアリフト【レインボー】","chair_lift","operating",42.0031,140.603,181,42.0069,140.5967,316,"グリーンピア大沼, Greenpia Onuma"]];

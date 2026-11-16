@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['115_53']=[["Ala-Kiidi","drag_lift","operating",57.7452,26.8997,105,57.747,26.8995,145,null],[null,"drag_lift","operating",57.5707,26.6608,73,57.5696,26.6587,90,null],[null,"chair_lift","operating",57.5399,26.9436,203,57.5423,26.9438,268,null]];

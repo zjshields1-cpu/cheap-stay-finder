@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['88_9']=[[null,"drag_lift","operating",44.2837,4.6897,41,44.2848,4.6913,42,null],["Téléski nautique","drag_lift","operating",44.162,4.727,30,44.162,4.727,30,null],[null,"drag_lift","operating",44.1618,4.7287,30,44.1595,4.7282,30,null],["EXO 84","drag_lift","operating",44.2834,4.6904,41,44.2834,4.6904,41,null]];

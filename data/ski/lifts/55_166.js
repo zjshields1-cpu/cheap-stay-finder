@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['55_166']=[[null,"gondola","operating",27.7109,83.4594,302,27.7276,83.4532,808,null],["Lumbini Cable Car","gondola","operating",27.717,83.4671,270,27.7298,83.4882,980,null]];

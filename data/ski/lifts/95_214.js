@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['95_214']=[["Chair Lift 2","chair_lift","operating",47.8772,107.0449,1378,47.8678,107.0461,1564,"Sky Resort"],["Chair Lift 1","chair_lift","operating",47.8774,107.0436,1378,47.8702,107.0396,1463,"Sky Resort"]];

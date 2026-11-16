@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['95_-141']=[[null,"chair_lift","operating",47.771,-70.1022,396,47.7707,-70.0853,726,"Mont Grand-Fonds"],[null,"t-bar","operating",47.7707,-70.1015,400,47.7682,-70.0969,463,"Mont Grand-Fonds"],[null,"t-bar","operating",47.7714,-70.1016,395,47.7711,-70.0855,727,"Mont Grand-Fonds"]];

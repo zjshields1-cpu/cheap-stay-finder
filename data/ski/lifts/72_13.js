@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['72_13']=[["Télécabine de Constantine","gondola","operating",36.3719,6.6181,638,36.3752,6.6323,708,null],["Télécabine de Constantine","gondola","operating",36.3697,6.6146,619,36.3719,6.6181,638,null]];

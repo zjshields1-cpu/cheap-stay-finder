@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['88_-185']=[["Handle Tow","rope_tow","operating",44.3642,-92.0438,227,44.3633,-92.0444,241,"Coffee Mill"],["Run of the Mill Chair","chair_lift","operating",44.3628,-92.0437,230,44.3607,-92.0463,340,"Coffee Mill"],["Barnstormer Chair","chair_lift","operating",44.3629,-92.0432,229,44.3578,-92.0414,353,"Coffee Mill"]];

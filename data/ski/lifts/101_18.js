@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['101_18']=[[null,"drag_lift","operating",50.5058,9.226,697,50.5087,9.2253,747,"Ski- & Rodelarena Hoherodskopf"],["Skilift Breungeshainer Hang","drag_lift","operating",50.5115,9.2108,597,50.5089,9.2249,747,"Ski- & Rodelarena Hoherodskopf"]];

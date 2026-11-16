@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['131_35']=[["Dalliften","t-bar","operating",65.6508,17.502,422,65.6533,17.5227,643,"Nalovardo"],["Naloliften","t-bar","operating",65.6519,17.5013,431,65.664,17.5229,745,"Nalovardo"],["Plutoliften","rope_tow","operating",65.6508,17.502,422,65.6512,17.5045,439,"Nalovardo"]];

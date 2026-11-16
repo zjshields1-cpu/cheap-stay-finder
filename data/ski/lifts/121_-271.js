@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['121_-271']=[[null,"chair_lift","operating",60.6119,-135.0466,871,60.6045,-135.0622,1186,"Mount Sima"],["Handle Tow","drag_lift","operating",60.6122,-135.0458,870,60.6121,-135.0495,893,"Mount Sima"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['63_153']=[[null,"funicular","operating",31.9981,76.8171,1753,32.0124,76.825,2422,null],["Joginder Nagar - Barot Haulage Trolley","funicular","operating",31.9888,76.8074,1261,31.9987,76.817,1769,null]];

@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['26_-31']=[["Birch Brook Cross Country Ski Trails",53.4153,-60.4098,"operating","nordic",null,null,null,null,"https://www.birchbrook.ca/",null],["Snow Goose Mountain Park & Resort",53.4138,-60.428,"operating","downhill",null,5.5,20,178,"https://snowgoosemountain.com/",null]];

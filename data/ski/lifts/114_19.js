@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['114_19']=[["Aalborg Cable Park","drag_lift","operating",57.0478,9.9392,2,57.0477,9.9424,2,null],["Aalborg Cable Park","drag_lift","operating",57.048,9.9424,2,57.0481,9.9391,2,null]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['104_26']=[[null,"drag_lift","operating",52.3528,13.2953,45,52.3527,13.2955,45,null],[null,"drag_lift","operating",52.2262,13.3879,37,52.2261,13.388,37,null],["MAGIX Wakepark 2.0","drag_lift","operating",52.3624,13.0216,30,52.3616,13.0204,30,null]];

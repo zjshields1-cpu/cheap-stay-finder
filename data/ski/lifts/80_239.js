@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['80_239']=[["角山登山索道","chair_lift","operating",40.0348,119.7328,90,40.0402,119.7267,299,null],["角山-燕塞湖索道（已废弃）","cable_car","operating",40.0386,119.701,54,40.0442,119.7232,402,null]];

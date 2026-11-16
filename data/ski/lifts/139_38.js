@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['139_38']=[[null,"t-bar","operating",69.6765,19.0686,71,69.663,19.0663,509,"Tromsø Alpinpark"],["Bamsetrekket","t-bar","operating",69.678,19.066,45,69.6733,19.0658,175,"Tromsø Alpinpark"],[null,"t-bar","operating",69.6765,19.0684,71,69.6674,19.0669,418,"Tromsø Alpinpark"]];

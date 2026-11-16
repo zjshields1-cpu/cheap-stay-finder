@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['27_21']=[["Горнолыжный курорт Гора \"Глубокая\", Gora Glubokaya",54.8888,43.4174,"operating","downhill",2,0.2,139,156,null,[54.888,43.4153,54.8896,43.4186]]];

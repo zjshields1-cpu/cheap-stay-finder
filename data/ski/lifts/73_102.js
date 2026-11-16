@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['73_102']=[["خط ١ تله کابین نمک آبرود, line 1 of Namakabrood cable car","gondola","operating",36.6647,51.3196,22,36.65,51.3105,969,null],["خط ٢ تله کابین نمک آبرود, line 2 of Namakabrood cable car","gondola","operating",36.6647,51.3192,22,36.6564,51.3034,686,null]];

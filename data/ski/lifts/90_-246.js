@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['90_-246']=[["Portland Aerial Tram","cable_car","operating",45.4992,-122.6711,11,45.4995,-122.684,119,null],["Portland Aerial Tram","cable_car","operating",45.4993,-122.6711,10,45.4996,-122.684,122,null]];

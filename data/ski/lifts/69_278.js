@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['69_278']=[["小室山観光リフト, Mt.Komuro Cable Car For Tourists","chair_lift","operating",34.9405,139.1287,220,34.9397,139.1311,319,null],["大室山登山リフト, Lift  For Mt. Omuro Hikers","chair_lift","operating",34.9077,139.0966,402,34.9054,139.0958,542,null],["Tozandensha","funicular","operating",34.9669,139.0901,23,34.9669,139.0898,37,null]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['66_70']=[["רכבל ראש הנקרה, Rosh-Hanikra-Seilbahn, Rosh Hanikra Cable Car, Канатная дорога Рош ха-Никра","cable_car","operating",33.0936,35.1041,3,33.0931,35.1049,50,null]];

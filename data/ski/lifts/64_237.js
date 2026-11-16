@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['64_237']=[["Zijinshan Telpher","gondola","operating",32.0605,118.8188,70,32.0722,118.8373,405,null],["珍珠泉索道","gondola","operating",32.1264,118.6485,42,32.1357,118.6494,213,null]];

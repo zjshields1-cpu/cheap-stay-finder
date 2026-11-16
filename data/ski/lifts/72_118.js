@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['72_118']=[["تله سبژ سد چالیدره","chair_lift","operating",36.319,59.3519,1382,36.3241,59.3536,1393,null],[null,"drag_lift","operating",36.2947,59.0646,2696,36.2893,59.058,2902,"پیست اسکی شیرباد, Shirbad Ski Piste"]];

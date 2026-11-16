@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['51_220']=[["金佛顶索道, Golden Buddha Peak Cableway","gondola","operating",25.8079,110.159,786,25.8173,110.1513,1086,null],[null,"gondola","operating",25.8854,110.1742,295,25.8771,110.1803,625,null]];

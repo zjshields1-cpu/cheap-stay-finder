@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['21_61']=[["Guaipo Ski Field",42.0515,123.6439,"operating","downhill",5,2.2,104,193,null,null],["东北亚滑雪场",42.0385,123.7208,"operating","downhill",7,4.0,153,346,null,[42.0329,123.7176,42.0445,123.7239]]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['69_273']=[["展望リフト","chair_lift","operating",34.5052,136.8358,8,34.5059,136.8368,52,null],["展望リフト","chair_lift","operating",34.5051,136.8358,8,34.5059,136.8368,53,null]];

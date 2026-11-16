@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['102_14']=[[null,"rope_tow","operating",51.3598,7.1989,174,51.3581,7.1982,204,null],[null,"chair_lift","operating",51.4933,7.4797,98,51.4976,7.4772,121,null],["Seilbahn Burg","chair_lift","operating",51.1366,7.1486,95,51.1374,7.1512,181,null]];

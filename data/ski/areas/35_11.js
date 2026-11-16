@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['35_11']=[["Hammerfest",70.6932,23.6864,"operating","downhill",2,null,140,300,"https://www.hammerfest-alpinklubb.no/",null],["Sarves Alta",70.039,23.5359,"operating","downhill",1,7.1,64,269,null,[70.0347,23.5302,70.0436,23.5449]]];

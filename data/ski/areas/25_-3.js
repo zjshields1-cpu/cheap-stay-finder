@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['25_-3']=[["Pembrey ski centre",51.6781,-4.3003,"operating","downhill",1,0.2,10,32,"https://www.pembreycountrypark.wales/things-to-do/ski-activity-centre/",[51.6776,-4.301,51.6787,-4.2996]],["Plymouth ski and snowboard center",50.3975,-4.0913,"operating","downhill",2,null,31,66,"https://www.jnlplymouth.co.uk/",null]];

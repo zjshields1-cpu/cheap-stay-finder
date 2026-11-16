@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['84_147']=[[null,"chair_lift","operating",42.3003,73.8153,2735,42.3121,73.8099,2940,"Горнолыжная база ТОО-АШУУ, Ski base Too Ashuu"],[null,"platter","operating",42.2988,73.8231,2552,42.2998,73.816,2724,"Горнолыжная база ТОО-АШУУ, Ski base Too Ashuu"]];

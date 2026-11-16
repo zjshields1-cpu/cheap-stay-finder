@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['61_159']=[[null,"chair_lift","operating",30.5367,79.5654,2703,30.5306,79.5614,2916,null],[null,"t-bar","operating",30.5275,79.5643,2897,30.5233,79.5623,3009,null],["Auli Ropeway","cable_car","operating",30.5558,79.557,1911,30.5227,79.5622,3018,null],[null,"drag_lift","operating",30.5308,79.5614,2912,30.5281,79.5583,3071,null]];

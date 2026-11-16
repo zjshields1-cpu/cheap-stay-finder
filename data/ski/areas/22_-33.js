@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['22_-33']=[["Poley Mountain Ski Area",45.6775,-65.3782,"operating","downhill",5,12.9,86,283,"https://www.poleymountain.com",[45.6727,-65.3851,45.6821,-65.372]],["Ski Martock",44.9352,-64.1704,"operating","downhill,nordic",3,5.2,25,188,"https://www.martock.com/",[44.9296,-64.1795,44.9431,-64.1613]]];

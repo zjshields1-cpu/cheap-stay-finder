@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['109_86']=[[null,"rope_tow","operating",54.8887,43.4166,141,54.8885,43.4179,154,"Горнолыжный курорт Гора \"Глубокая\", Gora Glubokaya"],[null,"rope_tow","operating",54.8891,43.417,138,54.8887,43.4181,156,"Горнолыжный курорт Гора \"Глубокая\", Gora Glubokaya"]];

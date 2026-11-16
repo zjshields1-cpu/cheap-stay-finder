@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['19_21']=[["Abalı Kayak Merkezi",38.2636,43.208,"operating","downhill",2,null,1889,2440,null,[38.2529,43.2026,38.2747,43.2129]],["Nemrut Kayak Merkezi",38.5825,42.267,"operating","downhill",1,null,2244,2775,null,[38.5736,42.2561,38.5912,42.2777]]];

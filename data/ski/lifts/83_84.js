@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['83_84']=[[null,"magic_carpet","operating",41.6364,42.4917,1704,41.6352,42.4919,1720,"Goderdzi Mountain Resort"],["Zanka","gondola","operating",41.6369,42.4908,1700,41.6225,42.5004,1999,"Goderdzi Mountain Resort"]];

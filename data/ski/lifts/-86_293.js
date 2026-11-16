@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-86_293']=[["Mawson Tow","rope_tow","operating",-42.6826,146.5851,1213,-42.6844,146.5819,1293,"Mount Mawson"],["University Tow","rope_tow","operating",-42.6817,146.5844,1218,-42.6828,146.5814,1278,"Mount Mawson"],["Rodway Tow","rope_tow","operating",-42.6798,146.571,1238,-42.6801,146.5688,1319,"Mount Mawson"]];

@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['18_-55']=[["Hesperus Ski Area",37.2968,-108.0574,"operating","downhill",1,7.9,2523,2713,"https://www.ski-hesperus.com/",[37.2934,-108.0611,37.3006,-108.0533]]];

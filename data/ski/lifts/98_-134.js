@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['98_-134']=[[null,"t-bar","operating",49.0479,-66.6938,52,49.0519,-66.6988,207,"Station Petit Chic-Chocs"],[null,"t-bar","operating",49.0971,-66.5191,62,49.0935,-66.526,202,"CPA Haute Gaspesie"]];

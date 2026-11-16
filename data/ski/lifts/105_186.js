@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['105_186']=[[null,"chair_lift","operating",52.8022,93.2486,1427,52.7876,93.2509,1806,null],[null,"chair_lift","operating",52.8364,93.2575,1458,52.8339,93.2741,1695,"Ергаки (Ergaki)"],[null,"chair_lift","operating",52.799,93.2685,1447,52.7896,93.2604,1774,null]];

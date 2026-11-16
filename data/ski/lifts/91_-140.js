@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['91_-140']=[["Donaher Triple","chair_lift","operating",45.5065,-69.7009,403,45.4992,-69.7026,580,"Big Moose Mountain Ski Area"],["T-Bar","t-bar","operating",45.5065,-69.7025,408,45.5025,-69.7063,487,"Big Moose Mountain Ski Area"]];

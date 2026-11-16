@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['74_-216']=[[null,"rope_tow","operating",37.2832,-107.8683,2000,37.2826,-107.8674,2020,"Chapman Hill Recreation Area"],[null,"platter","operating",37.2828,-107.8689,2002,37.2805,-107.8686,2094,"Chapman Hill Recreation Area"]];

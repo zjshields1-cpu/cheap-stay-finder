@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['79_5']=[["funicular de l'hotel Majórica","funicular","operating",39.5564,2.623,14,39.5563,2.6228,28,null],["funicular de l'hotel Majórica","funicular","operating",39.5563,2.6228,28,39.5562,2.6224,37,null]];

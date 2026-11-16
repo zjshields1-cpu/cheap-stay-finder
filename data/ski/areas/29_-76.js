@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['29_-76']=[["Kachemak Nordic Ski Club",59.6841,-151.5476,"operating","nordic",null,null,190,456,"https://www.kachemaknordicskiclub.org/",null],["Homer",59.7085,-151.4912,"operating","downhill",null,null,null,null,"https://www.homerropetow.org/",null]];

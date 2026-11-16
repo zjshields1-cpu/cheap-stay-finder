@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-46_-91']=[["Bondinho de Aparecida","gondola","operating",-22.8513,-45.2327,553,-22.8476,-45.2227,670,null],["Teleferico Basílica Nova - Feira","chair_lift","operating",-22.8464,-45.2311,564,-22.8462,-45.2305,586,null]];

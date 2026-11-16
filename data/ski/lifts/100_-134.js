@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['100_-134']=[["Telesiège","chair_lift","operating",50.1747,-66.7105,68,50.1743,-66.7201,231,"Gallix"],["Fil-Neige","rope_tow","operating",50.1765,-66.7098,68,50.1776,-66.7098,77,"Gallix"],[null,"platter","operating",50.1761,-66.7092,73,50.1762,-66.7081,83,"Gallix"]];

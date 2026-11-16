@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['120_59']=[[null,"drag_lift","operating",60.2317,29.6836,49,60.2301,29.6805,95,"Пухтолова гора (Pukhtolova Gora)"],[null,"drag_lift","operating",60.2304,29.6854,52,60.2299,29.6808,96,"Пухтолова гора (Pukhtolova Gora)"]];

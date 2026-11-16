@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['21_-47']=[["Gamehaven Nordic Trail System",43.9526,-92.4392,"operating","nordic",null,null,331,364,"https://www.rasc-mn.org/gamehaven-campaign",null],["Seven Oaks",42.0296,-93.9547,"operating","downhill",4,2.1,276,331,"https://sevenoaksrec.com",[42.0279,-93.9568,42.0316,-93.9525]]];

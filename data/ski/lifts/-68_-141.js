@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-68_-141']=[["La Lola","platter","operating",-33.6075,-70.2909,2205,-33.599,-70.2893,2414,"Lagunillas"],["Pancho","platter","operating",-33.605,-70.2872,2292,-33.6024,-70.2853,2390,"Lagunillas"],["Novicio","platter","operating",-33.6074,-70.2888,2248,-33.6049,-70.2866,2301,"Lagunillas"]];

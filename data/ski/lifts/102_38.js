@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['102_38']=[[null,"magic_carpet","operating",51.23,19.4366,219,51.2289,19.4353,242,"Góra Kamieńsk"],["2","platter","operating",51.2301,19.4366,218,51.2252,19.4313,334,"Góra Kamieńsk"],["1","chair_lift","operating",51.2306,19.4358,214,51.2252,19.4302,336,"Góra Kamieńsk"]];

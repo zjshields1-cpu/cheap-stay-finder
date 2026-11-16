@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['58_236']=[[null,"gondola","operating",29.3175,118.118,384,29.3082,118.1165,622,null],["古村索道, Ancient Village Cableway","gondola","operating",29.3355,118.1155,181,29.3256,118.1105,367,null],["梯田索道, Terrace Field Cableway","gondola","operating",29.3316,118.1203,195,29.3176,118.118,381,null]];

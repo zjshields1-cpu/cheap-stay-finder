@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['27_10']=[["Krzyżowa Góra",54.1188,20.5656,"operating","downhill",null,null,null,null,null,null],["Mortos Kalns",55.8725,21.8161,"operating","downhill",3,null,80,110,null,null]];

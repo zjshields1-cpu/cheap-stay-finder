@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['85_5']=[["Téléski Saint-Jean","drag_lift","operating",42.5168,2.8141,76,42.5168,2.8141,76,null],["Téléski Saint-Jean","drag_lift","operating",42.5166,2.8112,76,42.5159,2.8119,76,null]];

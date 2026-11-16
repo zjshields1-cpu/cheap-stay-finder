@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['72_278']=[["宝登山ロープウェイ, Hodosan Ropeway","cable_car","operating",36.0912,139.1022,213,36.0911,139.0933,452,null],["パノラマチェア, Panorama Chairlift","gondola","operating",36.3187,139.3706,75,36.3194,139.3733,145,null]];

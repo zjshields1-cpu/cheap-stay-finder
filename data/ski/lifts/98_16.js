@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['98_16']=[["Rietburgbahn","chair_lift","operating",49.2781,8.0863,310,49.2785,8.0798,528,null],[null,"drag_lift","operating",49.4128,8.1058,316,49.4132,8.1079,353,null],[null,"drag_lift","operating",49.4128,8.1057,316,49.4132,8.1079,353,null]];

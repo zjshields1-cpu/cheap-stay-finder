@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['89_-173']=[["Ridge Triple","chair_lift","operating",44.5233,-86.0024,282,44.5244,-85.9994,342,"Crystal Mountain"],["Backyard Triple","chair_lift","operating",44.5255,-86.0033,290,44.5258,-86.0004,332,"Crystal Mountain"]];

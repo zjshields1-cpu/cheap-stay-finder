@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['65_259']=[[null,"funicular","operating",32.7584,129.8467,244,32.7546,129.8489,320,null],["長崎ロープウェイ, Nagasaki Ropeway","cable_car","operating",32.7543,129.8493,319,32.7543,129.8493,319,null],["グラバースカイロード, Glover Sky Road","funicular","operating",32.7332,129.872,7,32.7328,129.8711,57,null]];

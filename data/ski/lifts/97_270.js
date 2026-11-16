@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['97_270']=[["Snegovik, Снеговик","t-bar","operating",48.6167,135.0495,52,48.6134,135.053,121,null],[null,"rope_tow","operating",48.6162,135.0492,60,48.6152,135.0503,76,null]];

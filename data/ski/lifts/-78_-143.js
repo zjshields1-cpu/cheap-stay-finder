@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-78_-143']=[[null,"platter","operating",-38.8339,-71.2223,1544,-38.8327,-71.2228,1564,"Parque de Nieve Batea Mahuida"],[null,"t-bar","operating",-38.8341,-71.2232,1542,-38.8292,-71.2267,1622,"Parque de Nieve Batea Mahuida"]];

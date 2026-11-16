@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['106_-8']=[[null,"drag_lift","operating",53.3311,-3.8346,90,53.3328,-3.8354,125,"Llandudno Ski and Snowboard Centre"],[null,"rope_tow","operating",53.3312,-3.8348,93,53.3328,-3.8354,125,"Llandudno Ski and Snowboard Centre"],[null,"gondola","operating",53.3294,-3.8295,39,53.3328,-3.8527,197,"Llandudno Ski and Snowboard Centre"]];

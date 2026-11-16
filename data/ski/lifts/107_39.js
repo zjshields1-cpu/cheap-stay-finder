@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['107_39']=[["Pochylnia Buczyniec, Geneigte Ebene Buchwalde","funicular","operating",53.981,19.619,79,53.9775,19.6183,97,null],["Wyciag nart wodnych w Ostródzie","t-bar","operating",53.7032,19.956,95,53.7032,19.956,95,null],["Pochylnia Kąty, Geneigte Ebene Kanthen","funicular","operating",53.9978,19.6108,59,53.9956,19.6125,78,null]];

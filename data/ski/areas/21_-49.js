@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['21_-49']=[["Great Bear Recreation Park",43.5774,-96.6643,"operating","downhill",3,2.2,412,462,null,[43.5753,-96.6665,43.5798,-96.662]],["Great Bear Recreation Park",43.5821,-96.665,"operating","downhill",null,null,null,null,"https://www.greatbearpark.com/",null]];

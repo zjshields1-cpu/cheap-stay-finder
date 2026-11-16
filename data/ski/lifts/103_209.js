@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['103_209']=[[null,"drag_lift","operating",51.905,104.8195,506,51.9064,104.8215,536,null],[null,"drag_lift","operating",51.9042,104.8234,476,51.9064,104.8226,536,null],["Горнолыжный подъёмник, Skiing Lift Lake Baikal","chair_lift","operating",51.8734,104.8442,566,51.8791,104.8402,725,"Истлэнд (Eastland)"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['132_56']=[[null,"magic_carpet","operating",66.1066,28.2862,285,66.1061,28.2857,292,"Kiririnteet, Kiri slopes"],[null,"t-bar","operating",66.1069,28.2879,279,66.1019,28.2991,388,"Kiririnteet, Kiri slopes"]];

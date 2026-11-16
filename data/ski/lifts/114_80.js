@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['114_80']=[[null,"platter","operating",57.4568,40.0304,112,57.4556,40.0342,152,"Шакша (Shaksha)"],[null,"platter","operating",57.4568,40.0304,112,57.4556,40.0341,152,"Шакша (Shaksha)"]];

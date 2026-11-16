@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['110_177']=[[null,"platter","operating",55.4013,88.8901,549,55.3945,88.8926,691,null],[null,"rope_tow","operating",55.1258,88.5388,599,55.1198,88.5388,768,"Горная Саланга (Gornaya Salanga)"]];

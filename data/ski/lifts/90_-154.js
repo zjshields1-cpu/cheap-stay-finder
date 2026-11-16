@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['90_-154']=[["Lakeview Quad","chair_lift","operating",45.2738,-76.7828,158,45.2644,-76.7855,372,"Calabogie Peaks"],[null,"magic_carpet","operating",45.2744,-76.7854,160,45.2749,-76.786,169,"Calabogie Peaks"],["Solar Express","chair_lift","operating",45.2739,-76.7843,160,45.2671,-76.7873,350,"Calabogie Peaks"]];

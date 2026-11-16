@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['122_11']=[["Barnetrekket","drag_lift","operating",61.4752,5.7385,344,61.4743,5.7377,360,"Sunnfjord skisenter"],["Hovudtrekket","drag_lift","operating",61.4753,5.7387,344,61.4676,5.7341,595,"Sunnfjord skisenter"],[null,"drag_lift","operating",61.4756,5.7394,344,61.4739,5.747,397,"Sunnfjord skisenter"]];

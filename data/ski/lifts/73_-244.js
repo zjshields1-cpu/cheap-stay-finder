@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['73_-244']=[["Shadowbrook Cable Car","funicular","operating",36.9746,-121.9557,23,36.9746,-121.9557,25,null],["Shadowbrook Cable Car","funicular","operating",36.9746,-121.9554,8,36.9746,-121.9554,9,null],["Shadowbrook Cable Car","funicular","operating",36.9746,-121.9554,9,36.9746,-121.9557,23,null]];

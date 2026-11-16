@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['100_-245']=[["Stein Lake Cable Car","cable_car","operating",50.1679,-122.1668,1048,50.1682,-122.1671,1048,null],["Rutledge Cable Car","cable_car","operating",50.1741,-122.1238,944,50.1743,-122.1238,945,null]];

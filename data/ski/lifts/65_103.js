@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['65_103']=[[null,"gondola","operating",32.5915,51.6385,2067,32.5951,51.6426,2139,null],["تله سیژ ناژوان","chair_lift","operating",32.6366,51.626,1578,32.6394,51.606,1579,null],["تله کابین صفه","gondola","operating",32.5916,51.656,1795,32.5913,51.6387,2075,null]];

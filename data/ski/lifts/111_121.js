@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['111_121']=[[null,"t-bar","operating",55.9774,60.6353,304,55.9836,60.6282,578,"Гора Вишневая (Gora Vishnevaya)"],[null,"t-bar","operating",55.9776,60.6349,308,55.9787,60.6208,565,"Гора Вишневая (Gora Vishnevaya)"]];

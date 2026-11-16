@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['-21_73']=[["Ben Lomond",-41.5344,147.6609,"operating","downhill,nordic",6,null,1464,1566,"https://benlomondalpineresort.com.au/",[-41.5371,147.6565,-41.5309,147.6678]]];

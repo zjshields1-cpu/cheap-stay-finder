@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['117_33']=[["Ålberga","t-bar","operating",58.7363,16.5423,14,58.7344,16.544,67,null],[null,"t-bar","operating",58.7363,16.9692,2,58.7369,16.9636,51,"Ryssbergsbacken"],["Kila Valley Rope Tow","rope_tow","operating",58.8719,16.8792,27,58.8724,16.8785,35,"Kila Valley"]];

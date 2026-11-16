@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['23_44']=[["西域滑雪场",47.9014,88.1332,"operating","downhill",null,2.5,1036,1194,null,[47.8988,88.1262,47.904,88.1403]],["将军山滑雪场",47.8279,88.157,"operating","downhill",15,22.2,847,1319,null,[47.804,88.1357,47.8444,88.1748]],["地形公园",47.8366,88.1579,"operating","downhill",null,null,null,null,null,[47.8346,88.1571,47.8387,88.1588]]];

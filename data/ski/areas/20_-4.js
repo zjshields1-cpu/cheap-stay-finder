@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['20_-4']=[["Ski Parque",40.41,-7.4691,"operating","downhill",1,null,580,653,"https://skiparque.pt/wp/",null],["Serra da Estrela",40.327,-7.6155,"operating","downhill",4,5.4,1850,1986,"https://www.skiserradaestrela.com/",null]];

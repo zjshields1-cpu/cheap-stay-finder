@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['21_39']=[["Горнолыжная база \"Каракол\", Ski resort \"Karakol\"",42.4,78.4763,"operating","downhill",5,16.9,2401,3017,"https://www.karakol-ski.kg/",[42.3882,78.4615,42.4095,78.4927]]];

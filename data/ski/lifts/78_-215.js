@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['78_-215']=[["Primo","chair_lift","operating",39.3958,-107.3393,2565,39.3822,-107.3395,3011,"Sunlight Mountain Resort"],["Tercero","chair_lift","operating",39.4004,-107.3395,2480,39.3926,-107.3379,2638,"Sunlight Mountain Resort"],["Segundo","chair_lift","operating",39.4004,-107.3398,2481,39.389,-107.3441,2834,"Sunlight Mountain Resort"]];

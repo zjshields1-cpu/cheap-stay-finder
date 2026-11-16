@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['97_-144']=[[null,"drag_lift","operating",48.5462,-71.6321,68,48.5481,-71.6319,121,"Mont Villa Saguenay"],[null,"drag_lift","operating",48.5456,-71.6299,68,48.5465,-71.6297,89,"Mont Villa Saguenay"],[null,"drag_lift","operating",48.5462,-71.6322,67,48.5481,-71.632,121,"Mont Villa Saguenay"]];

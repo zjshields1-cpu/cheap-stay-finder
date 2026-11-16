@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['42_80']=[[null,"funicular","operating",21.3566,40.2279,867,21.3565,40.2279,868,null],[null,"funicular","operating",21.3566,40.2278,866,21.3566,40.2279,867,null],[null,"funicular","operating",21.3565,40.2279,868,21.3548,40.229,944,null],["تلفريك الهدا, Telefric","gondola","operating",21.3564,40.2295,877,21.3642,40.2673,1967,null]];

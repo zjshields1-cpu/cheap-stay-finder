@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['23_45']=[["青格里狼山滑雪场",46.5349,90.3493,"operating","downhill",3,8.7,1232,1940,null,[46.5104,90.3334,46.5572,90.3696]],["Koktokay Ski Resort, 可可托海滑雪场",47.1734,90.0648,"operating","downhill",9,29.7,1864,3077,null,[47.1455,89.9952,47.2099,90.1021]]];

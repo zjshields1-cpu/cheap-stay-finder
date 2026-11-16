@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['132_-35']=[["Skíðalyfta","platter","operating",66.0026,-17.191,330,66.0025,-17.182,400,null],[null,"platter","operating",66.0457,-17.3318,21,66.0479,-17.3263,108,"Húsavík"]];

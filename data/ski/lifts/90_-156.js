@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['90_-156']=[[null,"rope_tow","operating",45.4353,-77.6627,292,45.4345,-77.6631,296,"Madawaska Mountain"],[null,"t-bar","operating",45.4356,-77.6622,293,45.4299,-77.6602,409,"Madawaska Mountain"]];

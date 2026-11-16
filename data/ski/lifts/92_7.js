@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['92_7']=[["Grand Téléski","drag_lift","operating",46.0062,3.7958,1052,46.0013,3.7983,1147,"La Loge des Gardes"],["Milieu","drag_lift","operating",46.0043,3.7979,1094,46.0019,3.7984,1142,"La Loge des Gardes"],["Source","drag_lift","operating",46.0038,3.8022,1096,46.0006,3.7998,1159,"La Loge des Gardes"]];

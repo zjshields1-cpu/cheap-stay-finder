@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['88_-171']=[[null,"chair_lift","operating",44.3927,-85.2294,394,44.392,-85.2322,444,"Missaukee Mountain"],[null,"chair_lift","operating",44.3926,-85.2277,383,44.3923,-85.2297,400,"Missaukee Mountain"]];

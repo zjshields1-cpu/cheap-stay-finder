@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['74_-13']=[["Ascensor de San Juan","funicular","operating",37.3669,-6.0265,11,37.3669,-6.0278,41,null],["Ascensor de San Juan","funicular","operating",37.3669,-6.0278,41,37.3669,-6.0279,44,null],["Ascensor de San Juan","funicular","operating",37.3669,-6.0265,10,37.3669,-6.0265,11,null]];

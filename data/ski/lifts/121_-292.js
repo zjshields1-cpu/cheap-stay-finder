@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['121_-292']=[[null,"chair_lift","operating",60.5499,-145.7498,125,60.5533,-145.7338,375,"Mount Eyak Ski Area"],[null,"rope_tow","operating",60.5496,-145.7494,124,60.5492,-145.7504,132,"Mount Eyak Ski Area"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['86_286']=[[null,"chair_lift","operating",43.3635,143.1862,578,43.352,143.1794,864,"ぬかびら源泉郷スキー場, Nukabira Gensenkyo Ski Area"],[null,"chair_lift","operating",43.3635,143.188,572,43.3577,143.1882,736,"ぬかびら源泉郷スキー場, Nukabira Gensenkyo Ski Area"]];

@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['17_24']=[["پیست اسکی تاریک دره, Tarik Darreh Ski Resort",34.718,48.4363,"operating","downhill",2,null,2577,2989,null,[34.7125,48.4307,34.7234,48.4454]]];

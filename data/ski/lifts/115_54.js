@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['115_54']=[["Kütioru","drag_lift","operating",57.7853,27.1518,115,57.7844,27.1488,167,"Kütioru Centre"],["Kütioru","drag_lift","operating",57.7858,27.1541,109,57.7844,27.1591,172,"Kütioru Centre"],["Kütioru","drag_lift","operating",57.7857,27.1534,111,57.7853,27.1478,161,"Kütioru Centre"]];

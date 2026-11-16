@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['97_-130']=[[null,"magic_carpet","operating",48.8368,-64.542,97,48.8373,-64.5414,108,"Centre de ski Mont Béchervaise"],[null,"chair_lift","operating",48.8369,-64.5429,98,48.8465,-64.5427,343,"Centre de ski Mont Béchervaise"]];

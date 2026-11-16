@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['127_40']=[["Bräntberget 1","platter","operating",63.84,20.3111,37,63.8397,20.3065,83,"Brantberget"],["Bräntberget 2","platter","operating",63.84,20.3111,37,63.8397,20.3065,83,"Brantberget"],[null,"drag_lift","operating",63.7193,20.3803,4,63.7177,20.3788,38,null]];

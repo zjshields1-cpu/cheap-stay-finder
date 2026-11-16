@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['98_22']=[[null,"drag_lift","operating",49.4476,11.3678,447,49.4457,11.3685,480,null],["Sülzburg","drag_lift","operating",49.1853,11.413,490,49.1829,11.4133,559,null],[null,"drag_lift","operating",49.4463,11.3676,469,49.4444,11.3678,515,null],["Skilift Greding","drag_lift","operating",49.0618,11.372,430,49.0605,11.3745,461,null]];

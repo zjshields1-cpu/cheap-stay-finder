@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['92_31']=[["Wakeboard park Greenlake","drag_lift","operating",46.4289,15.7602,235,46.4289,15.7602,235,null],["Areh","drag_lift","operating",46.4972,15.5137,1197,46.4961,15.5083,1243,"Smučišča Mariborsko Pohorje"],["Žičnica Janina","chair_lift","operating",46.2378,15.6453,245,46.2348,15.6445,358,"Janina"]];

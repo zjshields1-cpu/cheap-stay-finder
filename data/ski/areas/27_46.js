@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['27_46']=[["Фанпарк Бобровый лог (Fanpark Bobrovy Log)",55.9557,92.784,"operating","downhill",5,10.6,160,520,"https://bobrovylog.ru/",null],["Дивный (Divnyi)",55.9443,92.3665,"operating","downhill",3,4.1,333,607,"https://hoteldivniy.com/",null]];

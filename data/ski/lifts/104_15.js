@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['104_15']=[["Lift 2","drag_lift","operating",52.4881,7.9886,36,52.4881,7.9886,36,null],["Lift 1","drag_lift","operating",52.4875,7.99,36,52.4875,7.99,36,null],[null,"drag_lift","operating",52.2506,7.7051,100,52.2502,7.706,116,null]];

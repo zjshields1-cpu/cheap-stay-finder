@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['81_75']=[[null,"chair_lift","operating",40.6348,37.9401,1751,40.6253,37.9461,1996,"Cambasi"],[null,"chair_lift","operating",40.6351,37.9395,1753,40.6297,37.9285,1954,"Cambasi"],["Boztepe Teleferik","gondola","operating",40.985,37.8847,5,40.9896,37.8578,502,null]];

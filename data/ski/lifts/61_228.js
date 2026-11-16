@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['61_228']=[["磨山索道","gondola","operating",30.5548,114.4019,49,30.5524,114.4104,106,null],["昙华林有轨缆车","funicular","operating",30.5552,114.3042,42,30.5555,114.3043,51,null]];

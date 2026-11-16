@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['90_18']=[["Wakeboard","drag_lift","operating",45.456,9.2909,106,45.4549,9.2909,106,null],["Wakeboard","drag_lift","operating",45.4561,9.2911,106,45.4549,9.2911,106,null],["Wakeboard","drag_lift","operating",45.4566,9.2895,106,45.4566,9.2895,106,null]];

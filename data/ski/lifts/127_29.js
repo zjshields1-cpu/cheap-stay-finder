@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['127_29']=[[null,"drag_lift","operating",63.5711,14.9181,426,63.5701,14.9225,460,null],[null,"drag_lift","operating",63.8666,14.6058,451,63.869,14.6048,502,"Ålåsens Skidbacke"]];

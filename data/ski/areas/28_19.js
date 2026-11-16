@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['28_19']=[["Горнолыжный центр \"Лоза\"",56.2406,38.209,"operating","downhill",4,1.1,170,227,"https://lozaski.ru/",[56.2402,38.2066,56.2425,38.2129]],["Николина гора (Nikolina Gora)",57.8684,39.5065,"operating","downhill",1,null,98,134,"https://nikolina-gora.com/",null]];

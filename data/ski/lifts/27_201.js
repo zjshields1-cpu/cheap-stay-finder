@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['27_201']=[["Taco Lake Cable Wakeboarding","rope_tow","operating",13.6243,100.711,1,13.6243,100.711,1,null],[null,"gondola","operating",13.9891,100.6757,5,13.9925,100.6751,7,null]];

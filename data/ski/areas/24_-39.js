@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['24_-39']=[["Mont Vidéo",48.4176,-77.7819,"operating","downhill",3,8.0,372,471,"https://montvideo.ca/",null],["Val d'Or",48.0851,-77.8081,"operating","downhill",1,0.8,334,362,"https://www.facebook.com/Pente-de-ski-alpin-de-Val-dOr-301319489898267/?hc_ref=PAGES_TIMELINE",null]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-13_-156']=[[null,"cable_car","operating",-6.3669,-77.9104,1768,-6.3672,-77.9104,1770,null],["Telecabinas Kuélap - Andén","gondola","operating",-6.3904,-77.9323,2266,-6.4263,-77.9266,2938,null]];

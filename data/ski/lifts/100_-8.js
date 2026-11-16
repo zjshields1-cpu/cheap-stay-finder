@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['100_-8']=[["Babbacombe Cliff Railway","funicular","operating",50.4817,-3.5151,8,50.4817,-3.5152,12,null],["Babbacombe Cliff Railway","funicular","operating",50.4817,-3.5154,16,50.4815,-3.5179,82,null],["Babbacombe Cliff Railway","funicular","operating",50.4817,-3.5152,12,50.4817,-3.5154,16,null]];

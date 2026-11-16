@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['80_46']=[[null,"funicular","operating",40.0453,23.3507,10,40.0459,23.3512,60,null],["Beach Lift Alexander the Great Beach Hotel","funicular","operating",40.0526,23.4691,10,40.0523,23.4686,30,null]];

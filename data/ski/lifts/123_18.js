@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['123_18']=[[null,"platter","operating",61.7553,9.0719,856,61.7565,9.0744,890,"Lemonsjo Alpinsenter"],[null,"rope_tow","operating",61.7552,9.0689,863,61.7545,9.0681,880,"Lemonsjo Alpinsenter"],[null,"t-bar","operating",61.7551,9.0697,864,61.7462,9.0536,1245,"Lemonsjo Alpinsenter"]];

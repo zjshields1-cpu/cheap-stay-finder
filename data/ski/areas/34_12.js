@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['34_12']=[["Pallas Ski Resort, Hiihtokeskus Pallas",68.0555,24.0458,"operating","downhill",2,11.0,438,754,"https://www.laplandhotels.com/en/ski-resorts/pallas-ski-resort",[68.0461,24.0324,68.0648,24.0572]]];

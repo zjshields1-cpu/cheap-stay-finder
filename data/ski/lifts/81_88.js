@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['81_88']=[[null,"gondola","operating",40.5083,44.4698,2090,40.5076,44.4995,2798,"Myler Mountain Resort"],[null,"gondola","operating",40.5102,44.4626,2001,40.5083,44.4698,2090,"Myler Mountain Resort"],[null,"chair_lift","operating",40.5084,44.4601,1992,40.5054,44.4841,2396,"Myler Mountain Resort"]];

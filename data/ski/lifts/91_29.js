@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['91_29']=[[null,"platter","operating",45.5713,14.6146,843,45.5676,14.6127,966,"Rudnik Tršće"],[null,"platter","operating",45.5708,14.6184,830,45.5667,14.6167,1019,"Rudnik Tršće"],[null,"drag_lift","operating",45.7549,14.6421,534,45.7528,14.6415,592,"Izver"]];

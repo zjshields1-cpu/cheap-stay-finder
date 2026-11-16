@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['123_34']=[["Bygelliften","t-bar","operating",61.7367,17.0585,34,61.7365,17.0641,78,null],["Knappliften","platter","operating",61.7385,17.0638,44,61.7367,17.0642,77,null]];

@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['22_10']=[["Smart Ski Slopes",45.7253,21.2013,"operating","downhill",null,null,null,null,null,null],["Divcibare",44.1003,20.0003,"operating","downhill",1,0.7,918,1088,"https://divcibareskiresort.com/",null],["Ski staza Aleksandar club",44.7788,20.4279,"operating","downhill",1,0.3,141,168,null,null]];

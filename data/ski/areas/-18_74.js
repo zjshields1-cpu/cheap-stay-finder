@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['-18_74']=[["Corin Forest",-35.5141,148.9219,"operating","downhill",2,null,1198,1213,"https://www.corin.com.au/",null],["Selwyn Snow Resort",-35.9089,148.452,"operating","downhill",8,8.7,1490,1600,"https://www.selwynsnow.com.au/",[-35.9124,148.4471,-35.9054,148.4571]]];

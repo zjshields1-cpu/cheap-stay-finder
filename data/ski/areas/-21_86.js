@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['-21_86']=[["Rainbow Ski Area",-41.872,172.8561,"operating","downhill",5,6.3,1541,1744,"https://www.skirainbow.co.nz/",[-41.8771,172.8488,-41.8667,172.864]]];

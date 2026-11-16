@@ -118,8 +118,12 @@ function aiTripPayload(ctx) {
       chosenByTraveler: s.id === state.selectedId || undefined,
     })),
     nearby: {
-      liftsDistanceToBottomStation: items(acts.lifts, 8, (it) => ({ type: it.kind, rideMinutes: it.tags['aerialway:duration'] })),
-      skiAreas: items(acts.skiAreas, 4),
+      liftsDistanceToBottomStation: items(acts.lifts, 10, (it) => ({
+        type: it.kind, skiArea: it.skiArea, bottomElevationM: it.elev?.[0], topElevationM: it.elev?.[1],
+        rideMinutes: it.tags['aerialway:duration'],
+      })),
+      skiAreas: items(acts.skiAreas, 4, (it) => ({ lifts: it.lifts, runKm: it.runKm, topElevationM: it.maxE, website: it.website })),
+      poolsSpasHotSprings: items(acts.wellness, 4, (it) => ({ kind: it.tags.leisure || it.tags.natural })),
       skiShops: items(acts.skiShops, 3),
       mtbRoutes: items(acts.mtb, 5, (it) => ({ lengthKm: it.tags.distance, difficulty: it.tags['mtb:scale'] })),
       cyclingRoutes: items(acts.road, 5, (it) => ({ lengthKm: it.tags.distance })),

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['94_51']=[["Teleski Pojorîta (Văleni)","drag_lift","operating",47.351,25.9683,614,47.348,25.9778,737,null],[null,"t-bar","operating",47.1279,25.6772,1741,47.1233,25.6757,1848,null],["Rarău 1","gondola","operating",47.4862,25.5609,777,47.464,25.5626,1221,"Pârtia de schi Rarău, Rarău Ski Resort"]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['49_147']=[[null,"cable_car","operating",24.5661,73.6853,618,24.5672,73.6889,709,null],["Neemach Mata Ropeway","cable_car","operating",24.6097,73.6771,605,24.6131,73.6756,754,null]];

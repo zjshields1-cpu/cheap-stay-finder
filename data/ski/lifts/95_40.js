@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['95_40']=[[null,"t-bar","operating",47.8774,20.0089,859,47.8757,20.0088,939,"Kékestető Sícentrum"],[null,"rope_tow","operating",47.8725,20.0065,1004,47.8725,20.0076,1016,"Kékestető Sícentrum"],[null,"t-bar","operating",47.8757,20.0088,939,47.8732,20.0086,1012,"Kékestető Sícentrum"]];

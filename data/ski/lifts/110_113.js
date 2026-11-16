@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['110_113']=[[null,"drag_lift","operating",55.4572,56.5191,151,55.4539,56.5283,280,null],[null,"drag_lift","operating",55.3824,56.6794,148,55.3767,56.6874,296,"Красный Ключ (Krasnyy Klyuch)"]];

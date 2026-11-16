@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['91_-142']=[[null,"rope_tow","operating",45.5883,-70.9303,408,45.587,-70.9309,428,"Baie des Sables"],[null,"t-bar","operating",45.5891,-70.9313,412,45.5872,-70.9348,461,"Baie des Sables"]];

@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['25_0']=[["Chatham Ski & Snowboard Centre",51.3554,0.5584,"operating","downhill",1,0.2,58,98,null,[51.3543,0.556,51.3565,0.5605]],["Knockhatch Ski & Snowboard Centre",50.8606,0.2263,"operating","downhill",2,null,25,44,"https://www.knockhatchskicentre.co.uk/",null]];

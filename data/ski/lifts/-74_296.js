@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-74_296']=[["Snowgums","chair_lift","operating",-36.5033,148.3039,1369,-36.4929,148.2906,1840,"Thredbo Resort"],["Merritts","gondola","operating",-36.5036,148.3041,1367,-36.4918,148.3074,1663,"Thredbo Resort"],["Kosciusko","chair_lift","operating",-36.5037,148.3035,1369,-36.4939,148.2879,1924,"Thredbo Resort"]];

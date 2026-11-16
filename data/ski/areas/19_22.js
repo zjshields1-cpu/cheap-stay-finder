@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['19_22']=[["پیست اسکی پیام, Payam Ski Resort",38.3371,45.7764,"operating","downhill",3,null,1866,2132,"https://www.pistepayam.ir/",[38.3322,45.7745,38.3416,45.7783]],["Jermuk",39.8317,45.679,"operating","downhill",1,2.5,2098,2424,null,null]];

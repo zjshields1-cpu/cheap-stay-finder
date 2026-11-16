@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['125_17']=[["Sunndal fjellheis Børsetlia","platter","operating",62.7749,8.5443,211,62.7824,8.5645,540,"Sunndal alpinsenter"],[null,"t-bar","operating",62.9651,8.6797,106,62.9577,8.6501,472,"Surnadal"]];

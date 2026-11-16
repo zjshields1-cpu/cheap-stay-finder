@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['100_-195']=[["Rope Tow","rope_tow","operating",50.0946,-97.2051,238,50.094,-97.2061,256,"Stony Mountain Ski Area"],["Handle Tow","rope_tow","operating",50.0943,-97.2045,238,50.0937,-97.206,257,"Stony Mountain Ski Area"]];

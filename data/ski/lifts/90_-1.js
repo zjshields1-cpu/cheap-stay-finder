@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['90_-1']=[[null,"drag_lift","operating",45.0337,-0.4767,26,45.0345,-0.4793,26,null],["Dahu Wake Park","drag_lift","operating",45.0143,-0.1824,9,45.014,-0.1786,9,null]];

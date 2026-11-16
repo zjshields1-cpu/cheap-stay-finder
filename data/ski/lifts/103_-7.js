@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['103_-7']=[[null,"platter","operating",51.7028,-3.0308,128,51.7015,-3.0286,177,"Pontypool Ski Centre"],["Ebbw Vale Mechanical Link","funicular","operating",51.7775,-3.2049,275,51.7773,-3.2056,298,null]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['134_29']=[[null,"chair_lift","operating",67.3133,14.6451,46,67.3126,14.651,130,null],[null,"t-bar","operating",67.0751,14.9729,176,67.0744,14.9451,486,"Vestvatnlia alpinanlegg"],[null,"drag_lift","operating",67.3231,14.5546,109,67.3253,14.5542,179,"Skarmoen Alpinpark Bodø"]];

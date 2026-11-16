@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['21_36']=[["Горнолыжная база ТОО-АШУУ, Ski base Too Ashuu",42.3055,73.8163,"operating","downhill",2,3.6,2552,2940,null,[42.298,73.8073,42.3132,73.8236]],["Too Ashuu",42.314,73.8134,"operating","downhill",null,null,null,null,"https://www.too-ashuu.kg/",null]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['121_33']=[["Sydliftarna","t-bar","operating",60.745,16.5085,162,60.7497,16.4916,298,"Kungsberget"],[null,"drag_lift","operating",60.9003,16.623,204,60.8977,16.6141,274,null],["Trestolsliften","chair_lift","operating",60.7578,16.5014,115,60.7513,16.4961,287,"Kungsberget"]];

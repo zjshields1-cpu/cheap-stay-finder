@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['100_40']=[["SławicSki Raj","platter","operating",50.316,20.0881,275,50.313,20.0865,343,"SławicSki Raj"],[null,"platter","operating",50.316,20.088,275,50.313,20.0864,343,"SławicSki Raj"]];

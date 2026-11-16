@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['99_30']=[["Lyžařský areál Kadlečák","drag_lift","operating",49.6763,15.378,479,49.6757,15.374,538,"Světlá nad Sázavou - Kadlečák"],[null,"drag_lift","operating",49.6431,15.3048,586,49.6415,15.3072,646,null]];

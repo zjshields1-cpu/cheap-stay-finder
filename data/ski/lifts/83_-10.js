@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['83_-10']=[["Ascensor Ladera Norte de Parquesol","funicular","operating",41.6404,-4.7579,725,41.6396,-4.7579,747,null],["Ascensor Este de Parquesol","funicular","operating",41.6345,-4.7497,694,41.6353,-4.7505,715,null]];

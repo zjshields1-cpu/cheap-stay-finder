@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['24_13']=[["Горбова",48.2024,26.186,"operating","downhill",2,1.4,147,188,null,[48.2008,26.1844,48.2044,26.188]],["Sun Valley (Сонячна Долина)",48.3076,26.1138,"operating","downhill",7,0.3,184,211,"https://sdolina.com.ua/",null]];

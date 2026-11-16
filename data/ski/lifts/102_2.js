@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['102_2']=[["The Leas Lift","funicular","operating",51.0769,1.1786,8,51.0772,1.1784,33,null],["The Leas Lift","funicular","operating",51.0769,1.1786,8,51.0772,1.1784,34,null],[null,"j-bar","operating",51.0876,1.1682,26,51.0876,1.1675,34,null]];

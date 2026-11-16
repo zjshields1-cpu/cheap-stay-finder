@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['100_29']=[["Vodní vlek Wake Port","drag_lift","operating",50.2027,14.6531,166,50.2027,14.6531,166,null],[null,"drag_lift","operating",50.2026,14.6537,166,50.2015,14.6535,167,null],[null,"drag_lift","operating",50.0457,14.5976,268,50.0472,14.5983,268,null]];

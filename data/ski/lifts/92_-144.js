@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['92_-144']=[[null,"t-bar","operating",46.2281,-71.67,232,46.2264,-71.6674,316,"Mont Apic"],[null,"t-bar","operating",46.2293,-71.6689,234,46.2267,-71.6656,319,"Mont Apic"]];

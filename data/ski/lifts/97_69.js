@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['97_69']=[["Skill Wake Park","drag_lift","operating",48.5936,34.5685,56,48.5933,34.5646,58,null],["Канатна дорога для вейкборду","drag_lift","operating",48.6263,34.6054,55,48.625,34.6075,56,null]];

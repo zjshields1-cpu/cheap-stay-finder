@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['19_19']=[["Ergan Dağı Kış Sporları Turizm Merkezi, Ergan Mountain Winter Sports and Eco-Tourism Center",39.6158,39.5011,"operating","downhill",5,9.5,1740,2977,"https://ergankayak.com/",[39.5855,39.4867,39.6336,39.5041]],["Ovacık Kayak Merkezi",39.3437,39.2145,"operating","",1,null,1265,1416,null,[39.3394,39.2119,39.3488,39.2167]]];

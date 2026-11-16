@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['77_-246']=[["Sterling Vineyards Aerial Gondola","gondola","operating",38.5672,-122.5496,96,38.5693,-122.5463,164,null],["Sterling Vineyards Aerial Gondola","gondola","operating",38.5672,-122.5494,96,38.5693,-122.5463,162,null]];

@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['99_15']=[["Seilbahn Assmannshausen","chair_lift","operating",49.9883,7.8687,103,49.9864,7.8806,324,null],["Rüdesheimer Seilbahn","gondola","operating",49.9796,7.921,99,49.9829,7.9026,301,null]];

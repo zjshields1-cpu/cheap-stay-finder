@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['-83_-146']=[["Telesilla Enlace","chair_lift","operating",-41.1276,-72.5299,1194,-41.1249,-72.5216,1312,"Volcán Osorno"],["Telesilla Glaciar","chair_lift","operating",-41.1252,-72.5214,1307,-41.1154,-72.5184,1647,"Volcán Osorno"]];

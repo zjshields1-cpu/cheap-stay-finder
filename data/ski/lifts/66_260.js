@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['66_260']=[[null,"chair_lift","operating",33.3525,130.1466,722,33.3489,130.1426,823,"天山スキー場, Tenzan Ski Resort"],[null,"chair_lift","operating",33.3525,130.1471,721,33.346,130.1417,911,"天山スキー場, Tenzan Ski Resort"]];

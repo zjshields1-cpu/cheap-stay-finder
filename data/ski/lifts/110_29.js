@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['110_29']=[[null,"rope_tow","operating",55.1857,14.9532,74,55.1849,14.9538,82,"Bornholms Ski Venner"],[null,"platter","operating",55.1859,14.9527,74,55.1859,14.9527,74,"Bornholms Ski Venner"]];

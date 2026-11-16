@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['95_51']=[["Teleschi","drag_lift","operating",47.5344,25.8786,695,47.5317,25.8816,755,"Gura Humorului"],["Pârtia Bucovina","rope_tow","operating",47.5077,25.6245,616,47.5047,25.6274,695,null],["Telescaun Pîrtia Gura Humorului","chair_lift","operating",47.5421,25.8888,476,47.5313,25.8821,762,"Gura Humorului"]];

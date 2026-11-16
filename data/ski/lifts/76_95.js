@@ -1,0 +1,1 @@
+(window.CSF_LIFTS=window.CSF_LIFTS||{})['76_95']=[[null,"chair_lift","operating",38.2043,47.8731,3050,38.209,47.8627,3198,"پیست اسکی آلوارس, Alvares Ski Complex"],[null,"drag_lift","operating",38.2222,47.8799,3199,38.22,47.8729,3411,null],[null,"chair_lift","operating",38.3256,47.8469,2743,38.3116,47.8447,3152,null]];

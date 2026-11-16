@@ -1,0 +1,1 @@
+(window.CSF_SKIAREAS=window.CSF_SKIAREAS||{})['17_37']=[["Gulmarg Ski Resort area Phase 2",34.0349,74.3667,"operating","downhill",5,12.2,2671,3941,"https://skigulmarg.com/",[34.0182,74.3434,34.0359,74.3682]]];
