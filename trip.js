@@ -273,7 +273,9 @@ async function geoapify(set, pt, radiusM) {
     const tags = { ...(match ? match[1] : {}), name: p.name || undefined };
     for (const [k, v] of Object.entries(p.tags || {})) if (v != null && !(k in tags)) tags[k] = v;
     return { type: 'geo', id: p.id, lat: p.lat, lon: p.lon, tags };
-  }).filter((e) => Object.keys(e.tags).some((k) => ['shop', 'amenity', 'tourism', 'leisure', 'natural', 'boundary'].includes(k)));
+  }).filter((e) => Object.keys(e.tags).some((k) => ['shop', 'amenity', 'tourism', 'leisure', 'natural', 'boundary'].includes(k)))
+    // Unnamed viewpoints and restaurants are noise in a list
+    .filter((e) => e.tags.name || !(e.tags.tourism === 'viewpoint' || ['restaurant', 'pub', 'cafe', 'fast_food'].includes(e.tags.amenity)));
 }
 
 function nearestAirports(airports, pt, maxKm, n, minSize = 2) {
