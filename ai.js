@@ -173,8 +173,34 @@ function wireAiSection(ctx) {
     }
     btn.disabled = true;
     out.innerHTML = '';
-    msg.innerHTML = '<span class="spinner"></span>Writing your plan… Checking current prices and schedules can take a minute.';
     let text = '';
+    // Progress: research phase advances with time (it streams nothing yet); writing phase
+    // advances per section — the plan always has 7 "## " sections.
+    const SECTIONS = 7;
+    const t0 = Date.now();
+    const progress = () => {
+      const secs = Math.round((Date.now() - t0) / 1000);
+      const heads = text.match(/^## .+$/gm) || [];
+      let pct, stepIdx, current = '';
+      if (!text) {
+        pct = Math.round(35 * (1 - Math.exp(-secs / 25))); // eases toward 35% while researching
+        stepIdx = 1;
+      } else {
+        pct = Math.min(98, 40 + Math.round((58 * Math.max(0, heads.length - 1)) / SECTIONS) + 4);
+        stepIdx = 2;
+        current = heads.length ? heads[heads.length - 1].replace(/^## /, '') : '';
+      }
+      const steps = ['Reading your trip data', 'Checking current prices, openings and schedules', `Writing your plan${current ? `: ${current}` : ''}`];
+      msg.innerHTML = `<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}">
+        <div class="progress-head"><b>Writing your trip plan…</b><span>${pct}% · ${secs}s</span></div>
+        <div class="progress-bar"><span style="width:${pct}%"></span></div>
+        <ul class="progress-steps">${steps.map((s, i) => `<li class="${i < stepIdx ? 'done' : i === stepIdx ? 'active' : 'pending'}">
+          <span class="ps-icon">${i < stepIdx ? '✓' : i === stepIdx ? '<span class="spinner"></span>' : '○'}</span><span>${esc(s)}</span></li>`).join('')}</ul>
+        ${!text && secs > 20 ? '<p class="muted small">Looking up live details like lift-ticket prices takes about a minute.</p>' : ''}
+      </div>`;
+    };
+    progress();
+    const ticker = setInterval(progress, 1000);
     try {
       const res = await fetch('/api/ai-plan', {
         method: 'POST',
@@ -193,7 +219,7 @@ function wireAiSection(ctx) {
       const reader = res.body.getReader();
       const decoder = new TextDecoder();
       let queued = false;
-      const paint = () => { queued = false; out.innerHTML = renderMarkdown(text); };
+      const paint = () => { queued = false; out.innerHTML = renderMarkdown(text); progress(); };
       for (;;) {
         const { value, done } = await reader.read();
         if (done) break;
@@ -201,14 +227,16 @@ function wireAiSection(ctx) {
         if (!queued) { queued = true; requestAnimationFrame(paint); }
       }
       text += decoder.decode();
+      clearInterval(ticker);
       paint();
-      msg.textContent = 'Done. Anything marked as an estimate: check it before you book.';
+      msg.textContent = `Done in ${Math.round((Date.now() - t0) / 1000)}s. Anything marked as an estimate: check it before you book.`;
       btn.textContent = '↻ Write it again';
     } catch (err) {
       console.error(err);
       msg.textContent = 'The connection dropped while writing your plan. Please try again.';
       if (text) out.innerHTML = renderMarkdown(text);
     } finally {
+      clearInterval(ticker);
       btn.disabled = false;
     }
   };

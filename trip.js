@@ -302,7 +302,7 @@ function boxAround(pt, km) {
 function activityQueries(pt, interests) {
   const b12 = boxAround(pt, 12), b60 = boxAround(pt, 60);
   const q = [];
-  q.push(`[out:json][timeout:60];
+  q.push({ kind: 'points', label: 'Lifts, huts, launches & campgrounds', q: `[out:json][timeout:60];
 way["aerialway"~"^(cable_car|gondola|mixed_lift|chair_lift|drag_lift|t-bar|j-bar|platter|rope_tow)$"](${b12});
 out tags geom;
 (
@@ -319,41 +319,77 @@ out tags geom;
   nwr["amenity"="boat_rental"](${b12});
   nwr["sport"~"canoe|kayak"](${b12});
 );
-out tags center 900;`);
+out tags center 900;` });
   if (interests.has('mtb') || interests.has('road') || interests.has('hike')) {
-    q.push(`[out:json][timeout:60];
+    q.push({ kind: 'routes', label: 'Hiking & bike routes', q: `[out:json][timeout:60];
 relation["route"~"^(mtb|bicycle|hiking)$"]["name"](${b12});
-out tags bb 300;`);
+out tags bb 300;` });
   }
   if (interests.has('parks')) {
-    q.push(`[out:json][timeout:60];
+    q.push({ kind: 'parks', label: 'National parks', q: `[out:json][timeout:60];
 (
   relation["boundary"="national_park"]["name"](${b60});
   relation["boundary"="protected_area"]["protect_class"="2"]["name"](${b60});
   way["boundary"="national_park"]["name"](${b60});
 );
-out tags bb 100;`);
+out tags bb 100;` });
   }
   return q;
 }
 
-// Run queries at most two at a time (the public servers allow two per visitor)
-async function runQueries(queries, onRetry) {
+// Run queries at most two at a time (the public servers allow two per visitor).
+// hooks: onStart(i), onRetry(i), onDone(i, ok) — used by the progress panel.
+async function runQueries(queries, hooks = {}) {
   const results = new Array(queries.length);
   let next = 0;
   const worker = async () => {
     while (next < queries.length) {
       const i = next++;
+      hooks.onStart?.(i);
       try {
-        results[i] = await overpass(queries[i], onRetry, 45000, 1);
+        results[i] = await overpass(queries[i], () => hooks.onRetry?.(i), 45000, 1);
+        hooks.onDone?.(i, true);
       } catch (err) {
         console.error(err);
         results[i] = { elements: [], failed: true };
+        hooks.onDone?.(i, false);
       }
     }
   };
   await Promise.all([worker(), worker()]);
   return results;
+}
+
+// Progress panel for planning: a bar, elapsed time and a checklist of steps.
+// steps: [{ label, weight }]. Renders into #trip-progress wherever it currently is.
+function makeProgress(steps) {
+  const items = steps.map((s) => ({ weight: 1, ...s, status: 'pending', note: '' }));
+  const t0 = Date.now();
+  const icon = { pending: '○', active: '<span class="spinner"></span>', done: '✓', failed: '!' };
+  const render = () => {
+    const el = document.getElementById('trip-progress');
+    if (!el) return;
+    const total = items.reduce((a, s) => a + s.weight, 0);
+    const doneW = items.reduce((a, s) => a + (s.status === 'done' || s.status === 'failed' ? s.weight : s.status === 'active' ? s.weight * 0.4 : 0), 0);
+    const pct = Math.min(99, Math.round((doneW / total) * 100));
+    const secs = Math.round((Date.now() - t0) / 1000);
+    const active = items.find((s) => s.status === 'active');
+    el.innerHTML = `<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}"
+        aria-valuetext="${pct}% — ${esc(active ? active.label : 'finishing')}">
+      <div class="progress-head"><b>Planning your trip…</b><span>${pct}% · ${secs}s</span></div>
+      <div class="progress-bar"><span style="width:${pct}%"></span></div>
+      <ul class="progress-steps">${items.map((s) => `<li class="${s.status}"><span class="ps-icon">${icon[s.status]}</span>
+        <span>${esc(s.label)}${s.note ? ` <span class="muted">· ${esc(s.note)}</span>` : ''}</span></li>`).join('')}</ul>
+      ${secs > 25 && active ? '<p class="muted small">The free map server is slow right now. Steps that finish are saved, so a second try is faster.</p>' : ''}
+    </div>`;
+  };
+  const timer = setInterval(render, 1000);
+  render();
+  return {
+    set(i, status, note = '') { Object.assign(items[i], { status, note }); render(); },
+    render,
+    stop() { clearInterval(timer); },
+  };
 }
 
 function foodQuery(pt) {
@@ -610,49 +646,53 @@ function weatherHtml(w) {
   return `<p class="muted small">${esc(w.kind)} · Open-Meteo</p><ul class="wx">${rows}</ul>${depth}`;
 }
 
-function activitiesHtml(a, interests) {
+function activitiesHtml(a, interests, failed = new Set()) {
+  // Empty section: say "couldn't load" when its search failed, instead of claiming there's nothing there
+  const none = (msg, kinds) => (kinds.some((k) => failed.has(k))
+    ? '<p class="status error small">Couldn’t load this right now: the free map server is busy. Press <b>Plan a trip</b> again to retry.</p>'
+    : `<p class="muted">${msg}</p>`);
   const out = [];
   const liftRow = (it) => itemRow(it, '🚡', it.kind, it.tags['aerialway:duration'] ? `${esc(it.tags['aerialway:duration'])} min ride` : '');
   if (interests.has('ski')) {
     const body = listBlock('Lifts — distance to the bottom station', a.lifts, liftRow, 8)
       + listBlock('Ski areas', a.skiAreas, (it) => itemRow(it, '⛷️', 'Ski area'))
       + listBlock('Ski & snowboard shops (rentals)', a.skiShops, (it) => itemRow(it, '🎿', 'Shop'));
-    out.push(section('ski', `${INTERESTS.ski.icon} Ski & snowboard`, body || '<p class="muted">No lifts or ski areas mapped within ~7 mi.</p>'));
+    out.push(section('ski', `${INTERESTS.ski.icon} Ski & snowboard`, body || none('No lifts or ski areas mapped within ~7 mi.', ['points'])));
   }
   if (interests.has('mtb')) {
     const body = listBlock('Mountain-bike routes', a.mtb, (it) => itemRow(it, '🚵', 'MTB route', routeExtra(it)))
       + listBlock('Bike rentals & shops', a.bikeRent, (it) => itemRow(it, '🔧', it.tags.amenity === 'bicycle_rental' ? 'Bike rental' : 'Bike shop'));
-    out.push(section('mtb', `${INTERESTS.mtb.icon} Mountain biking`, body || '<p class="muted">No mapped MTB routes within ~7 mi.</p>'));
+    out.push(section('mtb', `${INTERESTS.mtb.icon} Mountain biking`, body || none('No mapped MTB routes within ~7 mi.', ['routes', 'points'])));
   }
   if (interests.has('road')) {
     const body = listBlock('Signed cycling routes (good for gravel & road)', a.road, (it) => itemRow(it, '🚴', 'Bike route', routeExtra(it)))
       + (interests.has('mtb') ? '' : listBlock('Bike rentals & shops', a.bikeRent, (it) => itemRow(it, '🔧', 'Bike shop')));
-    out.push(section('road', `${INTERESTS.road.icon} Gravel & road riding`, body || '<p class="muted">No signed cycling routes within ~7 mi.</p>'));
+    out.push(section('road', `${INTERESTS.road.icon} Gravel & road riding`, body || none('No signed cycling routes within ~7 mi.', ['routes'])));
   }
   if (interests.has('hike')) {
     const body = listBlock('Hiking routes', a.hiking, (it) => itemRow(it, '🥾', 'Trail', routeExtra(it)))
       + listBlock('Trailheads', a.trailheads, (it) => itemRow(it, '🚩', 'Trailhead'))
       + listBlock('Mountain huts', a.huts, (it) => itemRow(it, '🛖', 'Hut'))
       + listBlock('Viewpoints', a.viewpoints, (it) => itemRow(it, '🔭', 'Viewpoint'));
-    out.push(section('hike', `${INTERESTS.hike.icon} Hiking`, body || '<p class="muted">No mapped trails within ~7 mi.</p>'));
+    out.push(section('hike', `${INTERESTS.hike.icon} Hiking`, body || none('No mapped trails within ~7 mi.', ['routes', 'points'])));
   }
   if (interests.has('kayak')) {
     const body = listBlock('Launches & rentals', a.paddle, (it) => itemRow(it, '🛶',
       it.tags.amenity === 'boat_rental' ? 'Boat rental' : it.tags.leisure === 'slipway' ? 'Boat ramp' : 'Paddling spot'));
-    out.push(section('kayak', `${INTERESTS.kayak.icon} Kayak & paddle`, body || '<p class="muted">No launches or rentals mapped within ~7 mi.</p>'));
+    out.push(section('kayak', `${INTERESTS.kayak.icon} Kayak & paddle`, body || none('No launches or rentals mapped within ~7 mi.', ['points'])));
   }
   if (interests.has('parks')) {
     const body = listBlock('National parks & protected areas (within ~37 mi)', a.parks, (it) => itemRow(it, '🏞️', it.tags.boundary === 'national_park' ? 'National park' : 'Protected area'));
-    out.push(section('parks', `${INTERESTS.parks.icon} National parks`, body || '<p class="muted">No national parks within ~37 mi.</p>'));
+    out.push(section('parks', `${INTERESTS.parks.icon} National parks`, body || none('No national parks within ~37 mi.', ['parks'])));
   }
   if (interests.has('camp')) {
     const body = listBlock('Campgrounds', a.camps, (it) => itemRow(it, '⛺', 'Campground', it.tags.fee === 'no' ? '<b>free</b>' : ''));
-    out.push(section('camp', `${INTERESTS.camp.icon} Camping`, body || '<p class="muted">No campgrounds mapped within ~7 mi.</p>'));
+    out.push(section('camp', `${INTERESTS.camp.icon} Camping`, body || none('No campgrounds mapped within ~7 mi.', ['points'])));
   }
   return out.join('');
 }
 
-function foodHtml(f) {
+function foodHtml(f, failed = new Set()) {
   const cuisine = (it) => (it.tags.cuisine ? esc(it.tags.cuisine.replace(/;/g, ', ').replace(/_/g, ' ')) : '');
   const body = listBlock('🛒 Groceries — cheapest way to eat', f.groceries,
     (it) => itemRow(it, '🛒', ({ supermarket: 'Supermarket', greengrocer: 'Produce', bakery: 'Bakery', deli: 'Deli', butcher: 'Butcher', convenience: 'Convenience store' })[it.tags.shop] || 'Shop',
@@ -661,7 +701,9 @@ function foodHtml(f) {
       it.tags.amenity === 'cafe' ? 'Café' : 'Takeaway', [cuisine(it), it.name ? reviewsLink(it.name) : ''].filter(Boolean).join(' · ')), 6)
     + listBlock('🍽️ Restaurants', f.restaurants, (it) => itemRow(it, '🍽️', it.tags.amenity === 'pub' ? 'Pub' : 'Restaurant',
       [cuisine(it), it.name ? reviewsLink(it.name) : ''].filter(Boolean).join(' · ')), 8);
-  return (body || '<p class="muted">No food places mapped within ~2 mi.</p>')
+  return (body || (failed.has('food')
+    ? '<p class="status error small">Couldn’t load restaurants and groceries right now: the free map server is busy. Press <b>Plan a trip</b> again to retry.</p>'
+    : '<p class="muted">No food places mapped within ~2 mi.</p>'))
     + '<p class="muted small">Free map data doesn’t include ratings or prices. Tap “Reviews &amp; hours” to check before you go.</p>';
 }
 
@@ -747,14 +789,26 @@ async function planTrip() {
   trip.base = base;
   const dates = tripDates();
   const interests = new Set(trip.interests);
-  const status = (html) => { T.tripPanel.innerHTML = `<p class="status"><span class="spinner"></span>${html}</p>`; };
+  // Every step of the plan, shown as a checklist with a progress bar
+  const searches = [
+    { kind: 'food', label: 'Groceries & places to eat', q: foodQuery(base) },
+    ...activityQueries(base, interests),
+  ];
+  const progress = makeProgress([
+    { label: 'Your departure', weight: 1 },
+    { label: 'Routes, fares & weather', weight: 2 },
+    ...searches.map((s) => ({ label: s.label, weight: 3 })),
+  ]);
+  T.tripPanel.innerHTML = '<div id="trip-progress"></div>';
+  progress.render();
 
   try {
-    status('Getting your departure location…');
+    progress.set(0, 'active');
     let from = null;
     try { from = await resolveFrom(); } catch (err) { setMsg(esc(err.message), true); }
+    progress.set(0, 'done', from ? from.label : 'skipped (add where you’re leaving from)');
 
-    status('Checking routes, fares and weather…');
+    progress.set(1, 'active');
     const straight = from ? haversine(from, place) : Infinity;
     const [drive, wx, flight] = await Promise.all([
       from && straight < 1500000 ? driveRoute(from, place) : null,
@@ -762,6 +816,7 @@ async function planTrip() {
       from ? flightInfo(from, place, dates).catch((err) => { console.error(err); return null; }) : null,
     ]);
     const ctx = { from, dest: place, dates, flight, drive, place, interests, weather: wx };
+    progress.set(1, 'done');
 
     // Render what we have, then fill in activities and food
     const header = `<div class="trip-head">
@@ -772,25 +827,30 @@ async function planTrip() {
       </div>`;
     const travel = section('travel', '🧭 Getting there', gettingThereHtml(ctx));
     const weather = section('weather', '🌤️ Weather', weatherHtml(wx));
-    T.tripPanel.innerHTML = header + travel + weather + `<p class="status" id="trip-loading"><span class="spinner"></span>Finding trails, lifts, launches and parks…</p>`;
+    // Show travel and weather right away; the progress panel keeps going underneath
+    T.tripPanel.innerHTML = header + '<div id="trip-progress"></div>' + travel + weather;
+    progress.render();
 
-    let tries = 0;
-    const queries = [foodQuery(base), ...activityQueries(base, interests)];
-    const results = await runQueries(queries, () => {
-      const el = document.getElementById('trip-loading');
-      if (el) el.innerHTML = `<span class="spinner"></span>Map-data server is busy, retrying (${++tries})… This can take a minute.`;
+    const tries = searches.map(() => 0);
+    const results = await runQueries(searches.map((s) => s.q), {
+      onStart: (i) => progress.set(2 + i, 'active'),
+      onRetry: (i) => progress.set(2 + i, 'active', `server busy, trying another (${++tries[i]})`),
+      onDone: (i, ok) => progress.set(2 + i, ok ? 'done' : 'failed', ok ? '' : 'couldn’t load'),
     });
+    progress.stop();
     const food = classifyFood(results[0].elements || [], base);
     const acts = classify(results.slice(1).flatMap((r) => r.elements || []), base);
-    const failed = results.filter((r) => r.failed).length;
-    Object.assign(ctx, { acts, food });
+    // Which searches failed, so empty sections say "couldn't load" instead of "none nearby"
+    const failedKinds = new Set(searches.filter((s, i) => results[i].failed).map((s) => s.kind));
+    Object.assign(ctx, { acts, food, failedKinds });
 
+    const failed = failedKinds.size;
     const warn = failed
-      ? `<p class="status error">The free map-data server was too busy for ${failed} of ${results.length} searches, so some places may be missing. Press Plan again in a minute to fill them in.</p>`
+      ? `<p class="status error">${failed} of ${searches.length} map searches didn’t load (${esc(searches.filter((s) => failedKinds.has(s.kind)).map((s) => s.label.toLowerCase()).join(', '))}) because the free map server is busy. Those sections are marked below. Press <b>Plan a trip</b> again to retry just those; the rest is saved.</p>`
       : '';
     const budget = budgetHtml(ctx); // also fills ctx.budget for the AI summary
     T.tripPanel.innerHTML = header + warn + aiSectionHtml() + itineraryHtml(ctx) + travel + weather
-      + activitiesHtml(acts, interests) + section('food', '🍴 Food', foodHtml(food)) + budget;
+      + activitiesHtml(acts, interests, failedKinds) + section('food', '🍴 Food', foodHtml(food, failedKinds)) + budget;
     wireAiSection(ctx);
 
     // Map: everything in the plan
@@ -821,6 +881,7 @@ async function planTrip() {
     console.error(err);
     T.tripPanel.innerHTML = `<p class="status error">${esc(err.message)}</p>`;
   } finally {
+    progress.stop();
     trip.planning = false;
     T.plan.disabled = !state.place;
   }
