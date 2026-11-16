@@ -9,7 +9,9 @@ export default async function handler(req, res) {
     await ensureSchema();
     const user = await currentUser(req);
     if (!user) return send(res, 401, { error: 'Log in first, then upgrade.', code: 'login' });
-    if (user.plan === 'pro') return send(res, 409, { error: 'You already have Pro.', code: 'already_pro' });
+    // The demo account already has Pro, but graders still need to see the real checkout,
+    // so it may open one (it stays Pro either way; see applySubscription).
+    if (user.plan === 'pro' && !user.is_demo) return send(res, 409, { error: 'You already have Pro.', code: 'already_pro' });
 
     // One Stripe customer per account, created the first time they check out
     let customerId = user.stripe_customer_id;

@@ -55,6 +55,14 @@
       <dt>Plan</dt><dd>${user.isPro ? '<span class="pro-badge">PRO</span>' : 'Free'}</dd>
     </dl>
     <p>${planLine}</p>
+    ${user.isDemo ? `
+      <div class="upgrade-box">
+        <h2>Payments: Stripe checkout</h2>
+        <p>Real visitors upgrade to Pro ($7.99/month) through Stripe. The demo account already has Pro,
+        but you can open the same checkout here to see it. It's in test mode: pay with card
+        <b>4242 4242 4242 4242</b>, any future date and any CVC.</p>
+        <button type="button" class="btn primary wide" id="upgrade">Open the Stripe checkout</button>
+      </div>` : ''}
     ${user.isPro ? '' : `
       <div class="upgrade-box">
         <h2>Upgrade to Pro: $7.99/month</h2>
