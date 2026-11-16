@@ -410,8 +410,8 @@ const BACKUP_WAIT_MS = 20000;
 // Run every search at once (Overpass calls still queue two at a time inside overpass()).
 // Each result: { elements } or { ski } or { elements: [], failed: true }.
 // hooks: onStart(i), onNote(i, note), onDone(i, ok, note) — used by the progress panel.
-async function runSearches(searches, hooks = {}) {
-  return Promise.all(searches.map(async (s, i) => {
+function startSearches(searches, hooks = {}) {
+  return searches.map(async (s, i) => {
     hooks.onStart?.(i);
     try {
       if (s.local) {
@@ -445,7 +445,7 @@ async function runSearches(searches, hooks = {}) {
       hooks.onDone?.(i, false, /too long/.test(err.message) ? 'still loading in the background: press Plan again soon' : 'couldn’t load');
       return { elements: [], failed: true };
     }
-  }));
+  });
 }
 
 // Progress panel for planning: a bar, elapsed time and a checklist of steps.
@@ -735,9 +735,11 @@ function weatherHtml(w) {
   return `<p class="muted small">${esc(w.kind)} · Open-Meteo</p><ul class="wx">${rows}</ul>${depth}`;
 }
 
-function activitiesHtml(a, interests, failed = new Set()) {
+function activitiesHtml(a, interests, failed = new Set(), loading = new Set()) {
   // Empty section: say "couldn't load" when its search failed, instead of claiming there's nothing there
-  const none = (msg, kinds) => (kinds.some((k) => failed.has(k))
+  const none = (msg, kinds) => (kinds.some((k) => loading.has(k))
+    ? '<p class="muted"><span class="spinner"></span>Still loading routes from the backup map server…</p>'
+    : kinds.some((k) => failed.has(k))
     ? '<p class="status error small">Not loaded yet: the free backup map server is slow. Press <b>Plan a trip</b> again in a minute; it keeps loading in the background.</p>'
     : `<p class="muted">${msg}</p>`);
   const out = [];
@@ -912,7 +914,8 @@ async function planTrip() {
     progress.set(0, 'done', from ? from.label : 'skipped (add where you’re leaving from)');
 
     // Start the place searches now so they run alongside routes and weather
-    const searchesDone = runSearches(searches, {
+    const planId = (trip.planId = {});
+    const searchPromises = startSearches(searches, {
       onStart: (i) => progress.set(2 + i, 'active'),
       onNote: (i, note) => progress.set(2 + i, 'active', note),
       onDone: (i, ok, note = '') => progress.set(2 + i, ok ? 'done' : 'failed', note),
@@ -941,7 +944,11 @@ async function planTrip() {
     T.tripPanel.innerHTML = header + '<div id="trip-progress"></div>' + travel + weather;
     progress.render();
 
-    const results = await searchesDone;
+    // Hiking & bike routes only exist on the slow backup server: show the plan without
+    // waiting for them, and slot them in when they arrive.
+    const lateIdx = searches.findIndex((x) => x.kind === 'routes');
+    const results = await Promise.all(searchPromises.map((p, i) => (i === lateIdx ? { elements: [], pending: true } : p)));
+    const loadingKinds = new Set(lateIdx >= 0 ? ['routes'] : []);
     progress.stop();
     const food = classifyFood(results[0].elements || [], base);
     const acts = classify(results.slice(1).flatMap((r) => r.elements || []), base);
@@ -958,8 +965,27 @@ async function planTrip() {
       : '';
     const budget = budgetHtml(ctx); // also fills ctx.budget for the AI summary
     T.tripPanel.innerHTML = header + warn + aiSectionHtml() + itineraryHtml(ctx) + travel + weather
-      + activitiesHtml(acts, interests, failedKinds) + section('food', '🍴 Food', foodHtml(food, failedKinds)) + budget;
+      + activitiesHtml(acts, interests, failedKinds, loadingKinds) + section('food', '🍴 Food', foodHtml(food, failedKinds)) + budget;
     wireAiSection(ctx);
+    if (lateIdx >= 0) {
+      searchPromises[lateIdx].then((r) => {
+        if (trip.planId !== planId) return; // a newer plan replaced this one
+        const routes = classify(r.elements || [], base);
+        Object.assign(acts, { mtb: routes.mtb, road: routes.road, hiking: routes.hiking });
+        if (r.failed) failedKinds.add('routes');
+        const fresh = document.createElement('div');
+        fresh.innerHTML = activitiesHtml(acts, interests, failedKinds);
+        for (const id of ['sec-mtb', 'sec-road', 'sec-hike']) {
+          const old = document.getElementById(id), neu = fresh.querySelector(`#${id}`);
+          if (!old || !neu) continue;
+          neu.open = old.open;
+          old.replaceWith(neu);
+          neu.querySelectorAll('.trip-item').forEach((li) => li.addEventListener('click', (e) => {
+            if (!e.target.closest('a')) focusItem(li.dataset.id);
+          }));
+        }
+      });
+    }
 
     // Map: everything in the plan
     const pinFor = {
