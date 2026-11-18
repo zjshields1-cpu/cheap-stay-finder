@@ -13,8 +13,16 @@ export default async function handler(req, res) {
     // so it may open one (it stays Pro either way; see applySubscription).
     if (user.plan === 'pro' && !user.is_demo) return send(res, 409, { error: 'You already have Pro.', code: 'already_pro' });
 
-    // One Stripe customer per account, created the first time they check out
+    // One Stripe customer per account, created the first time they check out.
+    // A customer saved in test mode doesn't exist in live mode (and vice versa), so check it first.
     let customerId = user.stripe_customer_id;
+    if (customerId) {
+      const existing = await stripe().customers.retrieve(customerId).catch((err) => {
+        if (err?.code === 'resource_missing') return null;
+        throw err;
+      });
+      if (!existing || existing.deleted) customerId = null;
+    }
     if (!customerId) {
       const customer = await stripe().customers.create({
         email: user.email,

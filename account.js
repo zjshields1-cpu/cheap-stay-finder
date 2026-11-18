@@ -18,6 +18,14 @@
   // Other scripts can wait on this: window.csfUser.then((user) => …)
   window.csfUser = api('/api/me').then((d) => d.user).catch(() => null);
 
+  // The live Pro price (set in Vercel), shown wherever a page marks it with data-pro-price
+  window.csfPrice = '$7.99';
+  window.csfPricing = api('/api/pricing').then((p) => {
+    window.csfPrice = p.display;
+    for (const el of document.querySelectorAll('[data-pro-price]')) el.textContent = p.display;
+    return p;
+  }).catch(() => null);
+
   function renderNav(user) {
     for (const el of document.querySelectorAll('[data-account]')) {
       if (user) {

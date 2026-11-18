@@ -13,6 +13,7 @@
   }
 
   let user = await window.csfUser;
+  await window.csfPricing; // so the page shows the price checkout will actually charge
   if (!user) {
     const next = encodeURIComponent(location.pathname + location.search);
     location.href = `/signup?next=${next}`;
@@ -43,7 +44,7 @@
   const planLine = user.isDemo
     ? 'You’re using the <b>demo account</b>, which always has full Pro access.'
     : user.isPro
-      ? `You’re on <b>Pro</b> ($7.99/month)${status && status !== 'active' ? ` · subscription status: ${esc(status)}` : ''}.`
+      ? `You’re on <b>Pro</b> (${window.csfPrice}/month)${status && status !== 'active' ? ` · subscription status: ${esc(status)}` : ''}.`
       : 'You’re on the <b>Free</b> plan.';
 
   box.innerHTML = `
@@ -58,14 +59,14 @@
     ${user.isDemo ? `
       <div class="upgrade-box">
         <h2>Payments: Stripe checkout</h2>
-        <p>Real visitors upgrade to Pro ($7.99/month) through Stripe. The demo account already has Pro,
+        <p>Real visitors upgrade to Pro (${window.csfPrice}/month) through Stripe. The demo account already has Pro,
         but you can open the same checkout here to see it. It's in test mode: pay with card
         <b>4242 4242 4242 4242</b>, any future date and any CVC.</p>
         <button type="button" class="btn primary wide" id="upgrade">Open the Stripe checkout</button>
       </div>` : ''}
     ${user.isPro ? '' : `
       <div class="upgrade-box">
-        <h2>Upgrade to Pro: $7.99/month</h2>
+        <h2>Upgrade to Pro: ${window.csfPrice}/month</h2>
         <ul>
           <li>AI-built trips: a full day-by-day itinerary for your dates, budget and interests</li>
           <li>The cheapest way there, step by step, plus where to eat cheaply and what it costs</li>

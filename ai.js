@@ -172,7 +172,7 @@ function wireAiSection(ctx) {
       return;
     }
     if (!user.isPro) {
-      msg.innerHTML = 'AI-built trips are part of <b>Pro</b> ($7.99/month). <a href="/account?upgrade=1">Upgrade to Pro</a>';
+      msg.innerHTML = `AI-built trips are part of <b>Pro</b> (${window.csfPrice || '$7.99'}/month). <a href="/account?upgrade=1">Upgrade to Pro</a>`;
       return;
     }
     btn.disabled = true;
